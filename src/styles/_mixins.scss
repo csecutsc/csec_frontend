@@ -1,0 +1,95 @@
+// This is where you put all your functions that create SCSS for you
+@import 'variables';
+
+// Flex function thingy - (direction, all + self), (direction, all, self) OR (all, self)
+@mixin flex($p1: null, $p2: $p1, $p3: $p2) {
+
+    $d: (column, row, column-reverse, row-reverse);
+    display: flex;
+    min-height: 0;
+    
+    @if $p1 {
+        @if index($d, $p1) {
+            flex-direction: $p1;
+            @if $p2 != $p1 {
+            @if $p2 != flex-start { justify-content: $p2; }
+            @if $p3 != flex-start { align-items: $p3; }
+            }
+    
+        } @else {
+            @if $p1 != flex-start { justify-content: $p1; }
+            @if $p2 != flex-start { align-items: $p2; }
+        }
+    }
+}
+  
+// Positioning with defaulting for non-relative positioning
+@mixin position($position: absolute, $margin: auto, $top: 0, $right: $top, $bottom: $top, $left: $right) {
+    position: $position;
+    margin: $margin;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+// Add tranisitions to attributes because im lazy
+@mixin transition($attrs: null, $speed: NORMAL, $ease: NORMAL) {
+    $res: '';
+
+    // Multiple attributes
+    @if type-of($attrs) == list {
+        @each $attr in $attrs {
+            $res: #{ $res }, makeTransition($attr, $speed, $ease);
+        }
+
+    // Single/no attribute
+    } @else {
+        $res: makeTransition($attrs, $speed, $ease);
+    }
+
+    transition: $res;
+}
+
+// Builds a transition with given props
+@function makeTransition($attr, $speed, $ease) {
+
+    // Default (Please never do this)
+    $res: all map-get($SPEED, $speed) map-get($EASE, $ease);
+
+    // Attribute with default props
+    @if type-of($attr) == string {
+        $res: $attr map-get($SPEED, $speed) map-get($EASE, $ease);
+    
+    // Attribute with custom props
+    } @else if type-of($attr) == map {
+        $res:
+            map-get($attr, name)
+            map-get($SPEED, if(map-has-key($attr, speed), map-get($attr, speed), $speed))
+            map-get($EASE, if(map-has-key($attr, ease), map-get($attr, ease), $ease))
+        ;
+    }
+
+    @return $res;
+}
+
+// Add custom scrollbar
+@mixin scroll() {
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+        background-color: rgba(0,0,0,0.1);
+
+        &-thumb {
+            background-color: rgba(0,0,0,0.25);
+            border-radius: 99px;
+        }
+    }
+}
+
+// Media queries (We are doing given size or less)
+@mixin media($size) {
+    @media (max-width: #{map-get($MEDIA, $size)}) {
+        @content;
+    }
+}

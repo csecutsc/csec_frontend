@@ -1,0 +1,28 @@
+// This is where you keep all your reuseable values
+
+$FONT_FAMILY: 'Rubik', sans-serif;
+$BLACK: #2a313f;
+$PRIMARY: #4b8cba;
+
+// Transitions
+$EASE: (
+    NORMAL: cubic-bezier(0.4, 0.0, 0.2, 1),
+    ENTER: cubic-bezier(0.0, 0.0, 0.2, 1),
+    EXIT: cubic-bezier(0.4, 0.0, 1, 1)
+);
+
+// Speeds
+$SPEED: (
+    FAST: 100ms,
+    NORMAL: 200ms,
+    SLOW: 300ms,
+    PAGE: 500ms
+);
+
+// Media screen sizes
+$MEDIA: (
+    PHONE: 425px,
+    TABLET: 768px,
+    DESKTOP: 1024px,
+    LARGE_DESKTOP: 1440px
+);

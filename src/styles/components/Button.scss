@@ -1,0 +1,23 @@
+@import '../variables';
+@import '../mixins';
+
+.button {
+    @include transition(background-color);
+    background: $PRIMARY;
+    border: none;
+    font-size: 1rem;
+    font-family: $FONT-FAMILY;
+    color: white;
+    border-radius: 6px;
+    padding: 14px 32px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3c7196;
+    }
+
+    &:disabled {
+        background-color: #bac3ca;
+        cursor: not-allowed;
+    }
+}

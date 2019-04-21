@@ -1,0 +1,87 @@
+@import '../mixins';
+@import '../variables';
+
+.footer {
+    background-color: $BLACK;
+    color: white;
+    $self: &;
+
+    &__container {
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+
+    &__row {
+        @include flex;
+    }
+
+    &__content {
+        margin-right: auto;
+        padding-right: 80px;
+        max-width: 550px;
+        box-sizing: border-box;
+    }
+
+    &__title {
+        margin: 0;
+        line-height: 1.2;
+        font-size: 2.2rem;
+    }
+
+    &__text {
+        @include flex(column);
+        font-size: 1.1rem;
+        opacity: 0.7;
+    }
+
+    &__aside {
+        opacity: 0.4;
+        font-size: 0.9rem;
+        padding-top: 20px;
+        &--push {
+            margin-right: auto;
+        }
+    }
+
+    &__link {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &__menu {
+        margin-left: 40px;
+        width: 150px;
+        &-title {
+            position: relative;
+            margin: 5px 0 10px;
+            padding-bottom: 5px;
+            font-size: 1.15rem;
+            &::after {
+                @include position(absolute, auto 0 0);
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-color: white;
+            }
+        }
+
+        &-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            font-size: 0.95rem;
+            &:hover #{ $self }__menu-item {
+                opacity: 0.4;
+            }
+        }
+
+        & &-item {
+            padding: 5px 0;
+            @include transition(opacity);
+            opacity: 0.8;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}

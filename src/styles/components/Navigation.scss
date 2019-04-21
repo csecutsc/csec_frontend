@@ -1,0 +1,93 @@
+@import '../variables';
+@import '../mixins';
+
+.nav {
+    @include position(fixed, 0 0 auto, 0, auto, auto, auto);
+    @include transition(background-color box-shadow padding-top);
+    z-index: 20;
+    padding-top: 20px;
+    color: white;
+    width: 100%;
+    $self: &;
+
+    &--scrolled {
+        background-color: $BLACK;
+        padding-top: 0;
+        box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    }
+
+    &__logo {
+        @include flex(center);
+        margin-left: 14px;
+    }
+
+    &__container {
+        @include flex(row, flex-start, center);
+    }
+
+    &__items {
+        @include flex(row, flex-start, center);
+        list-style-type: none;
+        margin:  0 0 0 auto;
+        padding: 0;
+
+        &:hover #{ $self }__item { opacity: 0.5; }
+    }
+
+    & &__item {   
+        @include transition(opacity);
+        position: relative;
+
+        &:hover {
+            opacity: 1;
+            & #{ $self }__menu {
+                transform: translate3d(0, 0, 0);
+                pointer-events: all;
+                opacity: 1;
+            }
+        }
+    }
+
+    &__link, &__menu-link {
+        text-decoration: none;
+        cursor: pointer;
+        display: block;
+        color: inherit;
+    }
+
+    &__link {
+        padding: 24px 14px;
+    }
+
+    &__menu {
+        @include position(absolute, auto 0 0, auto, 0, auto, auto);
+        @include transition(transform opacity);
+        @include flex(column);
+        transform: translate3d(-20%, 0, 0);
+        list-style-type: none;
+        background-color: white;
+        color: $BLACK;
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+        pointer-events: none;
+        white-space: nowrap;
+        overflow: hidden;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    }
+
+    &__menu-item {
+
+    }
+
+    &__menu-link {
+        @include transition(background-color);
+        padding: 18px 20px;
+
+        &:hover {
+            background-color: rgba(0,0,0,0.05);
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@import '../../../variables';
+@import '../../../mixins';
+
+.learn {
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.1);
+    z-index: 1;
+    padding-bottom: 60px;
+    
+    &__title {
+        font-size: 3.2rem;
+        line-height: 1;
+        margin: 80px 0 20px;
+    }
+
+    &__cards {
+        @include flex;
+        margin: 0 -30px;
+    }
+
+    &__card {
+        @include transition(box-shadow);
+        width: 33.3333%;
+        box-sizing: border-box;
+        padding: 30px;
+
+        &-title {
+            font-size: 2rem;
+            margin: 20px 0 10px;
+        }
+
+        &-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        &:hover {
+            box-shadow: 0 0 6px rgba(0,0,0,0.3);
+        }
+    }
+}
+
+@include media(TABLET) {
+    .learn {
+        &__cards {
+            flex-direction: column;
+        }
+        
+        &__card {
+            width: 100%;
+            padding: 40px 30px;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@import '../variables';
+@import '../mixins';
+
+.home {
+    $self: &;
+    z-index: 1;
+    min-height: 100vh;
+    @include flex(column);
+}

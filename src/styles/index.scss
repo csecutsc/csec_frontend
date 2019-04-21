@@ -1,0 +1,19 @@
+@import 'mixins';
+@import 'variables';
+
+body {
+    @include scroll;
+    font-family: $FONT-FAMILY;
+    color: $BLACK;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+#___gatsby {
+    min-height: 100vh;
+}

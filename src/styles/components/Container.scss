@@ -1,0 +1,17 @@
+@import '../variables';
+@import '../mixins';
+
+.container {
+    & &__content {
+        max-width: 1500px;
+        box-sizing: border-box;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin: 0 auto;
+    }
+
+    nav#{ & } &__content {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
