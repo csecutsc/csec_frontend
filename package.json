@@ -32,7 +32,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf public && gatsby build",
+    "build": "gatsby build",
+    "clean": "rm -rf .cache public",
     "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "analyze": "webpack --profile --json > .cache/stats.json && webpack-bundle-analyzer .cache/stats.json",
     "start": "npm run develop",
