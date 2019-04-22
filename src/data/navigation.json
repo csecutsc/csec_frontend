@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Divisions",
+		"menu": [
+			{
+				"name": "Algorithms",
+				"path": "/a"
+			},
+			{
+				"name": "Web Development",
+				"path": "/w"
+			}
+		]
+	},
+	{
+		"name": "Team",
+		"path": "/team"
+	},
+	{
+		"name": "Events",
+		"path": "/events"
+	},
+	{
+		"name": "Contact",
+		"path": "/contact"
+	},
+	{
+		"name": "Resources",
+		"path": "/resources"
+	},
+	{
+		"name": "More",
+		"menu": [
+			{
+				"name": "Archive",
+				"path": "/archive"
+			}
+		]
+	}
+]

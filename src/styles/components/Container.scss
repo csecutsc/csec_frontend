@@ -15,3 +15,17 @@
         padding-right: 48px;
     }
 }
+
+@include media(PHONE) {
+    .container {
+        & &__content {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        nav#{ & } &__content {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+}

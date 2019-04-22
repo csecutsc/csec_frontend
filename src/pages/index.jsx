@@ -8,8 +8,11 @@ const IndexPage = () => (
     </main>
 );
 
-IndexPage.seo = {
-  title: 'Home'
+IndexPage.meta = {
+    seo: {
+        title: 'Home'
+    },
+    light: true
 }
 
 export default IndexPage;

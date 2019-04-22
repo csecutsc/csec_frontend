@@ -1,10 +1,10 @@
 import React, { useCallback } from 'react';
 import { Container } from '@components';
 import * as icons from '@images/landing';
-import '@styles/pages/components/Home/Landing.scss';
+import '@styles/components/pages/Home/Landing.scss';
 
 const SIZE = 30;
-const MAX_WIDTH = 140;
+const MAX_WIDTH = 100;
 const MAX_LEFT = 2000;
 const MAX_TOP = 600;
 const KEYS = Object.keys(icons);
@@ -23,10 +23,11 @@ export const Landing = () => {
                 animationDelay: `${ Math.random() * 1000 }ms`,
                 opacity: Math.random()
             };
+            const Icon = icons[key];
 
             res.push(
                 <span key={ i } style={ style } className={`landing__icon-wrapper${ invert }`}>
-                    <img alt='icon' className='landing__icon' src={ icons[key] }/>
+                    <Icon className='landing__icon'/>
                 </span>
             );
         }

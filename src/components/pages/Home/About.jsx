@@ -2,18 +2,18 @@ import React from 'react';
 import Img from 'gatsby-image';
 import { Container } from '@components';
 import { graphql, useStaticQuery } from 'gatsby';
-import '@styles/pages/components/Home/About.scss';
+import '@styles/components/pages/Home/About.scss';
 
 const query = graphql`
-    {
-        placeholderImage: file(relativePath: { eq: "Landing.png" }) {
-            childImageSharp {
-                fluid(maxWidth: 1500) {
-                    ...GatsbyImageSharpFluid
-                }
+{
+    placeholderImage: file(relativePath: { eq: "Landing.png" }) {
+        childImageSharp {
+            fluid(maxWidth: 1500) {
+                ...GatsbyImageSharpFluid
             }
         }
     }
+}
 `;
 
 export const About = () => {

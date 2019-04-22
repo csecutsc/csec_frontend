@@ -2,23 +2,41 @@
 @import '../mixins';
 
 .nav {
+    $SPEED: SLOW;
+
     @include position(fixed, 0 0 auto, 0, auto, auto, auto);
-    @include transition(background-color box-shadow padding-top);
+    @include transition(background-color box-shadow padding-top color, $SPEED);
     z-index: 20;
     padding-top: 20px;
-    color: white;
+    color: $BLACK;
     width: 100%;
     $self: &;
 
+    &--light {
+        color: white;
+    }
+
     &--scrolled {
+        box-shadow: 0 0 3px rgba(0,0,0,0.2);
         background-color: $BLACK;
         padding-top: 0;
-        box-shadow: 0 0 3px rgba(0,0,0,0.2);
+        color: white;
     }
 
     &__logo {
         @include flex(center);
         margin-left: 14px;
+    }
+
+    &__icon {
+        @include transition(fill, $SPEED);
+        fill: $BLACK;
+        width: 30px;
+        height: 30px;
+
+        #{ $self }--light &, #{ $self }--scrolled & {
+            fill: white;
+        }
     }
 
     &__container {
@@ -35,7 +53,7 @@
     }
 
     & &__item {   
-        @include transition(opacity);
+        @include transition(opacity, $SPEED);
         position: relative;
 
         &:hover {
@@ -61,7 +79,7 @@
 
     &__menu {
         @include position(absolute, auto 0 0, auto, 0, auto, auto);
-        @include transition(transform opacity);
+        @include transition(transform opacity, $SPEED);
         @include flex(column);
         transform: translate3d(-20%, 0, 0);
         list-style-type: none;
@@ -76,10 +94,6 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         box-shadow: 0 0 3px rgba(0,0,0,0.3);
-    }
-
-    &__menu-item {
-
     }
 
     &__menu-link {

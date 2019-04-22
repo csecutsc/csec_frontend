@@ -14,6 +14,7 @@
 
     &__cards {
         @include flex;
+        flex-wrap: wrap;
         margin: 0 -30px;
     }
 
@@ -36,6 +37,14 @@
 
         &:hover {
             box-shadow: 0 0 6px rgba(0,0,0,0.3);
+        }
+    }
+}
+
+@include media(DESKTOP) {
+    .learn {
+        &__card {
+            width: 50%;
         }
     }
 }

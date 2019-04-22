@@ -2,7 +2,7 @@ import React from 'react';
 import Img from 'gatsby-image';
 import { Container } from '@components/Container';
 import { graphql, useStaticQuery } from 'gatsby';
-import '@styles/pages/components/Home/Learn.scss';
+import '@styles/components/pages/Home/Learn.scss';
 
 const Cards = {
     discover: {
@@ -25,7 +25,7 @@ fragment fluidImage on File {
     }
 }
 
-query {
+{
     discover: file(relativePath: { eq: "Discover.jpg" }) {
         ...fluidImage
     }

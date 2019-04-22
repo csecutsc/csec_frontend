@@ -4,16 +4,16 @@ import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
 const query = graphql`
-    query {
-        site {
-            siteMetadata {
-                title
-                keywords
-                description
-                author
-            }
+{
+    site {
+        siteMetadata {
+            title
+            keywords
+            description
+            author
         }
     }
+}
 `;
 
 export const Seo = ({ description, lang, meta, title }) => {

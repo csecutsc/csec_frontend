@@ -1,47 +1,49 @@
-import React, { memo, useEffect, useState } from 'react';
+import React, { memo, useEffect, useState, useMemo } from 'react';
 import '@styles/components/Navigation.scss';
 import { Container } from './Container';
-import Img from 'gatsby-image';
-import { Link, useStaticQuery } from 'gatsby';
+import Logo from "@images/Logo.svg";
+import { Link, useStaticQuery, graphql } from 'gatsby';
 
 const query = graphql`
-    {
-        placeholderImage: file(relativePath: { eq: "Logo.png" }) {
-            childImageSharp {
-                fixed(width: 30, height: 30) {
-                    ...GatsbyImageSharpFixed
-                }
+{
+    nav: allNavigationJson {
+        nodes {
+            name
+            path
+            menu {
+                name
+                path
             }
         }
     }
+}
 `;
 
-export const Navigation = memo(({ items }) => {
-    const { placeholderImage } = useStaticQuery(query);
+export const Navigation = memo(({ light }) => {
+    const { nav } = useStaticQuery(query);
     const [ scrolled, setScrolled ] = useState(false);
+    const modifiers = useMemo(
+        () => [ scrolled && 'scrolled', light && 'light' ],
+        [ scrolled, light ]
+    );
     useEffect(() => {
-        if (scrolled) {
-            const handler = () => !window.scrollY && setScrolled(false);
-            window.addEventListener('scroll', handler, { passive: true });
-            return () => {
-                window.removeEventListener('scroll', handler, { passive: true });
-            }
-        } else {
-            const handler = () => window.scrollY && setScrolled(true);
-            window.addEventListener('scroll', handler, { passive: true });
-            return () => {
-                window.removeEventListener('scroll', handler, { passive: true });
-            }
+        const handler = () => {
+            if (scrolled && !window.scrollY) setScrolled(false);
+            else if (!scrolled && window.scrollY) setScrolled(true);
+        };
+        window.addEventListener('scroll', handler, { passive: true });
+        return () => {
+            window.removeEventListener('scroll', handler, { passive: true });
         }
     }, [ scrolled ]);
     return (
-        <Container block='nav' modifiers={[ scrolled && 'scrolled' ]} tag='nav'>
+        <Container block='nav' modifiers={ modifiers } tag='nav'>
             <Link to='/' className='nav__logo'>
-                <Img fixed={ placeholderImage.childImageSharp.fixed }/>
+                <Logo className='nav__icon'/>
             </Link>
             <ul className='nav__items'>
                 {
-                    items.map(({ name, path, menu }, i) => (
+                    nav.nodes.map(({ name, path, menu }, i) => (
                         <li key={ i } className='nav__item'>
                             {
                                 path ? (

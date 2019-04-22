@@ -7,8 +7,11 @@ const NotFoundPage = () => (
     </Fragment>
 );
 
-NotFoundPage.seo = {
-    title: 'Not Found'
-};
+NotFoundPage.meta = {
+    seo: {
+        title: 'Not Found'
+    },
+    watch: true
+}
 
 export default NotFoundPage;

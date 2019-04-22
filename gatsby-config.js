@@ -7,7 +7,11 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-json',
     'gatsby-plugin-layout',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-plugin-prefetch-google-fonts',
       options: {
@@ -17,14 +21,27 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images/
+        }
+      }
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
         path: `${__dirname}/src/images`
       }
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/src/data`
+      }
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -43,13 +60,19 @@ module.exports = {
         aliases: {
           '@components': './src/components',
           '@util': './src/util',
-          '@sections': './src/pages/components',
+          '@sections': './src/components/pages',
           '@styles': './src/styles',
           '@images': './src/images'
         }
       }
     },
-    'gatsby-plugin-sass'
+    {
+      resolve: 'gatsby-plugin-webpack-bundle-analyzer',
+      options: {
+        analyzerPort: 8001,
+        production: true
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',

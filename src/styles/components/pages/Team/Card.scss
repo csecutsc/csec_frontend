@@ -1,0 +1,67 @@
+@import '../../../variables';
+@import '../../../mixins';
+
+.team__item {
+    @include transition(box-shadow);
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    $self: &;
+
+    &:hover {
+        box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    }
+
+    &-name {
+        font-size: 1.6rem;
+        margin: 10px 0 0;
+    }
+
+    &-role {
+        font-size: 1.2rem;
+        margin: 0 0 10px;
+        opacity: 0.6;
+    }
+
+    &-media {
+        list-style-type: none;
+        display: inline;
+        padding: 0;
+        margin: 0 auto;
+
+        &:hover #{ $self }__item-link {
+            opacity: 0.6;
+        }
+    }
+
+    & &-link {
+        @include transition(opacity);
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.2rem;
+        margin: 8px;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+@include media(DESKTOP) {
+    .team__item {
+        width: 50%;
+    }
+}
+
+@include media(TABLET) {
+    .team__item {
+        width: 75%;
+    }
+}
+
+@include media(PHONE) {
+    .team__item {
+        width: 100%;
+    }
+}
