@@ -1,6 +1,6 @@
 import React from 'react';
 import Img from 'gatsby-image';
-import { Container } from '@components/Container';
+import { Container, Card } from '@components';
 import { graphql, useStaticQuery } from 'gatsby';
 import '@styles/components/pages/Home/Learn.scss';
 
@@ -47,13 +47,13 @@ export const Learn = () => {
             <div className='learn__cards'>
                 {
                     Object.entries(Cards).map(([ key, { text } ]) => (
-                        <div key={ key } className='learn__card'>
+                        <Card key={ key } block='learn__card'>
                             <Img fluid={ images[key].childImageSharp.fluid }/>
                             <h3 className='learn__card-title'>
                                 { key.charAt(0).toUpperCase() + key.slice(1) }
                             </h3>
                             <p className='learn__card-text'>{ text }</p>
-                        </div>
+                        </Card>
                     ))
                 }
             </div>

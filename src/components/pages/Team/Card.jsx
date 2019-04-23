@@ -1,5 +1,6 @@
 import React from 'react';
 import Img from 'gatsby-image';
+import { Card as Container } from '@components';
 import { FaEnvelope, FaChrome, FaLinkedin, FaGithub } from 'react-icons/fa';
 import '@styles/components/pages/Team/Card.scss';
 
@@ -12,7 +13,7 @@ const Icons = {
 
 export const Card = ({ name, title, image, media }) => {
     return (
-        <li className='team__item'>
+        <Container block='team__item'>
             <Img fluid={ image }/>
             <h3 className='team__item-name'>{ name }</h3>
             <p className='team__item-role'>{ title }</p>
@@ -37,6 +38,6 @@ export const Card = ({ name, title, image, media }) => {
                     </ul>
                 )
             }
-        </li>
+        </Container>
     )
 };

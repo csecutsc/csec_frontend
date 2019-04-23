@@ -2,16 +2,10 @@
 @import '../../../mixins';
 
 .team__item {
-    @include transition(box-shadow);
     width: 25%;
     padding: 20px;
-    box-sizing: border-box;
     text-align: center;
     $self: &;
-
-    &:hover {
-        box-shadow: 0 0 6px rgba(0,0,0,0.3);
-    }
 
     &-name {
         font-size: 1.6rem;
@@ -30,7 +24,7 @@
         padding: 0;
         margin: 0 auto;
 
-        &:hover #{ $self }__item-link {
+        &:hover #{ $self }-link {
             opacity: 0.6;
         }
     }
@@ -40,7 +34,8 @@
         text-decoration: none;
         color: inherit;
         font-size: 1.2rem;
-        margin: 8px;
+        padding: 4px;
+        margin: 4px;
 
         &:hover {
             opacity: 1;

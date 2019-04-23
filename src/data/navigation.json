@@ -32,6 +32,10 @@
 		"name": "More",
 		"menu": [
 			{
+				"name": "Past Seminars",
+				"path": "/seminars"
+			},
+			{
 				"name": "Archive",
 				"path": "/archive"
 			}
