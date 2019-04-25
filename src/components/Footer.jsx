@@ -62,7 +62,7 @@ export const Footer = memo(() => {
                     </ul>
                 </div>
                 <div className='footer__menu'>
-                    <h2 className='footer__menu-title'>Pages</h2>
+                    <h3 className='footer__menu-title'>Pages</h3>
                     <ul className='footer__menu-list'>
                     {
                         first.map(({ name, path }, i) => (
@@ -76,7 +76,7 @@ export const Footer = memo(() => {
                 {
                     others.map(({ name, menu }, i) => (
                         <div key={ i } className='footer__menu'>
-                            <p className='footer__menu-title'>{ name }</p>
+                            <h3 className='footer__menu-title'>{ name }</h3>
                             <ul className='footer__menu-list'>
                                 {
                                     menu.map((item, j) => (

@@ -79,7 +79,7 @@
         &-title {
             position: relative;
             margin: 5px 0 10px;
-            padding-bottom: 5px;
+            padding-bottom: 7px;
             font-size: 1.15rem;
             &::after {
                 @include position(absolute, auto 0 0);

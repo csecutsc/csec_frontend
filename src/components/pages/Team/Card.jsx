@@ -14,7 +14,7 @@ const Icons = {
 export const Card = ({ name, title, image, media }) => {
     return (
         <Container block='team__item'>
-            <Img fluid={ image }/>
+            <Img fluid={ image.childImageSharp.fluid }/>
             <h3 className='team__item-name'>{ name }</h3>
             <p className='team__item-role'>{ title }</p>
             {

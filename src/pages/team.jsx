@@ -13,7 +13,13 @@ const query = graphql`
             members {
                 name
                 title
-                image
+                image {
+                    childImageSharp {
+                        fluid(maxWidth: 500) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
                 media {
                     email
                     website
@@ -23,30 +29,11 @@ const query = graphql`
             }
         }
     }
-    images: allFile(filter: {
-        relativeDirectory: {
-            eq: "team"
-        },
-
-    }) {
-        nodes {
-            name
-            childImageSharp {
-                fluid(maxWidth: 500) {
-                    ...GatsbyImageSharpFluid
-                }
-            }
-        }
-    }
 }
 `;
 
 const TeamPage = () => {
-    const { sections, images } = useStaticQuery(query);
-    const hash = images.nodes.reduce((acc, { name, childImageSharp }) => {
-        acc[name] = childImageSharp.fluid;
-        return acc;
-    }, {});
+    const { sections } = useStaticQuery(query);
     
     return (
         <Container tag='main' block='team'>
@@ -61,7 +48,7 @@ const TeamPage = () => {
                         <ul className='team__list'>
                             {
                                 members.map((props, i) => (
-                                    <Card key={ i } { ...props } image={ hash[props.image] }/>
+                                    <Card key={ i } { ...props }/>
                                 ))
                             }
                         </ul>

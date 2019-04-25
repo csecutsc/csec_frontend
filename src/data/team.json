@@ -6,7 +6,7 @@
             {
                 "name": "Kevin Shen",
                 "title": "President",
-                "image": "Kevin",
+                "image": "../images/team/Kevin.jpg",
                 "media": {
                     "email": "mailto:kevs.shen@mail.utoronto.ca",
                     "website": "https://kevshen.com/",
@@ -23,7 +23,7 @@
             {
                 "name": "Brian Chen",
                 "title": "President",
-                "image": "Brian"
+                "image": "../images/team/Brian.png"
             }
         ]
     }

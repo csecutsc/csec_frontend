@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from '@components';
+import '@styles/pages/Seminars.scss';
 
 const SeminarPage = () => {
     return (
