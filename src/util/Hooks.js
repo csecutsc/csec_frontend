@@ -7,7 +7,7 @@ export const useBem = (block = '', modifiers = []) => {
             typeof(curr) === 'string' ? acc += ` ${block}--${curr}` : acc
         ), '')}`);
     }, [ block, ...modifiers ]);
-    return className || null;
+    return className;
 }
 
 export const useEventSubscription = (events, { effect, dep = [] }) => {

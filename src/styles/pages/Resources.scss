@@ -38,6 +38,10 @@
         margin-bottom: 10px;
     }
 
+    &__section {
+        margin-top: 0;
+    }
+
     &__link {
         @include transition(border-bottom-color);
         @include flex(flex-start, center);

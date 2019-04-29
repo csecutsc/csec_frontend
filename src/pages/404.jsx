@@ -1,17 +1,17 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { Container } from '@components';
+import '@styles/pages/404.scss';
 
 const NotFoundPage = () => (
-    <Fragment>
-        <h1>NOT FOUND</h1>
-        <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    </Fragment>
+    <Container tag='main' block='nf'>
+        <h1>REEE</h1>
+    </Container>
 );
 
 NotFoundPage.meta = {
     seo: {
         title: 'Not Found'
-    },
-    watch: true
+    }
 }
 
 export default NotFoundPage;

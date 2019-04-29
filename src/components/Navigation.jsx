@@ -41,6 +41,11 @@ export const Navigation = memo(({ light }) => {
             <Link to='/' className='nav__logo'>
                 <Logo className='nav__icon'/>
             </Link>
+            <button className='nav__bars'>
+                <div className='mav__bar'/>
+                <div className='mav__bar'/>
+                <div className='mav__bar'/>
+            </button>
             <ul className='nav__items'>
                 {
                     nav.nodes.map(({ name, path, menu }, i) => (

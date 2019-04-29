@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import { Container, Card } from '@components';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Resources.scss';
+import { GeneralFaq } from '../components/pages/Resources';
 
 const query = graphql`
 {
@@ -46,7 +47,6 @@ const buildList = ({ text, link, aside, title, items }, key, level = 4) => {
 
 const ResourcesPage = () => {
     const { resources } = useStaticQuery(query);
-    console.log(resources);
     return (
         <Container tag='main' block='res'>
             <h1>Resources</h1>
@@ -71,6 +71,7 @@ const ResourcesPage = () => {
                 }
             </ul>
             <h2>General FAQ</h2>
+            <GeneralFaq/>
         </Container>
     );
 };

@@ -48,10 +48,10 @@ export const Footer = memo(() => {
                     </p>
                     <ul className='footer__media'>
                         {
-                            media.nodes.map(({ text, icon, link }) => {
+                            media.nodes.map(({ text, icon, link }, i) => {
                                 const Icon = Icons[icon];
                                 return (
-                                    <li className='footer__media-item'>
+                                    <li key={ i } className='footer__media-item'>
                                         <a className='footer__link' href={ link } target='_blank' rel='noopener noreferrer'>
                                             <Icon alt={`${ text } link`} className='footer__media-icon'/>
                                         </a>
