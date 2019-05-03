@@ -1,11 +1,11 @@
 @import '../variables';
 @import '../mixins';
 
-.nav {
-    $SPEED: SLOW;
+$SPEED_: SLOW;
 
+.nav {
     @include position(fixed, 0 0 auto, 0, auto, auto, auto);
-    @include transition(background-color box-shadow padding-top color, $SPEED);
+    @include transition(background-color box-shadow padding-top color, $SPEED_);
     z-index: 20;
     padding-top: 20px;
     color: $BLACK;
@@ -29,7 +29,8 @@
     }
 
     &__icon {
-        @include transition(fill, $SPEED);
+        @include transition(fill, $SPEED_);
+        z-index: 1;
         fill: $BLACK;
         width: 30px;
         height: 30px;
@@ -44,19 +45,25 @@
     }
 
     &__bars {
-        @include flex(column);
+        display: none;
         height: 30px;
         width: 30px;
+        padding: 0;
+        cursor: pointer;
+        z-index: 1;
+        margin: 24px 14px 24px auto;
         background: none;
         border: none;
     }
 
     &__bar {
+        @include transition(background-color, $SPEED_);
         background-color: $BLACK;
+        margin: 2.5px 0;
         width: 100%;
-        height: 2px;
+        height: 3px;
 
-        #{ $self }--light & {
+        #{ $self }--light &, #{ $self }--scrolled & {
             background-color: white;
         }
     }
@@ -71,7 +78,7 @@
     }
 
     & &__item {   
-        @include transition(opacity, $SPEED);
+        @include transition(opacity, $SPEED_);
         position: relative;
 
         &:hover {
@@ -96,14 +103,13 @@
     }
 
     &__menu {
-        @include position(absolute, auto 0 0, auto, 0, auto, auto);
-        @include transition(transform opacity, $SPEED);
+        @include position(absolute, 0, auto, 0, auto, auto);
+        @include transition(transform opacity, $SPEED_);
         @include flex(column);
         transform: translate3d(-20%, 0, 0);
         list-style-type: none;
         background-color: white;
         color: $BLACK;
-        margin: 0;
         padding: 0;
         opacity: 0;
         pointer-events: none;
@@ -112,6 +118,7 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        z-index: 1;
     }
 
     &__menu-link {
@@ -120,6 +127,52 @@
 
         &:hover {
             background-color: rgba(0,0,0,0.05);
+        }
+    }
+}
+
+@include media(TABLET) {
+    .nav {
+        $self: &;
+
+        &__bars {
+            @include flex(column, center, stretch);
+        }
+
+        &__items {
+            @include transition(opacity, $SPEED_);
+            @include position(fixed);
+            flex-direction: column;
+            align-items: flex-end;
+            background-color: $BLACK;
+            padding: 110px 48px 20px;
+            text-align: right;
+            pointer-events: none;
+            opacity: 0;
+
+            #{ $self }--show & {
+                opacity: 1;
+                pointer-events: all;
+            }
+        }
+
+        &__menu {
+            top: 6px;
+            border-top-left-radius: 8px;
+            border-bottom-right-radius: 0;
+            margin-right: 100%;
+        }
+
+        &__item {
+            padding-left: 20px;
+        }
+    }
+}
+
+@include media(PHONE) {
+    .nav {
+        &__items {
+            padding: 110px 18px 20px;
         }
     }
 }

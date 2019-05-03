@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState, useMemo } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 import '@styles/components/Navigation.scss';
 import { Container } from './Container';
 import Logo from "@images/Logo.svg";
@@ -21,11 +21,8 @@ const query = graphql`
 
 export const Navigation = memo(({ light }) => {
     const { nav } = useStaticQuery(query);
+    const [ mobile, setMobile ] = useState(false);
     const [ scrolled, setScrolled ] = useState(false);
-    const modifiers = useMemo(
-        () => [ scrolled && 'scrolled', light && 'light' ],
-        [ scrolled, light ]
-    );
     useEffect(() => {
         const handler = () => {
             if (scrolled && !window.scrollY) setScrolled(false);
@@ -36,15 +33,18 @@ export const Navigation = memo(({ light }) => {
             window.removeEventListener('scroll', handler, { passive: true });
         }
     }, [ scrolled ]);
+
     return (
-        <Container block='nav' modifiers={ modifiers } tag='nav'>
+        <Container block='nav' modifiers={
+            [ scrolled && !mobile && 'scrolled', (light || mobile) && 'light', mobile && 'show' ]
+        } tag='nav'>
             <Link to='/' className='nav__logo'>
                 <Logo className='nav__icon'/>
             </Link>
-            <button className='nav__bars'>
-                <div className='mav__bar'/>
-                <div className='mav__bar'/>
-                <div className='mav__bar'/>
+            <button onClick={ () => setMobile(!mobile) } className='nav__bars'>
+                <div className='nav__bar nav__bar--top'/>
+                <div className='nav__bar nav__bar--mid'/>
+                <div className='nav__bar nav__bar--bot'/>
             </button>
             <ul className='nav__items'>
                 {
@@ -55,6 +55,7 @@ export const Navigation = memo(({ light }) => {
                                     <Link
                                         to={ path } className='nav__link'
                                         activeClassName='nav__link--active'
+                                        onClick={ () => setMobile(false) }
                                     >
                                         { name }
                                     </Link>
@@ -68,6 +69,7 @@ export const Navigation = memo(({ light }) => {
                                                 <Link
                                                     to={ item.path } className='nav__menu-link'
                                                     activeClassName='nav__menu-link--active'
+                                                    onClick={ () => setMobile(false) }
                                                 >
                                                     { item.name }
                                                 </Link>
