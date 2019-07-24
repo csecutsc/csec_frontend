@@ -6,27 +6,27 @@ import { Card } from '../components/pages/Team/Card';
 
 const query = graphql`
 {
-    sections: allTeamJson {
+    sections:  allStrapiDivision {
         nodes {
+          title
+          description
+          users {
+            name
             title
-            text
-            members {
-                name
-                title
-                image {
-                    childImageSharp {
-                        fluid(maxWidth: 500) {
-                            ...GatsbyImageSharpFluid
-                        }
+            image {
+                childImageSharp {
+                    fluid(maxWidth: 500) {
+                        ...GatsbyImageSharpFluid
                     }
                 }
-                media {
-                    email
-                    website
-                    linkedin
-                    github
-                }
             }
+            media {
+                email
+                website
+                linkedin
+                github
+            }
+          }
         }
     }
 }
@@ -41,14 +41,14 @@ const TeamPage = () => {
             <p className='team__text'>Our exceptional team of volunteer student leaders and lecturers are listed here.</p>
             <p className='team__text'>Contact them individually, or leave a message through the contact form.</p>
             {
-                sections.nodes.map(({ title, text, members }, i) => (
-                    <section className='team__section' key={ i }>
-                        <h2 className='team__section-title'>{ title }</h2>
-                        { text && <p className='team__section-text'>{ text }</p> }
+                sections.nodes.map(({ title, description, users }, i) => (
+                    <section className='team__section' key={i}>
+                        <h2 className='team__section-title'>{title}</h2>
+                        {description && <p className='team__section-text'>{description}</p>}
                         <ul className='team__list'>
                             {
-                                members.map((props, i) => (
-                                    <Card key={ i } { ...props }/>
+                                users.map((props, i) => (
+                                    <Card key={i} {...props} />
                                 ))
                             }
                         </ul>
