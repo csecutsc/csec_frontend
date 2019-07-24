@@ -1,23 +1,8 @@
 [
 	{
-		"text": "Github",
-		"icon": "FaGithub",
-		"link": "https://github.com/csecutsc"
-	},
-	{
 		"text": "Facebook",
 		"icon": "FaFacebook",
 		"link": "https://www.facebook.com/pg/CSEC.UTSC"
-	},
-	{
-		"text": "Youtube",
-		"icon": "FaYoutube",
-		"link": "https://www.youtube.com/channel/UC9x29X1_P9vhWe01g-D73xw"
-	},
-	{
-		"text": "Facebook Group",
-		"icon": "FaUsers",
-		"link": "https://www.facebook.com/groups/csec2016.utsc/"
 	},
 	{
 		"text": "Discord",
@@ -25,13 +10,23 @@
 		"link": "https://discord.gg/4tWwRM4"
 	},
 	{
+		"text": "Facebook Group",
+		"icon": "FaUsers",
+		"link": "https://www.facebook.com/groups/csec2016.utsc/"
+	},
+	{
+		"text": "Github",
+		"icon": "FaGithub",
+		"link": "https://github.com/csecutsc"
+	},
+	{
+		"text": "Youtube",
+		"icon": "FaYoutube",
+		"link": "https://www.youtube.com/channel/UC9x29X1_P9vhWe01g-D73xw"
+	},
+	{
 		"text": "Email",
 		"icon": "FaEnvelope",
 		"link": "mailto:csec@utsc.utoronto.ca"
-	},
-	{
-		"text": "Phone",
-		"icon": "FaMobile",
-		"link": "tel:+16475753660"
 	}
 ]

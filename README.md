@@ -1,6 +1,9 @@
 # csec_frontend
 
 ## Development Environment
+###**REQUIREMENTS**
+ - Node LTS version (v8 or v10)
+ - Gatsby-CLI
 
 ### Directory Aliases
  - @components: './src/components'
@@ -65,14 +68,14 @@
     "text": "The team of Summer 2019 to Winter 2020",
     "members": [
         {
-            "name": "Kevin Shen",
+            "name": "Bob Bobby",
             "title": "President",
-            "image": "../images/team/Kevin.jpg", // Path to image in "@images"
+            "image": "../images/team/Bob.jpg", // Path to image in "@images"
             "media": { // Include all or none
-                "email": "mailto:kevs.shen@mail.utoronto.ca",
-                "website": "https://kevshen.com/",
-                "linkedin": "https://linkedin.com",
-                "github": "https://github.com/wahat"
+                "email": "mailto:bob@bobby.ca",
+                "website": "https://bob.com/",
+                "linkedin": "https://linkedin.com/bob",
+                "github": "https://github.com/bob"
             }
         }
     ]
