@@ -77,7 +77,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
+        apiURL: `https://arcane-bayou-15737.herokuapp.com`,
         queryLimit: 1000, // Default to 100
         contentTypes: [`album`, `article`, `division`, `resource`, `executive`, `seminar`],
       },
