@@ -22,17 +22,19 @@ export const Card = ({ name, title, image, media }) => {
                     <ul className='team__item-media'>
                         {
                             Object.entries(media).map(([ key, link ], i) => {
-                                const Icon = Icons[key];
-                                return (
-                                    <a
-                                        className='team__item-link'
-                                        key={ i } href={ link }
-                                        target='_blank'
-                                        rel='noopener noreferrer'
-                                    >
-                                        <Icon/>
-                                    </a>
-                                )
+                                if (link) {
+                                    const Icon = Icons[key];
+                                    return (
+                                        <a
+                                            className='team__item-link'
+                                            key={ i } href={ link }
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
+                                            <Icon/>
+                                        </a>
+                                    )
+                                }
                             })
                         }
                     </ul>

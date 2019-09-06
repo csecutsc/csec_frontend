@@ -7,7 +7,7 @@ import { GeneralFaq } from '../components/pages/Resources';
 
 const query = graphql`
 {
-    resources: allResourcesJson {
+    resources: allStrapiResource {
         nodes {
             title
             items {
@@ -55,7 +55,7 @@ const ResourcesPage = () => {
                 Whether you're in Computer Science, Math, Stats or any other major, we got something for everyone!
             </p>
             <p className='res__subtitle'>
-                Below we have a list of our resources, suggested resources and a FAQ for projects.
+                Below we have a list of our resources, suggested resources and a FAQ for projects.  Items marked with a Star (*) are especially recommended.
             </p>
             <h2>Categories</h2>
             <ul className='res__cards'>

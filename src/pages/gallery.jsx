@@ -6,7 +6,7 @@ import { Card } from '../components/pages/Team/Card';
 
 const query = graphql`
 {
-    sections: allStrapiDivision(sort: { fields: [order], order: ASC }) {
+    sections: allStrapiDivision {
         nodes {
           title
           description
@@ -32,7 +32,7 @@ const query = graphql`
 }
 `;
 
-const TeamPage = () => {
+const GalleryPage = () => {
     const { sections } = useStaticQuery(query);
     
     return (
@@ -59,10 +59,10 @@ const TeamPage = () => {
     );
 };
 
-TeamPage.meta = {
+GalleryPage.meta = {
     seo: {
-        title: 'Team'
+        title: 'Gallery'
     }
 }
 
-export default TeamPage;
+export default GalleryPage;

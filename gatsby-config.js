@@ -79,7 +79,7 @@ module.exports = {
       options: {
         apiURL: `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
-        contentTypes: [`article`, `user`, `division`],
+        contentTypes: [`album`, `article`, `division`, `resource`, `executive`, `seminar`],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -1,9 +1,10 @@
 # csec_frontend
 
 ## Development Environment
-###**REQUIREMENTS**
+### Dev Requirements
  - Node LTS version (v8 or v10)
  - Gatsby-CLI
+ - Strapi 
 
 ### Directory Aliases
  - @components: './src/components'
