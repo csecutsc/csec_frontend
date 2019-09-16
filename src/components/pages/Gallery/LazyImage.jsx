@@ -9,7 +9,7 @@ export const LazyImage = ({
             className='gallery__image'
             width='600'
             height='400'
-            src={process.env.GATSBY_STAPI + url}
+            src={url}
         />
     </Card>
 );
