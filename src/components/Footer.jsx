@@ -12,6 +12,7 @@ const query = graphql`
         nodes {
             name
             path
+            external
             menu {
                 name
                 path
@@ -65,9 +66,13 @@ export const Footer = memo(() => {
                     <h3 className='footer__menu-title'>Pages</h3>
                     <ul className='footer__menu-list'>
                     {
-                        first.map(({ name, path }, i) => (
+                        first.map(({ name, path, external }, i) => (
                             <li key={ i } className='footer__menu-item'>
-                                <Link className='footer__link' to={ path }>{ name }</Link>
+                                {external ? (
+                                    <a className='footer__link' href={ path } rel='noopener noreferrer'>
+                                        { name }
+                                    </a>
+                                ) : <Link className='footer__link' to={ path }>{ name }</Link>}
                             </li>
                         ))
                     }

@@ -10,6 +10,7 @@ const query = graphql`
         nodes {
             name
             path
+            external
             menu {
                 name
                 path
@@ -18,6 +19,40 @@ const query = graphql`
     }
 }
 `;
+
+const renderLink = ({
+    external,
+    path,
+    name
+}, setMobile) => {
+    if (external) {
+        return (
+            <a
+                onClick={ () => setMobile(false) }
+                rel='noopener noreferrer'
+                className='nav__link'
+                target='_blank'
+                href={path}
+            >
+                {name}
+            </a>
+        );
+    }
+
+    if (!path) {
+        return <span className='nav__link'>{ name }</span>;
+    }
+    
+    return (
+        <Link
+            to={ path } className='nav__link'
+            activeClassName='nav__link--active'
+            onClick={ () => setMobile(false) }
+        >
+            { name }
+        </Link>
+    );
+}
 
 export const Navigation = memo(({ light }) => {
     const { nav } = useStaticQuery(query);
@@ -48,19 +83,9 @@ export const Navigation = memo(({ light }) => {
             </button>
             <ul className='nav__items'>
                 {
-                    nav.nodes.map(({ name, path, menu }, i) => (
+                    nav.nodes.map(({ menu, ...args }, i) => (
                         <li key={ i } className='nav__item'>
-                            {
-                                path ? (
-                                    <Link
-                                        to={ path } className='nav__link'
-                                        activeClassName='nav__link--active'
-                                        onClick={ () => setMobile(false) }
-                                    >
-                                        { name }
-                                    </Link>
-                                ) : <span className='nav__link'>{ name }</span>
-                            }
+                            { renderLink(args, setMobile) }
                             { menu && (
                                 <ul className='nav__menu'>
                                     {

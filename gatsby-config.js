@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     title: 'Computer Science Enrichment Club',
@@ -23,10 +25,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
-        rule: {
-          include: /images/,
-          exclude: /node_modules/
-        }
+        include: /\.svg$/,
+        exclude: /node_modules/
       }
     },
     {
@@ -77,7 +77,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://arcane-bayou-15737.herokuapp.com`,
+        apiURL: process.env.GATSBY_STAPI,
         queryLimit: 1000, // Default to 100
         contentTypes: [`album`, `article`, `division`, `resource`, `executive`, `seminar`],
       },

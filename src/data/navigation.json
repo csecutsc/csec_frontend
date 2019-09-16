@@ -18,7 +18,8 @@
 	},
 	{
 		"name": "CMS Events",
-		"path": "https://utsccms.club"
+		"path": "https://utsccms.club",
+		"external": true
 	},
 	{
 		"name": "Resources",
@@ -32,7 +33,7 @@
 		"name": "More",
 		"menu": [
 			{
-				"name": "Past Seminars",
+				"name": "Seminars",
 				"path": "/seminars"
 			},
 			{

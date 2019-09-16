@@ -13,7 +13,7 @@
     cursor: pointer;
 
     &:hover {
-        background-color: #3c7196;
+        background-color: adjust-color($color: $PRIMARY, $lightness: -10%);
     }
 
     &:disabled {

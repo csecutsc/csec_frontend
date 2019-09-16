@@ -1,31 +1,17 @@
 import React from 'react';
-import { Container } from '@components';
+import { LazyImage } from '@components/pages/Gallery';
+import { Container, Card } from '@components';
 import { graphql, useStaticQuery } from 'gatsby';
-import '@styles/pages/Team.scss';
-import { Card } from '../components/pages/Team/Card';
+import '@styles/pages/Gallery.scss';
 
 const query = graphql`
 {
-    sections: allStrapiDivision {
+    sections: allStrapiAlbum {
         nodes {
           title
           description
-          executives {
-            name
-            title
-            image {
-                childImageSharp {
-                    fluid(maxWidth: 500) {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
-            media {
-                email
-                website
-                linkedin
-                github
-            }
+          photos {
+            url
           }
         }
     }
@@ -36,19 +22,18 @@ const GalleryPage = () => {
     const { sections } = useStaticQuery(query);
     
     return (
-        <Container tag='main' block='team'>
-            <h1 className='team__title'>Our Team</h1>
-            <p className='team__text'>Our exceptional team of volunteer student leaders and lecturers are listed here.</p>
-            <p className='team__text'>Contact them individually, or leave a message through the contact form.</p>
+        <Container tag='main' block='gallery'>
+            <h1 className='gallery__title'>Photo Gallery</h1>
+            <p className='gallery__text'>The photos from our events throughout the year.</p>
             {
-                sections.nodes.map(({ title, description, executives }, i) => (
-                    <section className='team__section' key={i}>
-                        <h2 className='team__section-title'>{title}</h2>
-                        {description && <p className='team__section-text'>{description}</p>}
-                        <ul className='team__list'>
+                sections.nodes.map(({ title, description, photos }, i) => (
+                    <section className='gallery__section' key={i}>
+                        <h2 className='gallery__section-title'>{title}</h2>
+                        {description && <p className='gallery__section-text'>{description}</p>}
+                        <ul className='gallery__images'>
                             {
-                                executives.map((props, i) => (
-                                    <Card key={i} {...props} />
+                                photos.map((props, i) => (
+                                    <LazyImage key={i} {...props} />
                                 ))
                             }
                         </ul>

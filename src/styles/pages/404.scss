@@ -2,5 +2,32 @@
 @import '../variables';
 
 .nf {
-    
+    @include flex(column, flex-start, center);
+    position: relative;
+    text-align: center;
+    padding: 160px 0 0;
+    min-height: 540px;
+    height: 100vh;
+    text-align: center;
+
+    &__title {
+        font-size: 4rem;
+    }
+
+    &__text {
+        margin-top: -16px;
+        font-style: italic;
+        font-size: 1.1rem;
+    }
+
+    &__subtitle {
+        margin-top: -10px;
+        font-size: 1.4rem;
+        opacity: 0.6;
+    }
+
+    &__dog {
+        @include position(absolute, auto auto 0);
+        width: 140px;
+    }
 }

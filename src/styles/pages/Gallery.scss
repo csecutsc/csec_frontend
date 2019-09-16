@@ -1,0 +1,78 @@
+@import '../variables';
+@import '../mixins';
+
+.gallery {
+    padding: 120px 0 60px;
+    min-height: 100vh;
+    $self: &;
+
+    &__title {
+        font-size: 3.2rem;
+        margin: 20px 0 10px;
+    }
+
+    &__text {
+        font-size: 1.2rem;
+        margin: 0 0 5px;
+    }
+
+    &__section {
+        &-title {
+            margin: 60px 0 0;
+            font-size: 2.2rem;
+        }
+
+        &-text {
+            margin: 0 0 10px;
+            font-size: 1.2rem;
+        }
+    }
+
+    &__images {
+        @include flex();
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin: 0 -10px;
+        padding: 0;
+        &:hover #{$self}__image-item {
+            opacity: 0.8;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__image-item {
+        @include transition(opacity);
+        @include flex(center);
+        margin: 10px;
+        cursor: pointer;
+        padding: 0;
+        max-width: calc(33.3333% - 20px);
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+    }
+
+    &__loading {
+
+    }
+}
+
+@include media(TABLET) {
+    .gallery {
+        &__image-item {
+            max-width: calc(50% - 20px);
+        }
+    }
+}
+
+@include media(PHONE) {
+    .gallery {
+        &__image-item {
+            max-width: calc(100% - 20px);
+        }
+    }
+}
