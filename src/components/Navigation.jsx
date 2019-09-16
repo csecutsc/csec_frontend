@@ -89,15 +89,23 @@ export const Navigation = memo(({ light }) => {
                             { menu && (
                                 <ul className='nav__menu'>
                                     {
-                                        menu.map((item, j) => (
+                                        menu.map((item, j, external) => (
                                             <li key={ j } className='nav__menu-item'>
-                                                <Link
+                                            {external ? (
+                                            <a 
+                                                className='nav__menu-link' 
+                                                activeClassName='nav__menu-link--active' 
+                                                href={ item.path } rel='noopener noreferrer'
+                                            >
+                                                { item.name }
+                                            </a>
+                                            ) : <Link
                                                     to={ item.path } className='nav__menu-link'
                                                     activeClassName='nav__menu-link--active'
                                                     onClick={ () => setMobile(false) }
                                                 >
                                                     { item.name }
-                                                </Link>
+                                                </Link>}
                                             </li>
                                         ))
                                     }

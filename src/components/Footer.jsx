@@ -84,11 +84,15 @@ export const Footer = memo(() => {
                             <h3 className='footer__menu-title'>{ name }</h3>
                             <ul className='footer__menu-list'>
                                 {
-                                    menu.map((item, j) => (
+                                    menu.map((item, j, external) => (
                                         <li key={ j } className='footer__menu-item'>
-                                            <Link className='footer__link' to={ item.path }>
+                                        {external ? (
+                                            <a className='footer__link' href={ item.path } rel='noopener noreferrer'>
                                                 { item.name }
-                                            </Link>
+                                            </a>
+                                        ) : <Link className='footer__link' to={ item.path }>
+                                                { item.name }
+                                            </Link>}
                                         </li>
                                     ))
                                 }
