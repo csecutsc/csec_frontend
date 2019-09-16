@@ -3,7 +3,14 @@ import { Card } from '../../Card';
 
 export const LazyImage = ({
     url
-}) => (
+}) => {
+    if (url.includes("cloudinary")) {
+        const urlList = url.split("/");
+        const linkEnd = urlList.pop()
+        const linkFolder = urlList.pop()
+        url = `https://res.cloudinary.com/dwopjv0lk/image/upload/w_600,c_scale/${linkFolder}/${linkEnd}`
+    }
+    return (
     <Card block='gallery__image-item' as='li'>
         <img
             className='gallery__image'
@@ -12,4 +19,4 @@ export const LazyImage = ({
             src={url}
         />
     </Card>
-);
+)};
