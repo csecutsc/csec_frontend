@@ -11,6 +11,7 @@ const query = graphql`
             keywords
             description
             author
+            themeColor
         }
     }
 }
@@ -60,7 +61,11 @@ export const Seo = ({ description, lang, meta, title }) => {
                 {
                     name: 'keywords',
                     content: site.siteMetadata.keywords.join(', '),
-                }
+                },
+                {
+                    name: 'theme-color',
+                    content: site.siteMetadata.themeColor
+                },
             ].concat(meta)}
         />
     );
@@ -78,4 +83,5 @@ Seo.propTypes = {
     meta: PropTypes.arrayOf(PropTypes.object),
     keywords: PropTypes.arrayOf(PropTypes.string),
     title: PropTypes.string.isRequired,
+    themeColor: PropTypes.string
 };
