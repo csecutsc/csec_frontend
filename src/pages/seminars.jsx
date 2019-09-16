@@ -11,6 +11,10 @@ const query = graphql`
             archived: {
                 eq: false
             }
+        },
+        sort: {
+            fields: date, 
+            order: DESC
         }
     ) {
         nodes {
@@ -32,6 +36,10 @@ const query = graphql`
             archived: {
                 eq: true
             }
+        },
+        sort: {
+            fields: date, 
+            order: DESC
         }
     ) {
         nodes {

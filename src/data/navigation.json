@@ -8,7 +8,8 @@
 		"menu": [
 			{
 				"name": "Game Dev Guild",
-				"path": "/gamers"
+				"path": "https://www.facebook.com/UTSC-Game-Development-Club-2122684914729074/",
+				"external": true
 			}
 		]
 	},
@@ -38,7 +39,8 @@
 			},
 			{
 				"name": "Constitution",
-				"path": "/seminars"
+				"path": "https://github.com/csecutsc/csec_files/blob/master/blah/CSEC_Constitution_17-18.pdf",
+				"external": true
 			},
 			{
 				"name": "Archive",
