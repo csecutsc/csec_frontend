@@ -91,7 +91,6 @@ const AlgorithmsPage = () => {
             </div>
 
             <h2 className='about__title'>Previous ECNA Rounds</h2>
-
             <div>
                 <h4>2016 Team <a className='alg__link' href='https://ecna16.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
                     Results
@@ -114,6 +113,13 @@ const AlgorithmsPage = () => {
                 <p>
                     Jerry, Omar, Keegan, Jon, Alon, Jason
                 </p>
+            </div>
+            <h2 className='about__title'>Resources</h2>
+            <div>
+                <h4> <a className='alg__link' href='https://csecutsc.github.io/csec_site/a/' target='_blank' rel='noopener noreferrer'>
+                    Legacy CSEC Algorithms ICPC Resources
+                <FaExternalLinkAlt className='alg__link-icon' />
+                </a></h4>
             </div>
         </Container>
     );
