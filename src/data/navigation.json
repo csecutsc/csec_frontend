@@ -7,6 +7,10 @@
 		"name": "Divisions",
 		"menu": [
 			{
+				"name": "ACM-ICPC",
+				"path": "/icpc"
+			},
+			{
 				"name": "Game Dev Guild",
 				"path": "https://www.facebook.com/UTSC-Game-Development-Club-2122684914729074/",
 				"external": true

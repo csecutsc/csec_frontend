@@ -1,0 +1,91 @@
+@import '../mixins';
+@import '../variables';
+
+.alg {
+    padding: 120px 0 60px;
+    min-height: 100vh;
+
+    &__subtitle {
+        font-size: 1.2rem;
+        max-width: 800px;
+        margin: 0 0 15px;
+    }
+
+    &__cards {
+        @include flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin: -10px -25px 0;
+    }
+
+    &__card {
+        width: 33.3333%;
+        padding: 10px 25px 20px;
+    }
+
+    &__list {
+        margin: 0;
+        list-style-type: none;
+        border-left: 6px solid rgba(42, 49, 63, 0.15);
+        padding-left: 20px;
+        &--list {
+            border-left-color: transparent;
+        }
+    }
+
+    &__item {
+        margin-bottom: 10px;
+    }
+
+    &__section {
+        margin-top: 0;
+    }
+
+    &__link {
+        @include transition(border-bottom-color);
+        @include flex(flex-start, center);
+        color: #3483eb;
+        display: inline-flex;
+        border-bottom: 1px solid transparent;
+        text-decoration: none;
+
+        &:hover {
+            border-bottom-color: $BLACK;
+        }
+
+        &-icon {
+            margin: 0 0 4px 7px;
+            flex-shrink: 0;
+        }
+    }
+
+    &__aside {
+        margin: 0;
+        font-weight: 500;
+        font-size: 0.85rem;
+        opacity: 0.6;
+    }
+
+    &__image {
+        width: 50%;
+        margin-left: 5%;
+        flex-shrink: 0;
+    }
+}
+
+@include media(DESKTOP) {
+    .res {
+        &__card {
+            width: 50%;
+        }
+    }
+}
+
+@include media(TABLET) {
+    .res {
+        &__card {
+            width: 100%;
+        }
+    }
+}
