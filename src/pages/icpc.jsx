@@ -127,7 +127,8 @@ const AlgorithmsPage = () => {
 
 AlgorithmsPage.meta = {
     seo: {
-        title: 'ACM-ICPC'
+        title: 'UTSC ACM-ICPC',
+        description: 'Join fellow UTSC competitive programming enthusiasts who are seeking to take up challenging algorithmic coding competitions and represent our campus. ICPC is an algorithmic programming challenge that universities around the world participate in.',
     }
 }
 
