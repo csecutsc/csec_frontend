@@ -18,8 +18,8 @@
 		]
 	},
 	{
-		"name": "Team",
-		"path": "/team"
+		"name": "Seminars",
+		"path": "/seminars"
 	},
 	{
 		"name": "CMS Events",
@@ -31,16 +31,16 @@
 		"path": "/resources"
 	},
 	{
+		"name": "Team",
+		"path": "/team"
+	},
+	{
 		"name": "Gallery",
 		"path": "/gallery"
 	},
 	{
 		"name": "More",
 		"menu": [
-			{
-				"name": "Seminars",
-				"path": "/seminars"
-			},
 			{
 				"name": "Constitution",
 				"path": "https://github.com/csecutsc/csec_files/blob/master/blah/CSEC_Constitution_17-18.pdf",
