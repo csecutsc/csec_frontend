@@ -36,19 +36,19 @@ export const Events = () => {
             <div className='events__header'>
                 <h2 className='events__title'>Events</h2>
                 <a className='events__link-button'
-                    rel='noopener noreferrer'
-                    href='/calendar'
+                    rel='noopener noreferrer' target='_blank'
+                    href='https://calendar.google.com/calendar/b/2?cid=djJpYzQyb2tjbWZyZjk1NDY4bWd1MmhzOGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
                 >
-                    More Events
+                    Google Calendar
                 </a>
             </div>
             <ul className='events__list'>
                 {
                     !loading ? (
                         data.items.filter(({ start }) => {
-                                const d = new Date();
-                                return new Date(start.dateTime) >= d.setDate(d.getDate() - 1)
-                            })
+                            const d = new Date();
+                            return new Date(start.dateTime) >= d.setDate(d.getDate() - 1)
+                        })
                             .sort((a, b) => { return new Date(a.start.dateTime) - new Date(b.start.dateTime) })
                             .map(({ summary, description, start, end, location, creator }, i) => {
                                 const [text, groups] = description.split('[[');
