@@ -1,0 +1,98 @@
+@import '../../../variables';
+@import '../../../mixins';
+
+.events {
+    z-index: 2;
+    background-color: white;
+
+    &__header {
+        @include flex(flex-start, center);
+        flex-wrap: wrap;
+        margin: 50px 0 20px;
+    }
+
+    &__title {
+        margin: 10px auto 0 0;
+    }
+
+    &__link-button {
+        @include transition(background-color);
+        text-decoration: none;
+        padding: 9px 24px;
+        border-radius: 6px;
+        margin-top: 10px;
+        color: white;
+        background-color: $PRIMARY;
+        &:hover, &:active {
+            background-color: darken($PRIMARY, 8%);
+        }
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &__item {
+        border-bottom: 3px solid rgba(0,0,0,0.2);
+        margin-top: 30px;
+        padding-bottom: 10px;
+
+        &-header {
+            @include flex(flex-start);
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        &-info {
+            @include flex(column, flex-start, flex-end);
+            @include media(TABLET) {
+                flex-direction: row;
+                align-items: center;
+                width: 100%;
+            }
+        }
+
+        &-title {
+            margin: 0;
+            margin-right: auto;
+        }
+
+        &-text {
+            font-size: 1.1rem;
+        }
+
+        &-date {
+            margin-top: 0;
+            font-size: 0.95rem;
+        }
+
+        &-location {
+            color: $PRIMARY;
+            font-weight: 800;
+            font-size: 1.1rem;
+            @include media(TABLET) {
+                margin-left: auto;
+            }
+        }
+    }
+
+    &__groups {
+        @include flex(flex-start, center);
+        flex-wrap: wrap;
+        list-style-type: none;
+        color: rgba(0,0,0,0.7);
+        line-height: 1;
+        font-size: 0.85rem;
+        font-weight: 500;
+        padding: 0;
+    }
+
+    &__group {
+        padding: 7px 14px;
+        margin-right: 7px;
+        margin-top: 8px;
+        border-radius: 999px;
+        border: 1.5px solid rgba(0,0,0,0.4);
+    }
+}
