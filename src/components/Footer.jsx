@@ -1,10 +1,10 @@
 import React, { memo } from 'react';
 import { Container } from '.';
-import { FaGithub, FaFacebook, FaYoutube, FaUsers, FaDiscord, FaEnvelope, FaMobile } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaYoutube, FaUsers, FaDiscord, FaEnvelope, FaMobile, FaInstagram } from 'react-icons/fa';
 import '@styles/components/Footer.scss';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 
-const Icons = { FaGithub, FaFacebook, FaYoutube, FaUsers, FaDiscord, FaEnvelope, FaMobile };
+const Icons = { FaGithub, FaFacebook, FaYoutube, FaUsers, FaDiscord, FaEnvelope, FaMobile, FaInstagram };
 
 const query = graphql`
 {

@@ -43,7 +43,12 @@
 		"menu": [
 			{
 				"name": "Constitution",
-				"path": "https://github.com/csecutsc/csec_files/blob/master/blah/CSEC_Constitution_17-18.pdf",
+				"path": "https://github.com/csecutsc/csec_files/blob/master/blah/CSEC_Constitution_19-20.pdf",
+				"external": true
+			},
+			{
+				"name": "UofT Recognition",
+				"path": "https://github.com/csecutsc/csec_files/blob/master/blah/csec_recognition.pdf",
 				"external": true
 			},
 			{

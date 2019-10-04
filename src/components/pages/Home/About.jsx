@@ -30,7 +30,7 @@ export const About = () => {
                     <p className='about__text about__text--secondary'>
                         We do everything from hosting monthly learning seminars
                         to helping you create your own website.
-                        So be sure to follow us on any social media to learn more!
+                        <b> So be sure to follow us on any social media to learn more!</b>
                     </p>
                 </div>
                 <Img className='about__image' fluid={ placeholderImage.childImageSharp.fluid }/>
