@@ -6,7 +6,12 @@ import '@styles/pages/Gallery.scss';
 
 const query = graphql`
 {
-    sections: allStrapiAlbum {
+    sections: allStrapiAlbum(
+        sort: {
+            fields: id, 
+            order: DESC
+        }
+    ) {
         nodes {
           title
           description
@@ -20,7 +25,7 @@ const query = graphql`
 
 const GalleryPage = () => {
     const { sections } = useStaticQuery(query);
-    
+
     return (
         <Container tag='main' block='gallery'>
             <h1 className='gallery__title'>Photo Gallery</h1>
