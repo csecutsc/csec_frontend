@@ -64,7 +64,7 @@ const AlgorithmsPage = () => {
                         ICPC is an algorithmic programming challenge that universities around the world participate in. Join fellow competitive programming enthusiasts who are seeking to take up challenging algorithmic coding competitions and represent UTSC.
                     </p>
                     <p className='about__text'>
-                        Our qualification round is going to be on Saturday, October 5th 2:00 PM - 7:00 PM, Room TBD. <a className='alg__link' href='https://docs.google.com/forms/d/e/1FAIpQLSc8n6Mm2QEbd9Hau7ipdhrj0N9O8Wgf0pDO54xQK71rFtisDg/viewform?fbclid=IwAR1UZiHHco4nKI5ouC1qP8VVN2rVgVkFUeQiIKBY4WoacVz9P_hAtkhFxmc' target='_blank' rel='noopener noreferrer'>
+                        Our qualification round is going to be on Saturday, October 5th 2:00 PM - 7:00 PM, HW 216. <a className='alg__link' href='https://docs.google.com/forms/d/e/1FAIpQLSc8n6Mm2QEbd9Hau7ipdhrj0N9O8Wgf0pDO54xQK71rFtisDg/viewform?fbclid=IwAR1UZiHHco4nKI5ouC1qP8VVN2rVgVkFUeQiIKBY4WoacVz9P_hAtkhFxmc' target='_blank' rel='noopener noreferrer'>
                             Click here to signup!
                     <FaExternalLinkAlt className='alg__link-icon' /></a>
                     </p>
