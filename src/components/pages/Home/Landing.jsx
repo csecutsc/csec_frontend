@@ -42,7 +42,7 @@ export const Landing = () => {
             <div className='landing__content'>
                 <h1 className='landing__title'>Computer Science Enrichment Club</h1>
                 <p className='landing__text'>
-                    Helping students with a passion for Computer Science take the next steps in their career.
+                    Helping students with a passion for Computer Science take the next steps in their career. Scroll down to see our upcoming events!
                 </p>
             </div>
             { icons }
