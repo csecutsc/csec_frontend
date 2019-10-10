@@ -66,11 +66,14 @@ const AlgorithmsPage = () => {
                     <p className='about__text'>
                     Help the world listen to the stories and perspectives of new Canadians, highlighting both their joys and struggles living in Canada for 5+ years
                     </p>
+                    <p className='about__text'>
+                        Also, learn about software engineering practices, project management and React so you can add it your resumes!
+                    </p>
                     <p className='about__text about__text--secondary'>
-                        Sign up here!: <a className='alg__link' href='https://forms.gle/sgkqb56q2F9kNvYGA' target='_blank' rel='noopener noreferrer'>
+                        <b>Sign up here!: <a className='alg__link' href='https://forms.gle/sgkqb56q2F9kNvYGA' target='_blank' rel='noopener noreferrer'>
                         https://forms.gle/sgkqb56q2F9kNvYGA
                 <FaExternalLinkAlt className='alg__link-icon' />
-                        </a>
+                        </a></b>
                     </p>
                     <h4>Client</h4>
                     <p>
