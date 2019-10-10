@@ -4,8 +4,17 @@
 		"path": "/"
 	},
 	{
-		"name": "ACM-ICPC",
-		"path": "/icpc"
+		"name": "Projects / Opportunities",
+		"menu": [
+			{
+				"name": "The Hub - UTSC Entrepreneurship",
+				"path": "/thehub"
+			},
+			{
+				"name": "First Year Impact",
+				"path": "/pear"
+			}
+		]
 	},
 	{
 		"name": "Divisions",
@@ -14,6 +23,10 @@
 				"name": "Game Dev Guild",
 				"path": "https://www.facebook.com/UTSC-Game-Development-Club-2122684914729074/",
 				"external": true
+			},
+			{
+				"name": "ICPC",
+				"path": "/icpc"
 			}
 		]
 	},
