@@ -57,11 +57,11 @@ const AlgorithmsPage = () => {
     const { algresources, placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
-            <h1>First Year Impact Project with PEAR</h1>
+            <h1>CSEC - PEAR Impact Project</h1>
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
-                        In a partnership with PEAR, CSEC first-year members will have the opportuinity in helping build an impactful project called the <b>Success Stories of New Canadians</b>, a website detailing the experiences of immigrants and refugees who have made Canada their home.
+                        In a partnership with PEAR, first-year and second-year students will have the opportuinity in helping build an impactful project called the <b>Success Stories of New Canadians</b>, a website detailing the experiences of immigrants and refugees who have made Canada their home.
                     </p>
                     <p className='about__text'>
                     Help the world listen to the stories and perspectives of new Canadians, highlighting both their joys and struggles living in Canada for 5+ years
@@ -97,8 +97,8 @@ const AlgorithmsPage = () => {
 
 AlgorithmsPage.meta = {
     seo: {
-        title: 'First Year Impact Project with PEAR',
-        description: 'In a partnership with PEAR, CSEC first-year members will have the opportuinity in helping build an impactful project called the <b>Success Stories of New Canadians</b>, a website detailing the experiences of immigrants and refugees who have made Canada their home.',
+        title: 'CSEC - PEAR Impact Project with PEAR',
+        description: 'In a partnership with PEAR, first-year and second-year students will have the opportuinity in helping build an impactful project called the <b>Success Stories of New Canadians</b>, a website detailing the experiences of immigrants and refugees who have made Canada their home.',
     }
 }
 
