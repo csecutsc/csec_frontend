@@ -114,7 +114,7 @@ const AlgorithmsPage = () => {
                 </p>
                 <h4>QUICLOSET</h4>
                 <p>
-                    QuiCloset is an early stage idea that seeks to provide inventory tracking at clothing stores and boutiques.<br></br>
+                    QuiCloset is fashion search engine that helps shoppers find an item in the stores closest to them and allows instant pickups.<br></br>
                     Founder: <b>Athiya Rostogi</b>
                 </p>
 
