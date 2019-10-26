@@ -57,19 +57,17 @@ const AlgorithmsPage = () => {
     const { algresources, placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
-            <h1>UTSC ACM-ICPC</h1>
+            <h1>UTSC ICPC</h1>
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
                         ICPC is an algorithmic programming challenge that universities around the world participate in. Join fellow competitive programming enthusiasts who are seeking to take up challenging algorithmic coding competitions and represent UTSC.
                     </p>
                     <p className='about__text'>
-                        Our qualification round is going to be on Saturday, October 5th 2:00 PM - 7:00 PM, HW 216. <a className='alg__link' href='https://docs.google.com/forms/d/e/1FAIpQLSc8n6Mm2QEbd9Hau7ipdhrj0N9O8Wgf0pDO54xQK71rFtisDg/viewform?fbclid=IwAR1UZiHHco4nKI5ouC1qP8VVN2rVgVkFUeQiIKBY4WoacVz9P_hAtkhFxmc' target='_blank' rel='noopener noreferrer'>
-                            Click here to signup!
-                    <FaExternalLinkAlt className='alg__link-icon' /></a>
+                        Our qualification round is over and our UTSC ICPC Team has been chosen! We welcome Mustafa, Omar, Jerry, Jason, Alon, and Ziheng to the UTSC ICPC Team. Check out the gallery page for photos of the event and below for the 2019 ICPC results.
                     </p>
                     <p className='about__text about__text--secondary'>
-                        About ACM ICPC: <a className='alg__link' href='https://icpc.baylor.edu/' target='_blank' rel='noopener noreferrer'>
+                        About ICPC: <a className='alg__link' href='https://icpc.baylor.edu/' target='_blank' rel='noopener noreferrer'>
                             https://icpc.baylor.edu/
                 <FaExternalLinkAlt className='alg__link-icon' />
                         </a>
@@ -92,19 +90,12 @@ const AlgorithmsPage = () => {
 
             <h2 className='about__title'>Previous ECNA Rounds</h2>
             <div>
-                <h4>2016 Team <a className='alg__link' href='https://ecna16.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
+                <h4>2019 Team <a className='alg__link' href='https://ecna19.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
                     Results
                 <FaExternalLinkAlt className='alg__link-icon' />
                 </a></h4>
                 <p>
-                    Rhys, Tudor, Jason, Omar, Ousmane, Vishwa
-                </p>
-                <h4>2017 Team <a className='alg__link' href='https://ecna17.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
-                    Results
-                <FaExternalLinkAlt className='alg__link-icon' />
-                </a></h4>
-                <p>
-                    William, Akshay, Rhys, Omar, Jerry, Jon
+                    Mustafa, Omar, Jerry, Jason, Alon, Ziheng
                 </p>
                 <h4>2018 Team <a className='alg__link' href='https://ecna18.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
                     Results
@@ -113,6 +104,21 @@ const AlgorithmsPage = () => {
                 <p>
                     Jerry, Omar, Keegan, Jon, Alon, Jason
                 </p>
+                <h4>2017 Team <a className='alg__link' href='https://ecna17.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
+                    Results
+                <FaExternalLinkAlt className='alg__link-icon' />
+                </a></h4>
+                <p>
+                    William, Akshay, Rhys, Omar, Jerry, Jon
+                </p>
+                <h4>2016 Team <a className='alg__link' href='https://ecna16.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
+                    Results
+                <FaExternalLinkAlt className='alg__link-icon' />
+                </a></h4>
+                <p>
+                    Rhys, Tudor, Jason, Omar, Ousmane, Vishwa
+                </p>
+
             </div>
             <h2 className='about__title'>Resources</h2>
             <div>

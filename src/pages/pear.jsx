@@ -64,19 +64,13 @@ const AlgorithmsPage = () => {
                         In a partnership with PEAR, first-year and second-year students will have the opportuinity in helping build an impactful project called the <b>Success Stories of New Canadians</b>, a website detailing the experiences of immigrants and refugees who have made Canada their home.
                     </p>
                     <p className='about__text'>
-                        Help the world listen to the stories and perspectives of new Canadians, highlighting both their joys and struggles living in Canada for 5+ years
+                        Help the world listen to the stories and perspectives of new Canadians, highlighting both their joys and struggles living in Canada for 5+ years.
                     </p>
                     <p className='about__text'>
-                        Also, learn about software engineering practices, project management and React so you can add it your resumes!
+                        Also, learn about software engineering practices, project management and React so you can add it on your resumes!
                     </p>
                     <p className='about__text about__text--secondary'>
-                        <b>Sign up here!: <a className='alg__link' href='https://forms.gle/sgkqb56q2F9kNvYGA' target='_blank' rel='noopener noreferrer'>
-                            https://forms.gle/sgkqb56q2F9kNvYGA
-                <FaExternalLinkAlt className='alg__link-icon' />
-                        </a></b>
-                    </p>
-                    <p className='about__text about__text--secondary'>
-                        <b>Starter Code, CSEC technical requirements and guides of the project will be out soon.<br></br> <br></br>Project Details and Requirements: <a className='alg__link' href='https://github.com/csecutsc/csec_files/blob/master/pear/CSEC-PEAR-Project-Requirements.pdf' target='_blank' rel='noopener noreferrer'>
+                        <b>Starter Code and CSEC guides of the project will be out soon.<br></br> <br></br>Project Details and Requirements: <a className='alg__link' href='https://github.com/csecutsc/csec_files/blob/master/pear/CSEC-PEAR-Project-Requirements.pdf' target='_blank' rel='noopener noreferrer'>
                             Requirements PDF
                 <FaExternalLinkAlt className='alg__link-icon' />
                         </a> <a className='alg__link' href='https://csec.club/seminars' target='_blank' rel='noopener noreferrer'>
@@ -93,11 +87,18 @@ const AlgorithmsPage = () => {
                         He has worked in the Human Resources industry for over 25 years and held senior human resources positions in both South Africa and Canada, focusing on strategic planning, total rewards, employee relations and diversity.
                         He is currently Professor of Human Resources in the School of Leadership and Human Resources at Seneca College in Toronto.
                     </p>
+                    <h5>Contact: <a className='footer__link' href="mailto:azhar.laher@gmail.com" target='_blank' rel='noopener noreferrer'>
+                    azhar.laher@gmail.com
+                   
+                                        </a></h5>
                     <h4>Partner</h4>
                     <p>
                         <b>PEAR</b> is a platform where nonprofits can post freelance projects for university students to complete.
-                        These projects target a specific skill set, such as graphic design, software development (web development, automation), consulting, marketing etc.
+                        These projects target a specific skill set, such as graphic design, software development (web development, automation), consulting, marketing, ... etc.
                     </p>
+                    <h5>Contact: <a className='footer__link' href="mailto:pear.students@gmail.com" target='_blank' rel='noopener noreferrer'>
+                    pear.students@gmail.com
+                                        </a></h5>
                 </div>
                 <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
             </div>
