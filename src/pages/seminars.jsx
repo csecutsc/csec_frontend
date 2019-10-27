@@ -77,7 +77,7 @@ const buildCards = seminars => (
                                 Slides
                             </a>
                         )}
-                        {slideUrl && (
+                        {sourceLink && (
                             <a
                                 className='seminar__link'
                                 href={sourceLink} target='_blank'
