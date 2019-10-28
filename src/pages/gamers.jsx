@@ -72,11 +72,18 @@ const GamersPage = () => {
                     <p className='about__text about__text--secondary'>
                         Learn and use a variety of development engines (Unity, Godot, Unreal, etc.)
                     </p>
-
+                    <span  style={{"marginRight":"20px"}}>
                     <a className='alg__link' href='https://www.facebook.com/UTSC-Game-Development-Club-2122684914729074/' target='_blank' rel='noopener noreferrer'>
                                 Facebook Page
                         <FaExternalLinkAlt className='alg__link-icon' />
                     </a>
+                    </span>
+                    <span>
+                    <a className='alg__link' href='https://www.facebook.com/UTSC-Game-Development-Club-2122684914729074/' target='_blank' rel='noopener noreferrer'>
+                                Discord
+                        <FaExternalLinkAlt className='alg__link-icon' />
+                    </a>
+                    </span>
                 </div>
                 <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
             </div>
