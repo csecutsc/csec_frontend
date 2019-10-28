@@ -88,8 +88,8 @@ const GamersPage = () => {
 
 GamersPage.meta = {
     seo: {
-        title: 'CSEC - PEAR Impact Project with PEAR',
-        description: 'In a partnership with PEAR, first-year and second-year students will have the opportuinity in helping build an impactful project called the <b>Success Stories of New Canadians</b>, a website detailing the experiences of immigrants and refugees who have made Canada their home.',
+        title: 'UTSC Game Development Club',
+        description: 'The UTSC Game Development Club is a great place for budding game developers to meet, learn, and share game-related ideas.',
     }
 }
 
