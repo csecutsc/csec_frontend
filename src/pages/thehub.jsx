@@ -117,6 +117,15 @@ const AlgorithmsPage = () => {
                     QuiCloset is fashion search engine that helps shoppers find an item in the stores closest to them and allows instant pickups.<br></br>
                     Founder: <b>Athiya Rostogi</b>
                 </p>
+                <h4>FITBUD</h4>
+                <p>
+                    FitBud is a platform that would promote fitness by allowing students to connect with each other and overcome various boundaries that may potentially hinder physical fitness.<br></br>
+                    Founder: <b>Abdurrahman Abdulhafiz</b><br></br>
+                    <a className='alg__link' href='mailto:fitbudutsc@gmail.com' target='_blank' rel='noopener noreferrer'>
+                    Email
+                    <FaExternalLinkAlt className='alg__link-icon' />
+                    </a>
+                </p>
 
             </div>
             <h2 className='about__title'>Tech Established Start-ups </h2>
@@ -154,6 +163,19 @@ const AlgorithmsPage = () => {
                 <p>
                     Febbit is an online game that mines Bitcoin.<br></br>
                     Founder: <b>Christian and Isabel Cordero</b>
+                </p>
+
+                <h4>Gemtoken Games - <a className='alg__link' href='https://gemtokengames.com/' target='_blank' rel='noopener noreferrer'>
+                    Website
+                <FaExternalLinkAlt className='alg__link-icon' />
+                </a></h4>
+                <p>
+                    Gemtoken Games is an indie studio with the goal of combining different modes of play into new experience<br></br>
+                    Founder: <b>Alexander Cavanagh</b><br></br>
+                    <a className='alg__link' href='mailto:gemtoken.dev@hotmail.com' target='_blank' rel='noopener noreferrer'>
+                    Email
+                    <FaExternalLinkAlt className='alg__link-icon' />
+                    </a>
                 </p>
 
             </div>
