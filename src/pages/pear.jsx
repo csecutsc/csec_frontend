@@ -70,7 +70,7 @@ const AlgorithmsPage = () => {
                         Also, learn about software engineering practices, project management and React so you can add it on your resumes!
                     </p>
                     <p className='about__text about__text--secondary'>
-                        <b>Starter Code and CSEC guides of the project will be out soon.<br></br> <br></br>Project Details and Requirements: <a className='alg__link' href='https://github.com/csecutsc/csec_files/blob/master/pear/CSEC-PEAR-Project-Requirements.pdf' target='_blank' rel='noopener noreferrer'>
+                        <b>On Friday Jan 10 in IC200 from 5 - 7pm, we will announce the winners of the competition. <br></br> Thank you to all the competitors of this project! You have all went above and beyond to create an impact in your community.<br></br> <br></br>Project Details and Requirements: <a className='alg__link' href='https://github.com/csecutsc/csec_files/blob/master/pear/CSEC-PEAR-Project-Requirements.pdf' target='_blank' rel='noopener noreferrer'>
                             Requirements PDF
                 <FaExternalLinkAlt className='alg__link-icon' />
                         </a> <a className='alg__link' href='https://csec.club/seminars' target='_blank' rel='noopener noreferrer'>
@@ -79,6 +79,12 @@ const AlgorithmsPage = () => {
                             </a>
 
                         </b>
+                    </p>
+                    <h4>Teams</h4>
+                    <p>
+                        <b>Team 2.</b> Dubem, Henry, Mitra, Sameer, William <br></br>
+                        <b>Team 4.</b> Colin, Daniel, Jesse<br></br>
+                        <b>Team 6.</b> Keshavaa<br></br>
                     </p>
                     <h4>Client</h4>
                     <p>
