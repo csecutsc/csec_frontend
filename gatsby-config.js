@@ -81,7 +81,7 @@ module.exports = {
       resolve: `gatsby-source-strapi`,
       options: {
         apiURL: process.env.GATSBY_STAPI,
-        queryLimit: 100000, // Default to 100
+        queryLimit: 1000000, // Default to 100
         contentTypes: [`album`, `article`, `division`, `resource`, `executive`, `seminar`],
       },
     },
