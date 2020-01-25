@@ -17,6 +17,7 @@ module.exports = {
     'gatsby-plugin-layout',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sass',
+    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-prefetch-google-fonts',
       options: {
