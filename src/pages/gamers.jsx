@@ -111,7 +111,7 @@ const GamersPage = () => {
                     Who: UofT students from any campus
                     </p>
                     <p className='about__text'>
-                    Why: To grow your game development skills, meet like-minded people, and most importantly, finish a game.
+                    Why: To grow your game development skills, meet like-minded people, and most importantly, finish a game. No experience required.
                     </p>
                     <p className='about__text'>
                     How: Come to our Kickoff event for more details and rules! <b>Friday February 14th @ 3-4PM</b> in IC208 for the Theme Reveal, Contest Rules, Team Formation, and More! <b>Food Included!</b> <br></br> 
