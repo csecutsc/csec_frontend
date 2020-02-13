@@ -99,13 +99,16 @@ const GamersPage = () => {
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
-                    What: A weeklong event where groups of 1-4 come together to create a game based around a given theme!
+                    What: A weeklong event where groups of 1-4 come together to create a game based around a given theme! We also have some prizes to win!
                     </p>
                     <p className='about__text'>
                     Where: Anywhere! The game jam is an off-site event, so you can work wherever you’d like. There will be a Kickoff event held at UTSC.
                     </p>
                     <p className='about__text'>
                     Who: UofT students from any campus
+                    </p>
+                    <p className='about__text'>
+                    Why: To grow your game development skills, meet like-minded people, and most importantly, finish a game.
                     </p>
                     <p className='about__text'>
                     How: Come to our Kickoff event for more details and rules! <b>Friday February 14th @ 3-4PM</b> in IC208 for the Theme Reveal, Contest Rules, Team Formation, and More! <b>Food Included!</b> <br></br> 
