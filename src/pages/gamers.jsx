@@ -95,6 +95,9 @@ const GamersPage = () => {
                 </div>
                 <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
             </div>
+            <hr></hr>
+            <h1 id="gamerevents">Events</h1>
+
             <h2>Game Jam!</h2>
             <div className='about__row'>
                 <div className='about__content'>
