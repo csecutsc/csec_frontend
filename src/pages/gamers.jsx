@@ -87,7 +87,7 @@ const GamersPage = () => {
                     </a>
                     </span>
                     <span>
-                    <a className='alg__link' href='https://discord.gg/ZsBNGJ' target='_blank' rel='noopener noreferrer'>
+                    <a className='alg__link' href='https://discord.gg/bCy92at' target='_blank' rel='noopener noreferrer'>
                                 Discord
                         <FaExternalLinkAlt className='alg__link-icon' />
                     </a>
