@@ -126,7 +126,7 @@ const PositionsPage = () => {
 PositionsPage.meta = {
     seo: {
         title: 'CSEC Elections',
-        description: 'The UTSC Game Development Club is a great place for budding game developers to meet, learn, and share game-related ideas.',
+        description: 'General Elections for the Computer Science Enrichment Club are coming up!',
     }
 }
 
