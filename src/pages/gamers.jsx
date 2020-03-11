@@ -72,7 +72,7 @@ const GamersPage = () => {
                         The UTSC Game Development Club is a great place for budding game developers to meet, learn, and share game-related ideas. It is the environment for aspiring game devs at UTSC - <b>no prior experience needed to join!</b>
                     </p>
                     <p className='about__text'>
-                        <b>Our meetings will be held bi-weekly starting Monday Jan 27, 5 - 7pm in IC208. Check the CSEC home page under events for the rooms and updates!</b> Also, scroll down to see our upcoming events!
+                        <b>Our meetings will be held bi-weekly starting Monday Jan 27, 5 - 7pm in IC200. Check the CSEC home page under events for the rooms and updates!</b> Also, scroll down to see our upcoming events!
                     </p>
                     <p className='about__text'>
                         Find like minded people to discuss and collaborate with and share games, projects, ideas, and feedback!
