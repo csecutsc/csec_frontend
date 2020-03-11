@@ -68,7 +68,7 @@ const PositionsPage = () => {
                     </p>
                     <p className='about__text'>
                     Want to join the executive team? We'd be thrilled to have you! Simply fill out the form here and show up to our elections! You'll be expected to do a little introduction about yourself and your ideas. <b>For information about the positions, scroll down to see the descriptions.</b> Please fill this out by Friday March 20 at 1pm.
-                    <a className='alg__link' href='https://forms.gle/K1YB4CA2QGoHMSf5A' target='_blank' rel='noopener noreferrer'>
+                    <a className='alg__link' href='https://forms.gle/F9BaRpuxDkW3wack6' target='_blank' rel='noopener noreferrer'>
                                 Link to Application
                         <FaExternalLinkAlt className='alg__link-icon' />
                     </a>
