@@ -1,7 +1,12 @@
 [
 	{
 		"name": "Home",
-		"path": "/"
+		"path": "/",
+		"external": false
+	},
+	{	
+		"name": "Elections",
+		"path": "/elections"
 	},
 	{
 		"name": "Opportunities",
@@ -9,10 +14,6 @@
 			{
 				"name": "The Hub - UTSC Entrepreneurship",
 				"path": "/thehub"
-			},
-			{
-				"name": "CSEC-PEAR Impact Project",
-				"path": "/pear"
 			}
 		]
 	},
@@ -32,11 +33,6 @@
 	{
 		"name": "Seminars",
 		"path": "/seminars"
-	},
-	{
-		"name": "CMS Events",
-		"path": "https://utsccms.club",
-		"external": true
 	},
 	{
 		"name": "Resources",
@@ -66,6 +62,10 @@
 			{
 				"name": "Archive",
 				"path": "/archive"
+			},
+			{
+				"name": "CSEC-PEAR Impact Project",
+				"path": "/pear"
 			}
 		]
 	}

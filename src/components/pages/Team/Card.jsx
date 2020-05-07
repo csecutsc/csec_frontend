@@ -35,6 +35,7 @@ export const Card = ({ name, title, image, media }) => {
                                         </a>
                                     )
                                 }
+                                return
                             })
                         }
                     </ul>

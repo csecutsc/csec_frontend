@@ -1,6 +1,6 @@
 import React from 'react';
 import { LazyImage } from '@components/pages/Gallery';
-import { Container, Card } from '@components';
+import { Container } from '@components';
 import { graphql, useStaticQuery } from 'gatsby';
 import '@styles/pages/Gallery.scss';
 
@@ -29,7 +29,7 @@ const GalleryPage = () => {
     return (
         <Container tag='main' block='gallery'>
             <h1 className='gallery__title'>Photo Gallery</h1>
-            <p className='gallery__text'>The photos from our events throughout the year.</p>
+            <p className='gallery__text'>The photos from our events throughout the years. Many more great memories to come!</p>
             {
                 sections.nodes.map(({ title, description, photos }, i) => (
                     <section className='gallery__section' key={i}>

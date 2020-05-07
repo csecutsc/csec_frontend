@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from 'gatsby-image';
 import { graphql, useStaticQuery } from 'gatsby';
-import { Container, Card } from '@components';
+import { Container } from '@components';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Algorithms.scss';
 
@@ -33,35 +33,15 @@ const query = graphql`
 }
 `;
 
-const buildList = ({ text, link, aside, title, items }, key, level = 4) => {
-    const Tag = 'h' + level;
-    return !items ? (
-        <li className='alg__item' key={key}>
-            <a className='alg__link' href={link} target='_blank' rel='noopener noreferrer'>
-                {text}
-                <FaExternalLinkAlt className='alg__link-icon' />
-            </a>
-            <p className='alg__aside'>{aside}</p>
-        </li>
-    ) : (
-            <li className='alg__item' key={key}>
-                <Tag>{title}</Tag>
-                <ul className={`alg__list${items[0].items ? ' alg__list--list' : ''}`}>
-                    {items.map((item, k) => buildList(item, k, ++level))}
-                </ul>
-            </li>
-        )
-};
-
 const PositionsPage = () => {
-    const { algresources, placeholderImage, eventImage } = useStaticQuery(query);
+    const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             <h1>CSEC 2020 Elections</h1>
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
-                    Friday March 20th at 4-5pm in IC120.
+                    Friday May 29th 6pm - 7pm on Twitch or Zoom (Details to come at a later date).
                     </p>
                     <p className='about__text'>
                         General Elections for the Computer Science Enrichment Club are coming up! If you've enjoyed any of our events (World of Work, Mock Interviews, networking events, etc.) please join us in our annual elections! You can decide what the future of the CS community on campus looks like!
@@ -113,7 +93,7 @@ const PositionsPage = () => {
                     These positions will be opening in the following 2020-2021 School Year. Applications will start around Aug - Sept 2020.
                 </p>
                 <h4>UTSC ICPC Assistant Coach</h4>
-                <h4>Front-End Developer</h4>
+                <h4>Software Developer</h4>
                 <h4>Game Division Leader (Requires one year as a Game Divison Exec)</h4>
                 <h4>Game Division Executive</h4>
                 <h4>Social Media Gurus</h4>

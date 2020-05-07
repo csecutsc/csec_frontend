@@ -28,8 +28,8 @@ export const About = () => {
                         students with a passion for Computer Science take the next step.
                     </p>
                     <p className='about__text about__text--secondary'>
-                        We do everything from hosting monthly learning seminars
-                        to helping you create your own website.
+                        We do everything from hosting monthly job seminars
+                        to helping you create your own website. Students of all displines are welcomed free of charge.
                         <b> So be sure to follow us on any social media to learn more!</b>
                     </p>
                 </div>

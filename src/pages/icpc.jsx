@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from 'gatsby-image';
 import { graphql, useStaticQuery } from 'gatsby';
-import { Container, Card } from '@components';
+import { Container } from '@components';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Algorithms.scss';
 
@@ -33,28 +33,8 @@ const query = graphql`
 }
 `;
 
-const buildList = ({ text, link, aside, title, items }, key, level = 4) => {
-    const Tag = 'h' + level;
-    return !items ? (
-        <li className='alg__item' key={key}>
-            <a className='alg__link' href={link} target='_blank' rel='noopener noreferrer'>
-                {text}
-                <FaExternalLinkAlt className='alg__link-icon' />
-            </a>
-            <p className='alg__aside'>{aside}</p>
-        </li>
-    ) : (
-            <li className='alg__item' key={key}>
-                <Tag>{title}</Tag>
-                <ul className={`alg__list${items[0].items ? ' alg__list--list' : ''}`}>
-                    {items.map((item, k) => buildList(item, k, ++level))}
-                </ul>
-            </li>
-        )
-};
-
 const AlgorithmsPage = () => {
-    const { algresources, placeholderImage } = useStaticQuery(query);
+    const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             <h1>UTSC ICPC</h1>

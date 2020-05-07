@@ -10,7 +10,7 @@ const NotFoundPage = () => (
         <p className='nf__text'>
             "You have gone where no student has gone before"
         </p>
-        <img className='nf__dog' src={LesserDog}/>
+        <img className='nf__dog' src={LesserDog} alt='cool dog'/>
     </Container>
 );
 

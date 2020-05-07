@@ -17,6 +17,7 @@ export const LazyImage = ({
             width='600'
             height='400'
             src={url}
+            alt='gallery'
         />
     </Card>
 )};
