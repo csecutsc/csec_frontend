@@ -41,7 +41,7 @@ const PositionsPage = () => {
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
-                    Friday May 29th 6pm - 7pm on Twitch or Zoom (Details to come at a later date).
+                    Friday May 29th 6pm - 7pm on Twitch or Zoom (Details to come at a later date). Be sure to join our <a href='https://discord.gg/4tWwRM4' target='_blank' rel='noopener noreferrer'>Discord</a> for updates on our #announcements channel!
                     </p>
                     <p className='about__text'>
                         General Elections for the Computer Science Enrichment Club are coming up! If you've enjoyed any of our events (World of Work, Mock Interviews, networking events, etc.) please join us in our annual elections! You can decide what the future of the CS community on campus looks like!
