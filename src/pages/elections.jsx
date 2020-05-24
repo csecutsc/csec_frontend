@@ -41,17 +41,24 @@ const PositionsPage = () => {
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
-                    Friday May 29th 6pm - 7pm on Twitch or Zoom (Details to come at a later date). Be sure to join our <a href='https://discord.gg/4tWwRM4' target='_blank' rel='noopener noreferrer'>Discord</a> for updates on our #announcements channel!
+                        Friday May 29th 6pm - 7pm on Zoom. Be sure to join our <a href='https://discord.gg/4tWwRM4' target='_blank' rel='noopener noreferrer'>Discord</a> for updates on our #announcements channel!
+                    </p>
+                    <p>
+                        <a href='https://zoom.us/j/9930709809?pwd=RnpDUVBsRFdqdG02RmM5YmpSUGFDZz09' target='_blank' rel='noopener noreferrer'>Zoom Meeting Url</a>
+                        <br />
+                    Meeting ID: 993 070 9809
+                        <br />
+                        Password: 0kW1vK
                     </p>
                     <p className='about__text'>
                         General Elections for the Computer Science Enrichment Club are coming up! If you've enjoyed any of our events (World of Work, Mock Interviews, networking events, etc.) please join us in our annual elections! You can decide what the future of the CS community on campus looks like!
                     </p>
                     <p className='about__text'>
-                    Want to join the executive team? We'd be thrilled to have you! Simply fill out the form here and show up to our elections! You'll be expected to do a little introduction about yourself and your ideas. <b>For information about the positions, scroll down to see the descriptions.</b> Please fill this out by Friday March 20 at 1pm.
+                        Want to join the executive team? We'd be thrilled to have you! Simply fill out the form here and show up to our elections! You'll be expected to do a little introduction about yourself and your ideas. <b>For information about the positions, scroll down to see the descriptions.</b> Please fill this out by Friday May 29th at 4pm.
                     <a className='alg__link' href='https://forms.gle/F9BaRpuxDkW3wack6' target='_blank' rel='noopener noreferrer'>
-                                Link to Application
+                            Link to Application
                         <FaExternalLinkAlt className='alg__link-icon' />
-                    </a>
+                        </a>
                     </p>
 
                 </div>
@@ -61,7 +68,7 @@ const PositionsPage = () => {
             <div>
                 <h4>President (Requires 1 year as a CSEC Exec)</h4>
                 <p>
-                The President is the official spokesperson of the organization and provides direction for all components of the organization in
+                    The President is the official spokesperson of the organization and provides direction for all components of the organization in
                     a manner consistent with the organization’s constitution and policies.<br></br>
                     Current: <b>Kevin S.</b>
                 </p>
@@ -81,7 +88,7 @@ const PositionsPage = () => {
                 </p>
                 <h4>Director of Software Development / System Administration</h4>
                 <p>
-                The Director of Software Development acts as a liaison amongst members in the organization. They will primarily deal with website administration and other technical aspects. It is also the responsibility of the director to record a summary of each lecture
+                    The Director of Software Development acts as a liaison amongst members in the organization. They will primarily deal with website administration and other technical aspects. It is also the responsibility of the director to record a summary of each lecture
                 session and general meeting and post it on the relevant media for access to all general members. They will be responsible for the website and other technical projects in the working (CMSClubs ... etc). <br></br>
                 Current: <b>Samiul H. and Frederic P.</b>
                 </p>
