@@ -1,5 +1,5 @@
 # csec_frontend
-
+This site is powered by Netlify.
 ## Development Environment
 ### Dev Requirements
  - Node LTS version (v8 or v10)

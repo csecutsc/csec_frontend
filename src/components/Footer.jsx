@@ -32,8 +32,8 @@ const query = graphql`
 export const Footer = memo(() => {
 
     const { nav, media } = useStaticQuery(query);
-    const [ first, others ] = nav.nodes.reduce((acc, curr) => {
-        acc[curr.menu ? 1: 0].push(curr);
+    const [first, others] = nav.nodes.reduce((acc, curr) => {
+        acc[curr.menu ? 1 : 0].push(curr);
         return acc;
     }, [[], []]);
 
@@ -43,7 +43,7 @@ export const Footer = memo(() => {
                 <div className='footer__content'>
                     <h2 className='footer__title'>Computer Science Enrichment Club</h2>
                     <p className='footer__text'>
-                        <span>1265 Military Trail</span> 
+                        <span>1265 Military Trail</span>
                         <span>Toronto, ON</span>
                         <span>M1C 1A4</span>
                     </p>
@@ -52,9 +52,9 @@ export const Footer = memo(() => {
                             media.nodes.map(({ text, icon, link }, i) => {
                                 const Icon = Icons[icon];
                                 return (
-                                    <li key={ i } className='footer__media-item'>
-                                        <a className='footer__link' href={ link } target='_blank' rel='noopener noreferrer'>
-                                            <Icon alt={`${ text } link`} className='footer__media-icon'/>
+                                    <li key={i} className='footer__media-item'>
+                                        <a className='footer__link' href={link} target='_blank' rel='noopener noreferrer'>
+                                            <Icon alt={`${text} link`} className='footer__media-icon' />
                                         </a>
                                     </li>
                                 );
@@ -65,34 +65,34 @@ export const Footer = memo(() => {
                 <div className='footer__menu'>
                     <h3 className='footer__menu-title'>Pages</h3>
                     <ul className='footer__menu-list'>
-                    {
-                        first.map(({ name, path, external }, i) => (
-                            <li key={ i } className='footer__menu-item'>
-                                {external ? (
-                                    <a className='footer__link' href={ path } rel='noopener noreferrer'>
-                                        { name }
-                                    </a>
-                                ) : <Link className='footer__link' to={ path }>{ name }</Link>}
-                            </li>
-                        ))
-                    }
+                        {
+                            first.map(({ name, path, external }, i) => (
+                                <li key={i} className='footer__menu-item'>
+                                    {external ? (
+                                        <a className='footer__link' href={path} rel='noopener noreferrer'>
+                                            {name}
+                                        </a>
+                                    ) : <Link className='footer__link' to={path}>{name}</Link>}
+                                </li>
+                            ))
+                        }
                     </ul>
                 </div>
                 {
                     others.map(({ name, menu }, i) => (
-                        <div key={ i } className='footer__menu'>
-                            <h3 className='footer__menu-title'>{ name }</h3>
+                        <div key={i} className='footer__menu'>
+                            <h3 className='footer__menu-title'>{name}</h3>
                             <ul className='footer__menu-list'>
                                 {
                                     menu.map((item, j, external) => (
-                                        <li key={ j } className='footer__menu-item'>
-                                        {external ? (
-                                            <a className='footer__link' href={ item.path } rel='noopener noreferrer'>
-                                                { item.name }
-                                            </a>
-                                        ) : <Link className='footer__link' to={ item.path }>
-                                                { item.name }
-                                            </Link>}
+                                        <li key={j} className='footer__menu-item'>
+                                            {external ? (
+                                                <a className='footer__link' href={item.path} rel='noopener noreferrer'>
+                                                    {item.name}
+                                                </a>
+                                            ) : <Link className='footer__link' to={item.path}>
+                                                    {item.name}
+                                                </Link>}
                                         </li>
                                     ))
                                 }
@@ -104,9 +104,14 @@ export const Footer = memo(() => {
             <div className='footer__row footer__row--aside'>
                 <p className='footer__aside footer__aside--push'>© CSEC 2019. All Rights Reserved</p>
                 <p className='footer__aside'>
-                    Made by Frederic Pun <span role='img' aria-label='Shiba Inu Emoji'>🐕</span> &amp; Kevin Shen <span role='img' aria-label='House Cat Emoji'>🐧</span>
+                    Made by Frederic Pun <span role='img' aria-label='Shiba Inu Emoji'>🐕</span> &amp; Kevin Shen <span role='img' aria-label='House Cat Emoji'>🐧.
+                    </span>
                 </p>
             </div>
+            {/* Need this to get free open source stuff from netlify */}
+            <a href="https://www.netlify.com">
+                <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" />
+            </a>
         </Container>
     );
 });
