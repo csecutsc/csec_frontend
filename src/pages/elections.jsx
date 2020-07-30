@@ -52,7 +52,7 @@ const PositionsPage = () => {
             </div>
             <h2 className='about__title'>Currently Open 2020 - 2021 positions</h2>
             <div>
-                <a href='https://docs.google.com/forms/d/1WwbdzGCXigH23A9hBp5YdJ1mIGQ60jOsamkvyEpXhUU/' target='_blank' rel='noopener noreferrer'>CSEC 2020 Last Chance Applications</a> Form -- Due Jul 31st 11:59PM
+                <a href='https://docs.google.com/forms/d/1WwbdzGCXigH23A9hBp5YdJ1mIGQ60jOsamkvyEpXhUU/' target='_blank' rel='noopener noreferrer'>CSEC 2020 Last Chance Applications</a> Form -- Due Aug 12th 11:59PM
                 <h4>Director of Internal Affairs</h4>
                 <h4>Events Director</h4>
                 <h4>Lecturer/Guest lecturer</h4>
