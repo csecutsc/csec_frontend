@@ -32,48 +32,53 @@ export const Events = () => {
     const { data, loading } = useFetch(CALENDAR_URL, CONFIG);
 
     const renderEvents = () => {
-        let filteredEvents = data.items.filter(({ start }) => {
-            const d = new Date();
-            return new Date(start.dateTime) >= d.setDate(d.getDate() - 1)
+        let filteredEvents = data.items
+            .sort((a, b) => { return new Date(a.start.dateTime) - new Date(b.start.dateTime) })
+            .filter(({ description, start, creator }) => {
+                const [text, groups] = description.split('[[');
+                const items = groups ? groups.split(',') : [];
+                const d = new Date();
+                return ((items[0] === 'CSEC' || creator.email === "csec.utsc@gmail.com") &&
+                 (new Date(start.dateTime) >= d.setDate(d.getDate() - 1)))
         })
 
         if (filteredEvents.length > 0) {
-            return filteredEvents.sort((a, b) => { return new Date(a.start.dateTime) - new Date(b.start.dateTime) })
-            .map(({ summary, description, start, end, location, creator }, i) => {
-                const [text, groups] = description.split('[[');
-                const items = groups ? groups.split(',') : [];
-                return (items[0] === 'CSEC' || creator.email === "csec.utsc@gmail.com") && (
-                    <li
-                        className='events__item'
-                        key={i}
-                    >
-                        <div className='events__item-header'>
-                            <h3 className='events__item-title'>{summary}</h3>
-                            <div className='events__item-info'>
-                                <span className='events__item-date'>
-                                    {dateRange(start.dateTime, end.dateTime)}&nbsp;
-                            </span>
-                                <span className='events__item-location'>
-                                    {location}
+            return filteredEvents
+                .map(({ summary, description, start, end, location }, i) => {
+                    const [text, groups] = description.split('[[');
+                    const items = groups ? groups.split(',') : [];
+                    return (
+                        <li
+                            className='events__item'
+                            key={i}
+                        >
+                            <div className='events__item-header'>
+                                <h3 className='events__item-title'>{summary}</h3>
+                                <div className='events__item-info'>
+                                    <span className='events__item-date'>
+                                        {dateRange(start.dateTime, end.dateTime)}&nbsp;
                                 </span>
+                                    <span className='events__item-location'>
+                                        {location}
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <ul className='events__groups'>
-                            {
-                                items.map((group, j) => (
-                                    <li key={j} className='events__group'>
-                                        {group}
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                        <p
-                            className='events__item-text'
-                            dangerouslySetInnerHTML={{ __html: text.replace(/<br>/g, ' ') }}
-                        />
-                    </li>
-                );
-            })
+                            <ul className='events__groups'>
+                                {
+                                    items.map((group, j) => (
+                                        <li key={j} className='events__group'>
+                                            {group}
+                                        </li>
+                                    ))
+                                }
+                            </ul>
+                            <p
+                                className='events__item-text'
+                                dangerouslySetInnerHTML={{ __html: text.replace(/<br>/g, ' ') }}
+                            />
+                        </li>
+                    );
+                })
         } else {
             return(<li className='events__loading'>There are no upcoming events. In the meantime, check out our Discord community (links at the bottom)!</li>)
         }

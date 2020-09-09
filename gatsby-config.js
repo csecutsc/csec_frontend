@@ -19,11 +19,13 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify',
     {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          { family: 'Rubik', variants: ['400', '500'] }
-        ]
+          `Rubik\:400,500`,
+          `noto sans\:500,600`
+        ],
+        display: 'swap'
       }
     },
     {
