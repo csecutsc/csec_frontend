@@ -80,7 +80,9 @@ export const Events = () => {
                     );
                 })
         } else {
-            return(<li className='events__loading'>There are no upcoming events. In the meantime, check out our Discord community (links at the bottom)!</li>)
+            return(<li className='events__loading'>There are no upcoming events. In the meantime, check out our <a
+            rel='noopener noreferrer' target='_blank'
+            href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)!</li>)
         }
     }
 

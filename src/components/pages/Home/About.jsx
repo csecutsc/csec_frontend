@@ -29,8 +29,9 @@ export const About = () => {
                     </p>
                     <p className='about__text about__text--secondary'>
                         We do everything from hosting monthly job seminars
-                        to helping you create your own website. Students of all displines are welcomed free of charge.
-                        <b> So be sure to follow us on any social media to learn more!</b>
+                        to helping you create your own website.<b>
+                        Just show up to our events and you're a member!
+                        Be sure to follow us on any of our social media for announcements!</b>
                     </p>
                 </div>
                 <Img className='about__image' fluid={ placeholderImage.childImageSharp.fluid }/>
