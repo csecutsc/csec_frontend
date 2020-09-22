@@ -35,18 +35,31 @@ export const Events = () => {
         let filteredEvents = data.items
             .sort((a, b) => { return new Date(a.start.dateTime) - new Date(b.start.dateTime) })
             .filter(({ description, start, creator }) => {
-                const [text, groups] = description.split('[[');
-                const items = groups ? groups.split(',') : [];
+                const groups = description.split("\n").pop();
+                const tags = groups ? groups.split(',') : [];
+                const parser = new DOMParser();
+                const parsedTags = tags.map((string) => {
+                    var parsedCollection = parser.parseFromString(string, 'text/html').getElementsByTagName('strong');
+                    var result = (parsedCollection.length > 0) ? parsedCollection[0].innerText : ""
+                    return result
+                })
                 const d = new Date();
-                return ((items[0] === 'CSEC' || creator.email === "csec.utsc@gmail.com") &&
+                return ((parsedTags.includes("CSEC") || creator.email === "csec.utsc@gmail.com") &&
                  (new Date(start.dateTime) >= d.setDate(d.getDate() - 1)))
         })
 
         if (filteredEvents.length > 0) {
             return filteredEvents
                 .map(({ summary, description, start, end, location }, i) => {
-                    const [text, groups] = description.split('[[');
-                    const items = groups ? groups.split(',') : [];
+                    const lines = description.split("\n")
+                    const groups = lines.pop();
+                    const tags = groups ? groups.split(',') : [];
+                    const parser = new DOMParser();
+                    const parsedTags = tags.map((string) => {
+                        var parsedCollection = parser.parseFromString(string, 'text/html').getElementsByTagName('strong');
+                        var result = (parsedCollection.length > 0) ? parsedCollection[0].innerText : ""
+                        return result
+                    })
                     return (
                         <li
                             className='events__item'
@@ -65,7 +78,7 @@ export const Events = () => {
                             </div>
                             <ul className='events__groups'>
                                 {
-                                    items.map((group, j) => (
+                                    parsedTags.map((group, j) => (
                                         <li key={j} className='events__group'>
                                             {group}
                                         </li>
@@ -74,7 +87,7 @@ export const Events = () => {
                             </ul>
                             <p
                                 className='events__item-text'
-                                dangerouslySetInnerHTML={{ __html: text.replace(/<br>/g, ' ') }}
+                                dangerouslySetInnerHTML={{ __html: lines.join("\n").replace(/<br>/g, ' ') }}
                             />
                         </li>
                     );
