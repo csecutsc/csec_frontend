@@ -52,14 +52,15 @@ export const Events = () => {
             return filteredEvents
                 .map(({ summary, description, start, end, location }, i) => {
                     const lines = description.split("\n")
-                    const groups = lines.pop();
+                    const groups = description.split("\n").pop();
                     const tags = groups ? groups.split(',') : [];
                     const parser = new DOMParser();
                     const parsedTags = tags.map((string) => {
                         var parsedCollection = parser.parseFromString(string, 'text/html').getElementsByTagName('strong');
-                        var result = (parsedCollection.length > 0) ? parsedCollection[0].innerText : ""
-                        return result
-                    })
+                        if (parsedCollection.length > 0) {
+                            return parsedCollection[0].innerText;
+                        }
+                    }).filter(tags => tags != null)
                     return (
                         <li
                             className='events__item'
@@ -87,7 +88,7 @@ export const Events = () => {
                             </ul>
                             <p
                                 className='events__item-text'
-                                dangerouslySetInnerHTML={{ __html: lines.join("\n").replace(/<br>/g, ' ') }}
+                                dangerouslySetInnerHTML={{ __html: lines }}
                             />
                         </li>
                     );
