@@ -44,11 +44,17 @@ const AlgorithmsPage = () => {
                         ICPC is an algorithmic programming challenge that universities around the world participate in. Join fellow competitive programming enthusiasts who are seeking to take up challenging algorithmic coding competitions and represent UTSC.
                     </p>
                     <p className='about__text'>
-                        Our qualification round is over and our UTSC ICPC Team has been chosen! We welcome Omar, Jerry, Jason, Alon, and Ziheng to the UTSC ICPC Team. Check out the gallery page for photos of the event and below for the 2019 ICPC results.
+                        <b>Due to COVID-19, the ECNA ICPC Round has been delayed. We will make an announcement on our home page and our Discord when we have more information. Once we do, we will start hosting tryouts for our 2 ICPC teams</b> Check out the gallery page for photos of the event and below for the 2019 ICPC results.
                     </p>
                     <p className='about__text about__text--secondary'>
                         About ICPC: <a className='alg__link' href='https://icpc.baylor.edu/' target='_blank' rel='noopener noreferrer'>
                             https://icpc.baylor.edu/
+                <FaExternalLinkAlt className='alg__link-icon' />
+                        </a>
+                    </p>
+                    <p className='about__text about__text--secondary'>
+                        Our ICPC friends at UofT St. George (Check out their individual practice resources!): <a className='alg__link' href='https://www.teach.cs.toronto.edu//~acm/#' target='_blank' rel='noopener noreferrer'>
+                        https://www.teach.cs.toronto.edu//~acm/#
                 <FaExternalLinkAlt className='alg__link-icon' />
                         </a>
                     </p>
