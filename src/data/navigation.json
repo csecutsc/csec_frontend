@@ -4,18 +4,9 @@
 		"path": "/",
 		"external": false
 	},
-	{	
-		"name": "Positions",
-		"path": "/elections"
-	},
 	{
-		"name": "Opportunities",
-		"menu": [
-			{
-				"name": "The Hub - UTSC Entrepreneurship",
-				"path": "/thehub"
-			}
-		]
+		"name": "Past Seminars",
+		"path": "/seminars"
 	},
 	{
 		"name": "Divisions",
@@ -29,10 +20,6 @@
 				"path": "/icpc"
 			}
 		]
-	},
-	{
-		"name": "Seminars",
-		"path": "/seminars"
 	},
 	{
 		"name": "Resources",
@@ -66,6 +53,14 @@
 			{
 				"name": "CSEC-PEAR Impact Project",
 				"path": "/pear"
+			},
+			{
+				"name": "The Hub - UTSC Entrepreneurship",
+				"path": "/thehub"
+			},
+			{	
+				"name": "Positions",
+				"path": "/elections"
 			}
 		]
 	}

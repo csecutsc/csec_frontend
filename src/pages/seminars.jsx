@@ -29,6 +29,10 @@ const query = graphql`
           }
           slideUrl
           sourceLink
+          additionalLinks {
+            comingSoon
+            lectureUrl
+          }
         }
     },
     archived: allStrapiSeminar(
@@ -54,6 +58,10 @@ const query = graphql`
           }
           slideUrl
           sourceLink
+          additionalLinks {
+            comingSoon
+            lectureUrl
+          }
         }
     }
 }
@@ -62,9 +70,9 @@ const query = graphql`
 const buildCards = seminars => (
     <ul className='seminar__cards'>
         {
-            seminars.map(({ title, description, image, slideUrl, sourceLink }, i) => (
+            seminars.map(({ title, description, image, slideUrl, sourceLink, additionalLinks }, i) => (
                 <Card block='seminar__card'>
-                    <Img fluid={ image.childImageSharp.fluid }/>
+                    <Img fluid={image.childImageSharp.fluid} />
                     <h3 className='seminar__card-title'>{title}</h3>
                     <p>{description}</p>
                     <div className='seminar__links'>
@@ -86,6 +94,23 @@ const buildCards = seminars => (
                                 Source Code
                             </a>
                         )}
+                        {additionalLinks.comingSoon && (
+                            <a
+                                className='seminar__link'
+                                href={"#"}
+                            >
+                                Lecture Video Coming Soon
+                            </a>
+                        )}
+                        {additionalLinks.lectureUrl && (
+                            <a
+                                className='seminar__link'
+                                href={additionalLinks.lectureUrl} target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                Link to Lecture Recording
+                            </a>
+                        )}
                     </div>
                 </Card>
             ))
@@ -105,8 +130,8 @@ const SeminarPage = () => {
                 seminars.nodes.length ? (
                     buildCards(seminars.nodes)
                 ) : (
-                    <p className='seminar__soon'>Coming soon</p>
-                )
+                        <p className='seminar__soon'>Coming soon</p>
+                    )
             }
 
             <h2>Archived Seminars</h2>
