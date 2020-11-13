@@ -44,7 +44,16 @@ const AlgorithmsPage = () => {
                         ICPC is an algorithmic programming challenge that universities around the world participate in. Join fellow competitive programming enthusiasts who are seeking to take up challenging algorithmic coding competitions and represent UTSC.
                     </p>
                     <p className='about__text'>
-                        <b>Due to COVID-19, the ECNA ICPC Round has been delayed. We will make an announcement on our home page and our Discord when we have more information. Once we do, we will start hosting tryouts for our 2 ICPC teams</b> Check out the gallery page for photos of the event and below for the 2019 ICPC results.
+                        <b>If you want to challenge yourself and represent UTSC for ICPC 2020, our qualification round is going to be on Saturday, November 21st 1:00 PM - 6:00 PM, online on Kattis.</b> This is an individual competition and standard ICPC rules apply. Sign up link below.
+                    </p>
+                    <p className='about__text about__text--secondary'>
+                        Sign Up with this link!: <a className='alg__link' href='https://docs.google.com/forms/d/e/1FAIpQLSexup0Lmnn1mhC_rnED9eFS-WI41BYfASyLvzvw4Ac_nWzo1w/viewform' target='_blank' rel='noopener noreferrer'>
+                            Google Form
+                <FaExternalLinkAlt className='alg__link-icon' />
+                        </a>
+                    </p>
+                    <p className='about__text'>
+                    Check out the gallery page for photos of the event and below for the 2019 ICPC results.
                     </p>
                     <p className='about__text about__text--secondary'>
                         About ICPC: <a className='alg__link' href='https://icpc.baylor.edu/' target='_blank' rel='noopener noreferrer'>
@@ -68,7 +77,7 @@ const AlgorithmsPage = () => {
                     </p>
                     <h4>Assistant Coach</h4>
                     <p>
-                        Anh Le, email: ioanh [dot] le @mail [dot] utoronto [dot] ca
+                        Anh Le, email: ioanh [dot] le [at] mail [dot] utoronto [dot] ca
                     </p>
                 </div>
                 <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
