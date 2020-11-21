@@ -46,6 +46,16 @@ const AlgorithmsPage = () => {
                     <p className='about__text'>
                         <b>If you want to challenge yourself and represent UTSC for ICPC 2020, our qualification round is going to be on Saturday, November 21st 1:00 PM - 6:00 PM, online on Kattis.</b> This is an individual competition and standard ICPC rules apply. Sign up link below.
                     </p>
+                    <p className='about__text about__text--secondary'> 
+                        Updated Nov 21: <a className='alg__link' href='https://open.kattis.com/contests/np5bxx/problems' target='_blank' rel='noopener noreferrer'>
+                            Kattis Link
+                <FaExternalLinkAlt className='alg__link-icon' />
+                        </a>
+                        <a className='alg__link' href='https://csec.club/discord' target='_blank' rel='noopener noreferrer'>
+                            Check out our Discord for more details in #announcements and #competitive-programming.
+                <FaExternalLinkAlt className='alg__link-icon' />
+                        </a>
+                    </p>
                     <p className='about__text about__text--secondary'>
                         Sign Up with this link!: <a className='alg__link' href='https://docs.google.com/forms/d/e/1FAIpQLSexup0Lmnn1mhC_rnED9eFS-WI41BYfASyLvzvw4Ac_nWzo1w/viewform' target='_blank' rel='noopener noreferrer'>
                             Google Form
