@@ -50,6 +50,19 @@ const AlgorithmsPage = () => {
                         </a>
                     </p>
                     <p className='about__text about__text--secondary'>
+                        <b>Results to 2020 East Central NA Regional Contest:</b>
+                        {" "}
+                        <a className='alg__link' href='https://ecna20.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
+                            Results
+                            <FaExternalLinkAlt className='alg__link-icon' />
+                        </a>
+                    </p>
+                    <p>
+                        UTSC-A: Koichi Namekata, Benjamin Chisslett, Noor Nasri.
+                        <br/>
+                        UTSC-B: Malha Pandya, Sam Prokopchuk, Sasha Voitovych
+                    </p>
+                    <p className='about__text about__text--secondary'>
                         Our ICPC friends at UofT St. George (Check out their individual practice resources!): <a className='alg__link' href='https://www.teach.cs.toronto.edu//~acm/#' target='_blank' rel='noopener noreferrer'>
                         https://www.teach.cs.toronto.edu//~acm/#
                 <FaExternalLinkAlt className='alg__link-icon' />
@@ -73,15 +86,6 @@ const AlgorithmsPage = () => {
 
             <h2 className='about__title'>Previous ECNA Rounds</h2>
             <div>
-                <h4>2020 Team <a className='alg__link' href='https://ecna20.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
-                    Results
-                <FaExternalLinkAlt className='alg__link-icon' />
-                </a></h4>
-                <p>
-                    UTSC-A: Koichi Namekata, Benjamin Chisslett, Noor Nasri.
-                    <br/>
-                    UTSC-B: Malha Pandya, Sam Prokopchuk, Sasha Voitovych
-                </p>
                 <h4>2019 Team <a className='alg__link' href='https://ecna19.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
                     Results
                 <FaExternalLinkAlt className='alg__link-icon' />
