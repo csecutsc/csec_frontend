@@ -43,28 +43,6 @@ const AlgorithmsPage = () => {
                     <p className='about__text'>
                         ICPC is an algorithmic programming challenge that universities around the world participate in. Join fellow competitive programming enthusiasts who are seeking to take up challenging algorithmic coding competitions and represent UTSC.
                     </p>
-                    <p className='about__text'>
-                        <b>If you want to challenge yourself and represent UTSC for ICPC 2020, our qualification round is going to be on Saturday, November 21st 1:00 PM - 6:00 PM, online on Kattis.</b> This is an individual competition and standard ICPC rules apply. Sign up link below.
-                    </p>
-                    <p className='about__text about__text--secondary'> 
-                        Updated Nov 21: <a className='alg__link' href='https://open.kattis.com/contests/np5bxx/problems' target='_blank' rel='noopener noreferrer'>
-                            Kattis Link
-                <FaExternalLinkAlt className='alg__link-icon' />
-                        </a>
-                        <a className='alg__link' href='https://csec.club/discord' target='_blank' rel='noopener noreferrer'>
-                            Check out our Discord for more details in #announcements and #competitive-programming.
-                <FaExternalLinkAlt className='alg__link-icon' />
-                        </a>
-                    </p>
-                    <p className='about__text about__text--secondary'>
-                        Sign Up with this link!: <a className='alg__link' href='https://docs.google.com/forms/d/e/1FAIpQLSexup0Lmnn1mhC_rnED9eFS-WI41BYfASyLvzvw4Ac_nWzo1w/viewform' target='_blank' rel='noopener noreferrer'>
-                            Google Form
-                <FaExternalLinkAlt className='alg__link-icon' />
-                        </a>
-                    </p>
-                    <p className='about__text'>
-                    Check out the gallery page for photos of the event and below for the 2019 ICPC results.
-                    </p>
                     <p className='about__text about__text--secondary'>
                         About ICPC: <a className='alg__link' href='https://icpc.baylor.edu/' target='_blank' rel='noopener noreferrer'>
                             https://icpc.baylor.edu/
@@ -95,6 +73,15 @@ const AlgorithmsPage = () => {
 
             <h2 className='about__title'>Previous ECNA Rounds</h2>
             <div>
+                <h4>2020 Team <a className='alg__link' href='https://ecna20.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
+                    Results
+                <FaExternalLinkAlt className='alg__link-icon' />
+                </a></h4>
+                <p>
+                    UTSC-A: Koichi Namekata, Benjamin Chisslett, Noor Nasri.
+                    <br/>
+                    UTSC-B: Malha Pandya, Sam Prokopchuk, Sasha Voitovych
+                </p>
                 <h4>2019 Team <a className='alg__link' href='https://ecna19.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
                     Results
                 <FaExternalLinkAlt className='alg__link-icon' />
