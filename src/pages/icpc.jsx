@@ -50,6 +50,19 @@ const AlgorithmsPage = () => {
                         </a>
                     </p>
                     <p className='about__text about__text--secondary'>
+                        <b>Results to 2021 NA Divison Championships:</b>
+                        {" "}
+                        <a className='alg__link' href='https://nadc21.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
+                            Results
+                            <FaExternalLinkAlt className='alg__link-icon' />
+                        </a>
+                    </p>
+                    <p>
+                        UTSC-A: Koichi Namekata, Benjamin Chisslett, Noor Nasri.
+                        <br/>
+                        UTSC-B: Malha Pandya, Sam Prokopchuk, Sasha Voitovych
+                    </p>
+                    <p className='about__text about__text--secondary'>
                         <b>Results to 2020 East Central NA Regional Contest:</b>
                         {" "}
                         <a className='alg__link' href='https://ecna20.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
