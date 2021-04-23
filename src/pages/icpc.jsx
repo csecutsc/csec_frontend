@@ -52,7 +52,7 @@ const AlgorithmsPage = () => {
                     <p className='about__text about__text--secondary'>
                         <b>Results to 2021 NA Divison Championships:</b>
                         {" "}
-                        <a className='alg__link' href='https://nadc21.kattis.com/standings' target='_blank' rel='noopener noreferrer'>
+                        <a className='alg__link' href='https://nadc21.kattis.com/standings?filter=3555' target='_blank' rel='noopener noreferrer'>
                             Results
                             <FaExternalLinkAlt className='alg__link-icon' />
                         </a>
