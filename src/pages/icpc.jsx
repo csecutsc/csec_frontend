@@ -56,6 +56,8 @@ const AlgorithmsPage = () => {
                             Results
                             <FaExternalLinkAlt className='alg__link-icon' />
                         </a>
+                        <br/>
+                        Congradulations to USC A for passing NADC and making it into the ICPC North America Championships!
                     </p>
                     <p>
                         UTSC-A: Koichi Namekata, Benjamin Chisslett, Noor Nasri.
