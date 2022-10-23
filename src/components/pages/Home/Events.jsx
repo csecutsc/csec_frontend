@@ -35,6 +35,7 @@ export const Events = () => {
         let filteredEvents = data.items
             .sort((a, b) => { return new Date(a.start.dateTime) - new Date(b.start.dateTime) })
             .filter(({ description, start, creator }) => {
+                if(!description) description="";
                 const groups = description.split("\n").pop();
                 const tags = groups ? groups.split(',') : [];
                 const parser = new DOMParser();
