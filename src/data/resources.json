@@ -1,0 +1,245 @@
+[
+	{
+		"title": "Advanced Guides",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"text": "Tutorialspoint",
+				"aside": "Excluding Ch 4, 14.2-14.32",
+				"link": "https://www.tutorialspoint.com/index.htm"
+			},
+			{
+				"text": "Web Applications",
+				"aside": "Youtube Tutorials by The Net Ninja",
+				"link": "https://www.youtube.com/results?search_query=the+net+ninja"
+			},
+			{
+				"text": "Lynda.com / LinkedIn Learning Courses",
+				"aside": "Use your UofT login",
+				"link": "https://www.lynda.com/signin/organization"
+			}
+		]
+	},
+	{
+		"title": "Beginner Guides",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"text": "How to Think Like a Computer Scientist",
+				"aside": "Excluding Ch 4, 14.2-14.32",
+				"link": "http://interactivepython.org/courselib/static/thinkcspy/index.html"
+			},
+			{
+				"text": "W3Schools",
+				"aside": "Introductory Web",
+				"link": "https://www.w3schools.com/"
+			},
+			{
+				"text": "Git",
+				"aside": "Version Control",
+				"link": "https://www.w3schools.com/"
+			}
+		]
+	},
+	{
+		"title": "Interview Prep",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"title": "Algorithmic Coding Practice",
+				"items": [
+					{
+						"text": "LeetCode",
+						"aside": "",
+						"link": "https://leetcode.com/"		
+					},
+					{
+						"text": "HackerRank",
+						"aside": "",
+						"link": "https://www.hackerrank.com/"		
+					}
+				]
+			},
+			{
+				"title": "Books",
+				"items": [
+					{
+						"text": "Cracking The Coding Interview",
+						"aside": "",
+						"link": "https://www.amazon.ca/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/"		
+					},
+					{
+						"text": "Elements of Programming Interviews",
+						"aside": "",
+						"link": "https://www.amazon.ca/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836/"		
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Jobs and Internships",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"title": "Opportunity Boards",
+				"items": [
+					{
+						"text": "Intern.Supply",
+						"aside": "",
+						"link": "https://intern.supply/"		
+					},
+					{
+						"text": "Angellist",
+						"aside": "",
+						"link": "https://angel.co/job-collections/startup-internships"		
+					},
+					{
+						"text": "CLN",
+						"aside": "",
+						"link": "https://cln.utoronto.ca/home.htm"		
+					}
+				]
+			},
+			{
+				"title": "Guides and Advice",
+				"items": [
+					{
+						"text": "General CS Resume Advice",
+						"aside": "",
+						"link": "https://medium.freecodecamp.org/how-to-write-a-great-resume-for-software-engineers-75d514dd8322"		
+					},
+					{
+						"text": "Unofficial UWaterloo USA Intern Guide",
+						"aside": "",
+						"link": "https://stephenholiday.com/Unofficial-Waterloo-USA-Intern-Guide/"		
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "CS Resources",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"text": "GeeksForGeeks",
+				"aside": "Algorithms Reference",
+				"link": "https://www.geeksforgeeks.org/"
+			},
+			{
+				"text": "Guide to become a Software Engineer / Computer Science Study Guide",
+				"aside": "",
+				"link": "https://github.com/jwasham/coding-interview-university"
+			}
+		]
+	},
+	{
+		"title": "Free Stuff for Students!",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"text": "GitHub Student Pack *",
+				"aside": "",
+				"link": "https://education.github.com/pack"
+			},
+			{
+				"text": "JetBrains IDE Pack",
+				"aside": "",
+				"link": "https://www.jetbrains.com/student/"
+			},
+			{
+				"text": "NameCheap Domains",
+				"aside": "",
+				"link": "https://nc.me/"
+			},
+			{
+				"text": "LinkedIn Learning Courses",
+				"aside": "",
+				"link": "https://lnkd.in/gf85Mmv"
+			},
+			{
+				"text": "Microsoft Azure",
+				"aside": "$100 Credit",
+				"link": "https://azure.microsoft.com/en-ca/free/students/"
+			},
+			{
+				"text": "Digitial Ocean",
+				"aside": "$100 Credit",
+				"link": "https://www.digitalocean.com/landing/do-for-higher-education"
+			},
+			{
+				"text": "AWS Educate",
+				"aside": "",
+				"link": "https://aws.amazon.com/education/awseducate/"
+			}
+		]
+	},
+	{
+		"title": "Recommended Readings",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"text": "Site Reliability Engineering",
+				"aside": "",
+				"link": "https://landing.google.com/sre/sre-book/toc/index.html"
+			},
+			{
+				"text": "Clean Code Handbook",
+				"aside": "",
+				"link": "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"
+			}
+		]
+	},
+	{
+		"title": "Game Development",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"text": "Game Programming Patterns *",
+				"aside": "Web book available",
+				"link": "https://gameprogrammingpatterns.com/?fbclid=IwAR2Ib9QkZKZLbxb7hhnNcVxWTKjVApPaqtjCE_sVJgvC4oUogk6gS4BI5Fc"
+			},
+			{
+				"text": "Red Blob Games",
+				"aside": "Game Algorithms",
+				"link": "https://www.redblobgames.com/"
+			},
+			{
+				"text": "Kids Can Code Tank Tutorial",
+				"aside": "A fun detailed tutorial",
+				"link": "http://kidscancode.org/blog/2018/04/godot3_tanks_part1/"
+			},
+			{
+				"text": "Programming Guide For Video-Gamers",
+				"aside": "Thanks Dylan!",
+				"link": "http://ithare.com/programming-guide-for-video-gamers/"
+			}
+		]
+	},
+	{
+		"title": "External Contributions",
+		"text": "",
+		"link": "",
+		"items": [
+			{
+				"text": "Computer Coding for Kids",
+				"aside": "Thanks Liza!",
+				"link": "https://www.certstaff.com/classes/computer-coding-for-kids.html"
+			},
+			{
+				"text": "Programming Guide For Video-Gamers",
+				"aside": "Thanks Dylan!",
+				"link": "http://ithare.com/programming-guide-for-video-gamers/"
+			}
+		]
+	}
+]

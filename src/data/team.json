@@ -1,0 +1,410 @@
+[
+    {
+        "title": "Executive Team",
+        "description": "The current executive team of 2023-2024.",
+        "executives": [
+            {
+                "name":"Nikhil L.",
+                "title":"President",
+                "image": "../images/team/Nikhil.jpg",
+                "media": {
+                    "email": "nikhil.lakhwanii@gmail.com",
+                    "website": "https://lakhwani.ca/",
+                    "linkedin": "https://www.linkedin.com/in/nlakhwani/",
+                    "github": "https://github.com/lakhwani"
+                }
+            },
+            {
+                "name":"Vincent Z.",
+                "title":"Executive Vice President",
+                "image": "../images/team/Vincent.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
+                    "github": "https://github.com/vincentzhang15"
+                }
+            }
+        ]
+    },
+    {
+        "title": "CSEC Alumni",
+        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
+        "executives": [
+            {
+                "name":"Raymond C.",
+                "title":"President",
+                "image": "../images/team/Raymond.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Areej A.",
+                "title":"Marketing Director",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Soocharn (Leo) J.",
+                "title":"Graphic Designer",
+                "image": "../images/team/Leo.jpeg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Chad R.",
+                "title":"First Year Representative",
+                "image": "../images/team/Chad.jpeg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Kyle L.",
+                "title":"First Year Representative",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Charmaine Y.",
+                "title":"Marketing Director",
+                "image": "../images/team/Charmaine.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Tabeeb Y.",
+                "title":"President",
+                "image": "../images/team/Tabeeb.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Anh L.",
+                "title":"UTSC ICPC Assistant Coach",
+                "image": "../images/team/Anh.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Keshavaa S.",
+                "title":"Director of Software Development",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Alex C.",
+                "title":"Director of External Affairs",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Tianne Pane",
+                "title":"Director of Internal Affairs",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Maduvan K.",
+                "title":"Game Dev Division Exec",
+                "image": "../images/team/Maduvan.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Salim M.",
+                "title":"Game Dev Division Exec",
+                "image": "../images/team/Salim.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Oscar L.",
+                "title":"Game Dev Division Leader",
+                "image": "../images/team/Oscar.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Frederic P.",
+                "title":"Front-end Developer",
+                "image": "../images/team/Frederic.jpg",
+                "media": {
+                    "email": "frederic.pun@mail.utoronto.ca",
+                    "website": "https://fpunny.xyz/",
+                    "linkedin": "https://linkedin.com/in/fredericpun/",
+                    "github": "https://github.com/fpunny"
+                }
+            },
+            {
+                "name":"Jan D.",
+                "title":"Game Dev Division Leader",
+                "image": "../images/team/Jan.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Kevin S.",
+                "title":"President",
+                "image": "../images/team/Kevin.jpg",
+                "media": {
+                    "email": "kevs.shen@mail.utoronto.ca",
+                    "website": "https://kevshen.com/",
+                    "linkedin": "https://linkedin.com/in/kev-shen/",
+                    "github": "https://github.com/wahat"
+                }
+            },
+            {
+                "name":"Samiul H.",
+                "title":"Site Reliability Developer",
+                "image": "../images/team/Samiul.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Paolo V.",
+                "title":"Marketing Director",
+                "image": "../images/team/Paolo.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"William G.",
+                "title":"Algorithms Division Leader",
+                "image": "../images/team/William.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Brian Chen",
+                "title":"President",
+                "image": "../images/team/Brian.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Howard F.",
+                "title":"Algorithms Lecturer",
+                "image": "../images/team/Howard.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Prantar B.",
+                "title":"Systems Administrator",
+                "image": "../images/team/Prantar.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Kelechukwu U. (KC)",
+                "title":"NetSec Division Leader",
+                "image": "../images/team/Kelechukwu.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Saba K.",
+                "title":"Director of Internal & External Affairs",
+                "image": "../images/team/Saba.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Albion F.",
+                "title":"Algorithms Lecturer",
+                "image": "../images/team/Albion.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Akshay N.",
+                "title":"Algorithms Lecturer",
+                "image": "../images/team/Akshay.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Jason P.",
+                "title":"Algorithms Lecturer",
+                "image": "../images/team/Jason.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Ousmane A.",
+                "title":"Algorithms Lecturer",
+                "image": "../images/team/Ousmane.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Peter Z.",
+                "title":"Algorithms Lecturer",
+                "image": "../images/team/Peter.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Abhay V.",
+                "title":"Designer & Front-end Developer",
+                "image": "../images/team/Abhay.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Harsh P.",
+                "title":"Web Development Lecturer",
+                "image": "../images/team/Harsh.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Chintan S.",
+                "title":"Web Development Lecturer",
+                "image": "../images/team/Chintan.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Kohilan M.",
+                "title":"Web Division",
+                "image": "../images/team/Kohilan.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            }
+        ]
+    }
+]

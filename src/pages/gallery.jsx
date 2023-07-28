@@ -6,12 +6,7 @@ import '@styles/pages/Gallery.scss';
 
 const query = graphql`
 {
-    sections: allStrapiAlbum(
-        sort: {
-            fields: id, 
-            order: DESC
-        }
-    ) {
+    sections: allGalleryJson {
         nodes {
           title
           description

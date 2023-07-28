@@ -7,21 +7,6 @@ import '@styles/pages/Algorithms.scss';
 
 const query = graphql`
 {
-    algresources: allStrapiResource {
-        nodes {
-            title
-            items {
-                text
-                link
-                aside
-                title
-                items {
-                    text
-                    link
-                }
-            }
-        }
-    },
     placeholderImage: file(relativePath: { eq: "ICPCLogo.png" }) {
         childImageSharp {
             fluid(maxHeight:700) {

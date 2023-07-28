@@ -104,8 +104,10 @@ export const Events = () => {
     return (
         <Container tag='section' block='events' className='home__section'>
             <div className='events__header'>
-                <h2 className='events__title'>Events</h2>
-                <a className='events__link-button'
+                <h2 className='events__title'>Hiring</h2>
+
+                {/* <h2 className='events__title'>Events</h2> */}
+                {/* <a className='events__link-button'
                     rel='noopener noreferrer' target='_blank' style={{marginRight: '2em'}}
                     href='https://calendar.google.com/calendar/b/2?cid=djJpYzQyb2tjbWZyZjk1NDY4bWd1MmhzOGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ'
                 >
@@ -116,17 +118,22 @@ export const Events = () => {
                     href='https://utsccms.club'
                 >
                     Other CMS Events
-                </a>
+                </a> */}
             </div>
             <ul className='events__list'>
-                {
+                {/* {
                     !loading ? (
                         renderEvents()
                     ) : (
                             <li className='events__loading'>Loading...</li>
                         )
-                }
+                } */}
+                <li className='events__loading'>We're hiring soon. In the meantime, check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)!
+                </li>
+
             </ul>
+
+
         </Container>
     );
 };

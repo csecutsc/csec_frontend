@@ -1,10 +1,18 @@
 import React from 'react';
 import '@styles/pages/Home.scss';
-import * as Sections from '@sections/Home';
+import { Landing } from '../components/pages/Home/Landing';
+import { About } from '../components/pages/Home/About';
+import { Events } from '../components/pages/Home/Events';
+import { Learn } from '../components/pages/Home/Learn';
+// import * as Sections from '@sections/Home';
 
 const IndexPage = () => (
     <main className='home'>
-        { Object.values(Sections).map((Section, i) => <Section key={ i }/>) }
+        <Landing />
+        <About />
+        <Events />
+        <Learn />
+        {/* { Object.values(Sections).map((Section, i) => <Section key={ i }/>) } */}
     </main>
 );
 

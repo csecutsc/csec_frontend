@@ -7,21 +7,6 @@ import '@styles/pages/Algorithms.scss';
 
 const query = graphql`
 {
-    algresources: allStrapiResource {
-        nodes {
-            title
-            items {
-                text
-                link
-                aside
-                title
-                items {
-                    text
-                    link
-                }
-            }
-        }
-    },
     placeholderImage: file(relativePath: { eq: "Discover.jpg" }) {
         childImageSharp {
             fluid(maxHeight:700) {
@@ -37,7 +22,7 @@ const PositionsPage = () => {
     const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
-            <h1>CSEC 2021 Elections and Open Positions</h1>
+            {/* <h1>CSEC 2021 Elections and Open Positions</h1>
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
@@ -63,6 +48,16 @@ const PositionsPage = () => {
                 <h4>Events Director</h4>
                 <h4>Marketing Director</h4>
                 <h4>Director of Software Development / System Administation</h4>
+            </div> */}
+            <h1>Currently Open 2023 - 2024 positions</h1>
+            <div className='about__row'>
+                <div className='about__content'>
+                    <p className='about__text'>
+                        TBA
+                    </p>
+
+                </div>
+                <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
             </div>
         </Container>
     );

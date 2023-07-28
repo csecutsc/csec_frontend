@@ -34,7 +34,7 @@ const query = graphql`
 `;
 
 const AlgorithmsPage = () => {
-    const { placeholderImage } = useStaticQuery(query);
+    // const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             <h1>Project Excelsior</h1>
@@ -67,7 +67,7 @@ const AlgorithmsPage = () => {
                         Anh Le, email: ioanh [dot] le @mail [dot] utoronto [dot] ca
                     </p>
                 </div>
-                <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
+                {/* <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} /> */}
             </div>
 
             <h2 className='about__title'>Previous ECNA Rounds</h2>

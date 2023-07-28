@@ -1,0 +1,278 @@
+[
+    {
+        "archived": true,
+        "title": "World of Work Season 4",
+        "description": "World of Work! Zoom Passcode: 22MyC7$7z#",
+        "image": "../images/seminars/WordOfWorkSeason4.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2020/The_World_of_Work_2020.pptx_2.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": "https://utoronto.zoom.us/rec/share/jx4jWO3yL0bq64kHN5kmVpgR7lsI0kgnv1D79YkzdQvuWnX44sc02LWXZ_kn-Xf7.PywRPl16NvQ9sX0a"
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC Orientation 2020",
+        "description": "Orientation 2020! Zoom Passcode: *4TR+1rsKG ",
+        "image": "../images/seminars/CSECOrientation2020.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2020/CSEC_Orientation_2020.pptx.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": "https://utoronto.zoom.us/rec/play/Mm67wakKss4YYo4BbFfggbHT75De4FcxQnQYj8yEcCCJmxydP3W_f4hYwgADq_fnbEQAoEIntkGSH3xY.Bj3KnFxAei1hOpAd?continueMode=true&_x_zm_rtaid=dmW9N_jUT5aHZ5w7yKJKvg.1601947708652.bab0c9e45ee5b0e3705fb27877139c8f&_x_zm_rhtaid=306"
+        }
+    },
+    {
+        "archived": true,
+        "title": "Mock Interview Season 1",
+        "description": "How 2 Interview?",
+        "image": "../images/seminars/MockInterviewSeason1.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2020/Mock%20Interview%202020.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Introduction to Gatsby",
+        "description": "The Great Gatsby!",
+        "image": "../images/seminars/IntroductionToGatsby.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/Intro_to_Gatsby_-_CSEC.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Introduction to React",
+        "description": "React!",
+        "image": "../images/seminars/IntroductionToReact.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/Intro_to_React_-_CSEC.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC, MLH Localhost: Build and Deploy Your First Website",
+        "description": "First Localhost event!",
+        "image": "../images/seminars/CsecMlhLocalhostBuildAndDeployYourFirstWebsite.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/MLH_localhost_website.pdf",
+        "sourceLink": "https://glitch.com/~dandy-daphne",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC-PEAR Impact Project",
+        "description": "For first-year and second-years!",
+        "image": "../images/seminars/CsecPearImpactProject.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/CSEC-Competition.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Introduction to Projects",
+        "description": "Tools you need for cool projects!",
+        "image": "../images/seminars/IntroductionToProjects.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/Introduction%20to%20Projects.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "The World of Work Season 3",
+        "description": "Jobs!!!",
+        "image": "../images/seminars/TheWorldOfWorkSeason3.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/The%20World%20of%20Work%202019.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC Orientation 2019",
+        "description": "Learn about the CSEC events, seminars and support for 2019!",
+        "image": "../images/seminars/CsecOrientation2019.png",
+        "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/CSEC%20Orientation%202019.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Production Ready Code I - Continuous Integration",
+        "description": "An introduction to the importance of CI in a production ecosystem, including a hands-on workshop and how to integrate it into your own projects.",
+        "image": "../images/seminars/ProductionReadyCodeIContinuousIntegration.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2018/CI_Seminar.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "The World of Work Season 2",
+        "description": "Finding an internship and job search advice for 2018/2019. Featuring speakers from Google, Microsoft, Facebook, Amazon, Rubrik, Riot, and more!",
+        "image": "../images/seminars/TheWorldOfWorkSeason2.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2018/Jobs_2018.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC Orientation 2018",
+        "description": "CSEC's Past Orientation Slides",
+        "image": "../images/seminars/CsecOrientation2018.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2018/CSEC_Orientation_2018.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Web Dev. Seminar",
+        "description": "Brief introduction to Web Development and its many components",
+        "image": "../images/seminars/WebDevSeminar.jpg",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2016/S2_Web_Development.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Cryptocurrencies Decrypted",
+        "description": "Uncover the secrets behind Cryptocurrencies, explore Bitcoin, the Blockchain, and altcoins.",
+        "image": "../images/seminars/CryptocurrenciesDecrypted.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2017/Cryptocurrency.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Technical Mock Interviews",
+        "description": "Get prepared for Technical Interviews with various companies by practicing and rehearsing.",
+        "image": "../images/seminars/TechnicalMockInterviews.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2017/Technical_Mock_Interviews.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC Orientation 2017",
+        "description": "CSEC's Past Orientation Slides",
+        "image": "../images/seminars/CsecOrientation2017.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2017/CSEC_Orientation_2017.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Chess Engine Programming",
+        "description": "Learn about how to program a Chess-playing engine with guest speaker Rhys.",
+        "image": "../images/seminars/ChessEngineProgramming.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2017/Chess_Engine_Programming.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "So You Want to be a Hacker",
+        "description": "An intro to Computer and Network Security with KC and Richard",
+        "image": "../images/seminars/SoYouWantToBeAHacker.jpg",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Machine Learning Seminar",
+        "description": "Learn more about the intricacies of Machine Learning hosted by professionals from WeCloudData",
+        "image": "../images/seminars/MachineLearningSeminar.png",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Build a PC Seminar 2016",
+        "description": "Hands-on PC Building Seminar and learning about its individual components",
+        "image": "../images/seminars/BuildAPcSeminar2016.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2016/S3_Build_a_PC.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "World of Work Season 1",
+        "description": "Finding an internship and job search notes with a keynote featuring Google Software Engineering Intern Alex",
+        "image": "../images/seminars/WorldOfWorkSeason1.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2016/S1_World_of_Work.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC Orientation 2016",
+        "description": "CSEC's Past Orientation Slides",
+        "image": "../images/seminars/CsecOrientation2016.png",
+        "slideUrl": "https://github.com/csecutsc/csec_seminars/blob/master/2016/W1_CSEC_Orientation.pdf",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    }
+]

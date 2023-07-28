@@ -18,6 +18,10 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-sass',
     'gatsby-plugin-netlify',
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`,
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
@@ -73,21 +77,21 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: 'gatsby-plugin-webpack-bundle-analyzer',
-      options: {
-        analyzerPort: 8001,
-        production: true
-      },
-    },
-    {
-      resolve: `gatsby-source-strapi`,
-      options: {
-        apiURL: process.env.GATSBY_STAPI,
-        queryLimit: 1000000, // Default to 100
-        contentTypes: [`album`, `article`, `division`, `resource`, `executive`, `seminar`],
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-webpack-bundle-analyzer',
+    //   options: {
+    //     analyzerPort: 8001,
+    //     production: true
+    //   },
+    // },
+    // {
+    //   resolve: `gatsby-source-strapi`,
+    //   options: {
+    //     apiURL: process.env.GATSBY_STAPI,
+    //     queryLimit: 1000000, // Default to 100
+    //     contentTypes: [`album`, `article`, `division`, `resource`, `executive`, `seminar`],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

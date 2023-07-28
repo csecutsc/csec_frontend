@@ -8,6 +8,9 @@ export const LazyImage = ({
         const urlList = url.split("/");
         const linkEnd = urlList.pop()
         const linkFolder = urlList.pop()
+        console.log(">>>>>>>>>>>>>>");
+        console.log(linkFolder);
+        console.log(linkEnd);
         url = `https://res.cloudinary.com/dwopjv0lk/image/upload/w_600,c_scale/${linkFolder}/${linkEnd}`
     }
     return (

@@ -7,16 +7,19 @@ import { GeneralFaq, ProjectFaq  } from '../components/pages/Resources';
 
 const query = graphql`
 {
-    resources: allStrapiResource {
+    resources: allResourcesJson {
         nodes {
             title
+            text
+            link
             items {
                 text
-                link
                 aside
+                link
                 title
                 items {
                     text
+                    aside
                     link
                 }
             }
@@ -72,8 +75,8 @@ const ResourcesPage = () => {
             </ul>
             <h2>General FAQ</h2>
             <GeneralFaq/>
-            <h2>Project FAQ</h2>
-            <ProjectFaq/>
+            {/* <h2>Project FAQ</h2>
+            <ProjectFaq/> */}
         </Container>
     );
 };
