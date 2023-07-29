@@ -1,25 +1,10 @@
 import React from 'react';
-import Img from 'gatsby-image';
-import { graphql, useStaticQuery } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Container } from '@components';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Algorithms.scss';
 
-const query = graphql`
-{
-    placeholderImage: file(relativePath: { eq: "pear1.png" }) {
-        childImageSharp {
-            fluid(maxHeight:700) {
-                ...GatsbyImageSharpFluid
-                presentationWidth
-            }
-        }
-    }
-}
-`;
-
 const AlgorithmsPage = () => {
-    const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             <h1>CSEC - PEAR Impact Project</h1>
@@ -71,7 +56,7 @@ const AlgorithmsPage = () => {
                     pear.students@gmail.com
                                         </a></h5>
                 </div>
-                <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
+                <StaticImage className='alg__image' src="../images/pear1.png" imgStyle={{ height: 'auto' }} />
             </div>
 
             <h2 className='about__title'>More Information coming soon!</h2>

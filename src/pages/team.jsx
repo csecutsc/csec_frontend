@@ -15,9 +15,7 @@ const query = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 500) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(width: 500)
           }
         }
         media {

@@ -11,7 +11,6 @@ module.exports = {
     themeColor: "#1d2731"
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-transformer-json',
     'gatsby-plugin-layout',

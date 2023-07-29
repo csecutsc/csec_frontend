@@ -1,25 +1,10 @@
 import React from 'react';
-import Img from 'gatsby-image';
-import { graphql, useStaticQuery } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Container } from '@components';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Algorithms.scss';
 
-const query = graphql`
-{
-    placeholderImage: file(relativePath: { eq: "ICPCLogo.png" }) {
-        childImageSharp {
-            fluid(maxHeight:700) {
-                ...GatsbyImageSharpFluid
-                presentationWidth
-            }
-        }
-    }
-}
-`;
-
 const AlgorithmsPage = () => {
-    const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             <h1>UTSC ICPC</h1>
@@ -81,7 +66,7 @@ const AlgorithmsPage = () => {
                         Anh Le, email: ioanh [dot] le [at] mail [dot] utoronto [dot] ca
                     </p>
                 </div>
-                <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
+                <StaticImage className='alg__image' src="../images/ICPCLogo.png" imgStyle={{ height: 'auto' }} />
             </div>
 
             <h2 className='about__title'>Previous ECNA Rounds</h2>

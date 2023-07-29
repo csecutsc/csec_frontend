@@ -1,36 +1,22 @@
 import React from 'react';
-import Img from 'gatsby-image';
-import { graphql, useStaticQuery } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Container } from '@components';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Algorithms.scss';
 
-const query = graphql`
-{
-    placeholderImage: file(relativePath: { eq: "thehub1.png" }) {
-        childImageSharp {
-            fluid(maxHeight:700) {
-                ...GatsbyImageSharpFluid
-                presentationWidth
-            }
-        }
-    }
-}
-`;
-
 const AlgorithmsPage = () => {
-    const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             <h1>The Hub Opportunities</h1>
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
-                        Software developers are wanted at The Hub, U of T Scarborough’s startup incubator! Come explore entrepreneurship at UTSC and put your skills to the test alongside innovative startups. <b>The participating startups are listed below.</b>
+                        Software developers are wanted at The Hub, U of T Scarborough’s startup incubator! Come explore entrepreneurship at UTSC and put your skills to the test alongside innovative startups.
+                         {/* <b>The participating startups are listed below.</b> */}
                     </p>
-                    <p className='about__text'>
+                    {/* <p className='about__text'>
                         <b>Come out to the CSEC - The Hub Social on Friday, October 11th 7:00 PM - 8:00 PM, HL 208 to chat and learn more about these opportunities! Food and refreshments will be provided.</b>
-                    </p>
+                    </p> */}
                     <p className='about__text about__text--secondary'>
                         The HUB website: <a className='alg__link' href='https://www.utsc.utoronto.ca/thehub/' target='_blank' rel='noopener noreferrer'>
                         https://www.utsc.utoronto.ca/thehub/
@@ -49,10 +35,10 @@ const AlgorithmsPage = () => {
                 </a> and we would be glad to set up a meeting. <br></br>
                     </p>
                 </div>
-                <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
+                <StaticImage className='alg__image' src="../images/thehub1.png" imgStyle={{ height: 'auto' }} />
             </div>
 
-            <h2 className='about__title'>Start-ups currently needing developers</h2>
+            {/* <h2 className='about__title'>Start-ups currently needing developers</h2>
             <div>
                 <p>
                     This is a great opportunity for upper-year or experienced students to showcase their software architecture and engineering skills! <br>
@@ -143,7 +129,7 @@ const AlgorithmsPage = () => {
                     </a>
                 </p>
 
-            </div>
+            </div> */}
         </Container>
     );
 };

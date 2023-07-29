@@ -1,23 +1,9 @@
 import React from 'react';
-import Img from 'gatsby-image';
+import { StaticImage } from "gatsby-plugin-image"
 import { Container } from '@components';
-import { graphql, useStaticQuery } from 'gatsby';
 import '@styles/components/pages/Home/About.scss';
 
-const query = graphql`
-{
-    placeholderImage: file(relativePath: { eq: "Landing.png" }) {
-        childImageSharp {
-            fluid(maxWidth: 1500) {
-                ...GatsbyImageSharpFluid
-            }
-        }
-    }
-}
-`;
-
 export const About = () => {
-    const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='section' block='about' className='home__section'>
             <h2 className='about__title'>Who are we?</h2>
@@ -34,7 +20,7 @@ export const About = () => {
                         Be sure to follow us on any of our social media for announcements!</b>
                     </p>
                 </div>
-                <Img className='about__image' fluid={ placeholderImage.childImageSharp.fluid }/>
+                <StaticImage className='about__image' src="../../../images/Landing.png" />
             </div>
         </Container>
     );

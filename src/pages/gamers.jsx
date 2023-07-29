@@ -1,33 +1,10 @@
 import React from 'react';
-import Img from 'gatsby-image';
-import { graphql, useStaticQuery } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Container } from '@components';
 import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Algorithms.scss';
 
-const query = graphql`
-{
-    placeholderImage: file(relativePath: { eq: "GameDev.png" }) {
-        childImageSharp {
-            fluid(maxHeight:700) {
-                ...GatsbyImageSharpFluid
-                presentationWidth
-            }
-        }
-    },
-    eventImage: file(relativePath: { eq: "gamejam.png" }) {
-        childImageSharp {
-            fluid(maxHeight:700) {
-                ...GatsbyImageSharpFluid
-                presentationWidth
-            }
-        }
-    }
-}
-`;
-
 const GamersPage = () => {
-    const { placeholderImage, eventImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             <h1>UTSC Game Development Club</h1>
@@ -58,7 +35,7 @@ const GamersPage = () => {
                     </a>
                     </span>
                 </div>
-                <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
+                <StaticImage className='alg__image' src="../images/GameDev.png" imgStyle={{ height: 'auto' }} />
             </div>
             <hr></hr>
             <h1 id="gamerevents">Past Events</h1>
@@ -88,7 +65,7 @@ const GamersPage = () => {
                     </p>
 
                 </div>
-                <Img className='alg__image' fluid={eventImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
+                <StaticImage className='alg__image' src="../images/gamejam.png" imgStyle={{ height: 'auto' }} />
             </div>
             <div>
             </div>

@@ -1,25 +1,9 @@
 import React from 'react';
-import Img from 'gatsby-image';
-import { graphql, useStaticQuery } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Container } from '@components';
-import { FaExternalLinkAlt } from 'react-icons/fa';
 import '@styles/pages/Algorithms.scss';
 
-const query = graphql`
-{
-    placeholderImage: file(relativePath: { eq: "Discover.jpg" }) {
-        childImageSharp {
-            fluid(maxHeight:700) {
-                ...GatsbyImageSharpFluid
-                presentationWidth
-            }
-        }
-    }
-}
-`;
-
 const PositionsPage = () => {
-    const { placeholderImage } = useStaticQuery(query);
     return (
         <Container tag='main' block='alg'>
             {/* <h1>CSEC 2021 Elections and Open Positions</h1>
@@ -57,7 +41,7 @@ const PositionsPage = () => {
                     </p>
 
                 </div>
-                <Img className='alg__image' fluid={placeholderImage.childImageSharp.fluid} imgStyle={{ height: 'auto' }} />
+                <StaticImage className='alg__image' src="../images/Discover.jpg" imgStyle={{ height: 'auto' }} />
             </div>
         </Container>
     );

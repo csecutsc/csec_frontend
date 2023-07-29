@@ -1,5 +1,4 @@
 import React from 'react';
-// import Img from 'gatsby-image';
 import { graphql, useStaticQuery } from 'gatsby';
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Container, Card } from '@components';
@@ -64,69 +63,11 @@ query Seminars {
   }
 `
 
-// const query = graphql`
-// {
-//     seminars: allSeminarsJson(
-//         filter: {
-//             archived: {
-//                 eq: false
-//             }
-//         },
-//         sort: {
-//             fields: date, 
-//             order: DESC
-//         }
-//     ) {
-//         nodes {
-//           title
-//           description
-//           image: file(relativePath: { eq: "seminars/WordOfWorkSeason4.png" }) {
-//             childImageSharp {
-//                 fluid(maxWidth: 500) {
-//                     ...GatsbyImageSharpFluid
-//                 }
-//             }
-//         }
-//           slideUrl
-//           sourceLink
-//           additionalLinks {
-//             comingSoon
-//             lectureUrl
-//           }
-//         }
-//     },
-//     archived: allSeminarsJson(
-//         filter: {
-//             archived: {
-//                 eq: true
-//             }
-//         },
-//         sort: {
-//             fields: date, 
-//             order: DESC
-//         }
-//     ) {
-//         nodes {
-//           title
-//           description
-//           image
-//           slideUrl
-//           sourceLink
-//           additionalLinks {
-//             comingSoon
-//             lectureUrl
-//           }
-//         }
-//     }
-// }
-// `;
-
 const buildCards = seminars => (
     <ul className='seminar__cards'>
         {
             seminars.map(({ title, description, image, slideUrl, sourceLink, additionalLinks }, i) => (
                 <Card block='seminar__card'>
-                    {/* <Img fluid={image.childImageSharp.fluid} /> */}
                     <GatsbyImage image={getImage(image)} alt={title} />
                     <h3 className='seminar__card-title'>{title}</h3>
                     <p>{description}</p>
@@ -175,7 +116,6 @@ const buildCards = seminars => (
 
 const SeminarPage = () => {
     const { seminars, archived } = useStaticQuery(query);
-    // console.log(seminars, archived);
 
     return (
         <Container tag='main' block='seminar'>
