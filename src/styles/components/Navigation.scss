@@ -132,6 +132,10 @@ $SPEED_: SLOW;
         }
     }
 }
+.homepage {
+    color: white;
+    fill: white;
+}
 
 @include media(TABLET) {
     .nav {

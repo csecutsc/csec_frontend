@@ -4,10 +4,12 @@ import '@styles/index.scss';
 
 const Layout = ({ children, pageResources = {} }) => {
     const { meta = {} } = pageResources.component || {};
+    const isHome = window.location.pathname === '/';
+
     return (
         <Fragment>
             <Seo { ...meta.seo }/>
-            <Navigation light={ meta.light }/>
+            <Navigation isHomepage={ isHome } light={ meta.light }/>
             { children }
             <Footer/>
         </Fragment>

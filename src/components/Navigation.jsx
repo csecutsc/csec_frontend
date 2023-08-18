@@ -54,10 +54,12 @@ const renderLink = ({
     );
 }
 
-export const Navigation = memo(({ light }) => {
+export const Navigation = memo(({ light, isHomepage }) => {
     const { nav } = useStaticQuery(query);
     const [ mobile, setMobile ] = useState(false);
     const [ scrolled, setScrolled ] = useState(false);
+    const containerClass = isHomepage ? 'homepage' : '';
+    const iconClass = isHomepage ? 'nav__icon homepage' : 'nav__icon';
     useEffect(() => {
         const handler = () => {
             if (scrolled && !window.scrollY) setScrolled(false);
@@ -72,9 +74,9 @@ export const Navigation = memo(({ light }) => {
     return (
         <Container block='nav' modifiers={
             [ scrolled && !mobile && 'scrolled', (light || mobile) && 'light', mobile && 'show' ]
-        } tag='nav'>
+        } tag='nav' className={containerClass}>
             <Link to='/' className='nav__logo'>
-                <Logo className='nav__icon'/>
+                <Logo className={iconClass}/>
             </Link>
             <button onClick={ () => setMobile(!mobile) } className='nav__bars'>
                 <div className='nav__bar nav__bar--top'/>
