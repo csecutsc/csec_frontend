@@ -9,6 +9,7 @@ $SPEED_: SLOW;
     z-index: 20;
     padding-top: 20px;
     color: $BLACK;
+    // color: white;
     width: 100%;
     $self: &;
 
@@ -32,6 +33,7 @@ $SPEED_: SLOW;
         @include transition(fill, $SPEED_);
         z-index: 1;
         fill: $BLACK;
+        // fill: white;
         width: 30px;
         height: 30px;
 

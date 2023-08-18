@@ -45,6 +45,10 @@ const TeamPage = () => {
       <p className="team__text">
         Contact them individually, or leave a message through the contact form.
       </p>
+      <p className="team__text">
+        We are <a rel='noopener noreferrer' target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLSdY4hjj8nPAyp5T9SfCr1bVq6Cpj21LQugH2COq_Ay9rfJwDA/viewform?usp=sf_link'>hiring</a> for the 2023-2024 year!
+      </p>
+
       {sections.nodes.map(({ title, description, executives }, i) => (
         <section className="team__section" key={i}>
           <h2 className="team__section-title">{title}</h2>
@@ -111,3 +115,34 @@ TeamPage.meta = {
 };
 
 export default TeamPage;
+
+
+// TEMP STASH
+// {
+//   "title": "Executive Team",
+//   "description": "The current executive team of 2023-2024.",
+//   "executives": [
+//       {
+//           "name":"Nikhil L.",
+//           "title":"President",
+//           "image": "../images/team/Nikhil.jpg",
+//           "media": {
+//               "email": "nikhil.lakhwanii@gmail.com",
+//               "website": "https://lakhwani.ca/",
+//               "linkedin": "https://www.linkedin.com/in/nlakhwani/",
+//               "github": "https://github.com/lakhwani"
+//           }
+//       },
+//       {
+//           "name":"Vincent Z.",
+//           "title":"Executive Vice President",
+//           "image": "../images/team/Vincent.jpg",
+//           "media": {
+//               "email": "",
+//               "website": "",
+//               "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
+//               "github": "https://github.com/vincentzhang15"
+//           }
+//       }
+//   ]
+// },

@@ -58,4 +58,30 @@
         font-size: 1.2rem;
         line-height: 1.7;
     }
+
+    &__link {
+        @include transition(background-color);
+        flex-grow: 1;
+        background: $PRIMARY;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        border: none;
+        border-radius: 6px;
+        padding: 12px 30px;
+        margin: 5px 0;
+        font-size: 1.2rem;
+        line-height: 1.7;
+        width: 100%;
+        cursor: pointer;
+
+        &:hover {
+            background-color: adjust-color($color: $PRIMARY, $lightness: 5%);
+        }
+
+        &:disabled {
+            background-color: #bac3ca;
+            cursor: not-allowed;
+        }
+    }
 }
