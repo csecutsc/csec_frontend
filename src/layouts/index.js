@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 import { Seo, Navigation, Footer } from '@components';
 import '@styles/index.scss';
 
-const Layout = ({ children, pageResources = {} }) => {
+const Layout = ({ location, children, pageResources = {} }) => {
     const { meta = {} } = pageResources.component || {};
-    const isHome = window.location.pathname === '/';
+    const isHome = location.pathname === '/';
 
     return (
         <Fragment>
