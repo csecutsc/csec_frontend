@@ -4,9 +4,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Computer Science Enrichment Club',
+    // title: 'Computer Science Enrichment Club',
+    title: "CSEC at University of Toronto Scarborough",
     keywords: ['CSEC', 'CSEC-W', 'CSEC-A', 'CSEC-S', 'Computer Science Enrichment Club', 'AMACSS', 'UTSC', '~csec', 'cs', 'algorithms', 'development', 'club', 'UTSC CS', 'UofT CS', 'University of Toronto', 'Scarborough', 'Computer Science', 'Programming', 'Programming Club', 'UTSC Programming Club', 'UTSC Computer Science Clubs', 'UTSC Computer Science', 'Nick\'s Programming Club', 'AMACSS'],
-    description: 'Welcome to CSEC. The Computer Science Enrichment Club is a student-run group that focuses on helping students with a passion for Computer Science take the next steps in their career.',
+    // description: 'Welcome to CSEC. The Computer Science Enrichment Club is a student-run group that focuses on helping students with a passion for Computer Science take the next steps in their career.',
+    description: "CSEC brings computer science students together and helps them take the next step in their careers!",
     author: 'Frederic Pun',
     themeColor: "#1d2731"
   },
