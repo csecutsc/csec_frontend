@@ -1,5 +1,77 @@
 [
     {
+        "title": "Executive Team",
+        "description": "The current executive team of 2023-2024.",
+        "executives": [
+            {
+                "name":"Nikhil L.",
+                "title":"President",
+                "image": "../images/team/Nikhil.jpg",
+                "media": {
+                    "email": "nikhil.lakhwanii@gmail.com",
+                    "website": "https://lakhwani.ca/",
+                    "linkedin": "https://www.linkedin.com/in/nlakhwani/",
+                    "github": "https://github.com/lakhwani"
+                }
+            },
+            {
+                "name":"Vincent Z.",
+                "title":"Executive Vice President",
+                "image": "../images/team/Vincent.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
+                    "github": "https://github.com/vincentzhang15"
+                }
+            },
+            {
+                "name":"Max C.",
+                "title":"Vice President, Internal & External Affairs",
+                "image": "../images/team/Max.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/dejing-chen-max/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Jane L.",
+                "title":"Vice President, Marketing",
+                "image": "../images/team/Jane.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/gaoyueyanglyu",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Harguntas B.",
+                "title":"Vice President, Technology",
+                "image": "../images/team/Harguntas.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/harguntas-singh-benipal-3913a224b/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Alejandro P.",
+                "title":"Vice President, Research & Development",
+                "image": "../images/team/Alejandro.jpeg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/alejandro-ortega-cruz-prieto-",
+                    "github": ""
+                }
+            }
+        ]
+    },
+    {
         "title": "CSEC Alumni",
         "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
         "executives": [

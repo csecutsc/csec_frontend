@@ -117,32 +117,3 @@ TeamPage.meta = {
 export default TeamPage;
 
 
-// TEMP STASH
-// {
-//   "title": "Executive Team",
-//   "description": "The current executive team of 2023-2024.",
-//   "executives": [
-//       {
-//           "name":"Nikhil L.",
-//           "title":"President",
-//           "image": "../images/team/Nikhil.jpg",
-//           "media": {
-//               "email": "nikhil.lakhwanii@gmail.com",
-//               "website": "https://lakhwani.ca/",
-//               "linkedin": "https://www.linkedin.com/in/nlakhwani/",
-//               "github": "https://github.com/lakhwani"
-//           }
-//       },
-//       {
-//           "name":"Vincent Z.",
-//           "title":"Executive Vice President",
-//           "image": "../images/team/Vincent.jpg",
-//           "media": {
-//               "email": "",
-//               "website": "",
-//               "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
-//               "github": "https://github.com/vincentzhang15"
-//           }
-//       }
-//   ]
-// },
