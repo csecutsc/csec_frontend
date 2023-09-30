@@ -48,8 +48,19 @@
                 }
             },
             {
+                "name":"Alejandro P.",
+                "title":"Vice President, Research & Development",
+                "image": "../images/team/Alejandro.jpeg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/alejandro-ortega-cruz-prieto-",
+                    "github": ""
+                }
+            },
+            {
                 "name":"Harguntas B.",
-                "title":"Vice President, Technology",
+                "title":"Co-Vice President, Technology",
                 "image": "../images/team/Harguntas.jpg",
                 "media": {
                     "email": "",
@@ -59,13 +70,13 @@
                 }
             },
             {
-                "name":"Alejandro P.",
-                "title":"Vice President, Research & Development",
-                "image": "../images/team/Alejandro.jpeg",
+                "name":"Zay L.",
+                "title":"Co-Vice President, Technology",
+                "image": "../images/team/Zay.JPG",
                 "media": {
                     "email": "",
                     "website": "",
-                    "linkedin": "https://www.linkedin.com/in/alejandro-ortega-cruz-prieto-",
+                    "linkedin": "https://www.linkedin.com/in/zay-lin-aung-972496226//",
                     "github": ""
                 }
             }
