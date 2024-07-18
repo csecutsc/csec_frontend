@@ -1,7 +1,123 @@
 [
     {
         "title": "Executive Team",
-        "description": "The current executive team of 2023-2024.",
+        "description": "The current executive team of 2024-2025.",
+        "executives": [
+            {
+                "name":"Vincent Zhang",
+                "title":"Co-President",
+                "image": "../images/team/Vincent.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
+                    "github": "https://github.com/vincentzhang15"
+                }
+            },
+            {
+                "name":"Brandan Burgess",
+                "title":"Co-President",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Harguntas Benipal",
+                "title":"Co-Vice President, Research & Development",
+                "image": "../images/team/Harguntas.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/harguntas-singh-benipal-3913a224b/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Kevin Tian",
+                "title":"Co-Vice President, Research & Development",
+                "image": "../images/team/KevinT.jpg",
+                "media": {
+                    "email": "kevinshao.tian@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/kevintian2023",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Cheryl Zhang",
+                "title":"Vice President, Marketing",
+                "image": "../images/team/Cheryl.jpg",
+                "media": {
+                    "email": "cher.zhang@mail.utoronto.ca",
+                    "website": "https://www.cherylzhang.dev",
+                    "linkedin": "https://www.linkedin.com/in/cheryl-zhang1/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Damian Melia",
+                "title":"Vice President, Technology",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "damian.melia@mail.utoronto.ca",
+                    "website": "https://www.damian717.com/",
+                    "linkedin": "https://linkedin.com/in/meliadamian",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Max Chen",
+                "title":"Vice President, Internal & External Affairs",
+                "image": "../images/team/Max.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/dejing-chen-max/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Rami Al-Azzawe",
+                "title":"Co-Vice President, Events",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Chris Yan",
+                "title":"Co-Vice President, Events",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Ashwin Mallik",
+                "title":"Vice President, External",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "CSEC Alumni",
+        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
         "executives": [
             {
                 "name":"Nikhil L.",
@@ -12,28 +128,6 @@
                     "website": "https://lakhwani.ca/",
                     "linkedin": "https://www.linkedin.com/in/nlakhwani/",
                     "github": "https://github.com/lakhwani"
-                }
-            },
-            {
-                "name":"Vincent Z.",
-                "title":"Executive Vice President",
-                "image": "../images/team/Vincent.jpg",
-                "media": {
-                    "email": "",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
-                    "github": "https://github.com/vincentzhang15"
-                }
-            },
-            {
-                "name":"Max C.",
-                "title":"Vice President, Internal & External Affairs",
-                "image": "../images/team/Max.jpg",
-                "media": {
-                    "email": "",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/dejing-chen-max/",
-                    "github": ""
                 }
             },
             {
@@ -59,17 +153,6 @@
                 }
             },
             {
-                "name":"Harguntas B.",
-                "title":"Co-Vice President, Technology",
-                "image": "../images/team/Harguntas.jpg",
-                "media": {
-                    "email": "",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/harguntas-singh-benipal-3913a224b/",
-                    "github": ""
-                }
-            },
-            {
                 "name":"Zay L.",
                 "title":"Co-Vice President, Technology",
                 "image": "../images/team/Zay.JPG",
@@ -79,13 +162,7 @@
                     "linkedin": "https://www.linkedin.com/in/zay-lin-aung-972496226//",
                     "github": ""
                 }
-            }
-        ]
-    },
-    {
-        "title": "CSEC Alumni",
-        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
-        "executives": [
+            },
             {
                 "name":"Raymond C.",
                 "title":"President",

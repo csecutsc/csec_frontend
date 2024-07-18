@@ -44,12 +44,12 @@ export const Landing = () => {
                 <p className='landing__text'>
                     Helping students with a passion for Computer Science take the next steps in their career.
                 </p>
-                <p className='landing__text'>
-                    We are now currently hiring executives for 2023-2024, join us in shaping the future of computer science at UTSC.
+                {/* <p className='landing__text'>
+                    We are now currently hiring executives for 2024-2025, join us in shaping the future of computer science at UTSC.
                 </p>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdY4hjj8nPAyp5T9SfCr1bVq6Cpj21LQugH2COq_Ay9rfJwDA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
                     <button className='landing__link'>Now Hiring</button>
-                </a>
+                </a> */}
                 {/* <p className='landing__text'>
                     Students of all displines are welcomed free of charge and no sign up required.
                     Scroll down to see our upcoming events!

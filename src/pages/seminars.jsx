@@ -120,7 +120,7 @@ const SeminarPage = () => {
     return (
         <Container tag='main' block='seminar'>
             <h1>Seminars</h1>
-            <h2>2023 - 2024 Seminars</h2>
+            <h2>2024 - 2025 Seminars</h2>
             {
                 seminars.nodes.length ? (
                     buildCards(seminars.nodes)
