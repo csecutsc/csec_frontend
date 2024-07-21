@@ -44,6 +44,7 @@
     "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "analyze": "webpack --profile --json > .cache/stats.json && webpack-bundle-analyzer .cache/stats.json",
     "start": "npm run develop",
+    "run": "npx gatsby build && npx gatsby serve",
     "serve": "gatsby serve"
   }
 }
