@@ -70,17 +70,6 @@
                 }
             },
             {
-                "name":"Max Chen",
-                "title":"Vice President, Internal & External Affairs",
-                "image": "../images/team/Max.jpg",
-                "media": {
-                    "email": "",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/dejing-chen-max/",
-                    "github": ""
-                }
-            },
-            {
                 "name":"Rami Al-Azzawe",
                 "title":"Co-Vice President, Events",
                 "image": "../images/team/Rami.jpg",
@@ -103,14 +92,25 @@
                 }
             },
             {
-                "name":"Ashwin Mallik",
-                "title":"Vice President, External",
-                "image": "../images/team/blank.jpg",
+                "name":"Max Chen",
+                "title":"Vice President, Internal & External Affairs",
+                "image": "../images/team/Max.jpg",
                 "media": {
                     "email": "",
                     "website": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/dejing-chen-max/",
                     "github": ""
+                }
+            },
+            {
+                "name":"Sigmund Wang",
+                "title":"Vice President, Internal Affairs",
+                "image": "../images/team/Sigmund.jpg",
+                "media": {
+                    "email": "single.wang@mail.utoronto.ca",
+                    "website": "https://www.sigmund-wang.com/",
+                    "linkedin": "https://www.linkedin.com/in/sigmund-wang/",
+                    "github": "https://github.com/verusins"
                 }
             }
         ]
