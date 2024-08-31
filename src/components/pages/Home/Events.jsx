@@ -128,8 +128,8 @@ export const Events = () => {
                             <li className='events__loading'>Loading...</li>
                         )
                 } */}
-                <li className='events__loading'>We're hiring soon. In the meantime, check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)!
-                {/* <li className='events__loading'>We are <a rel='noopener noreferrer' target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLSdY4hjj8nPAyp5T9SfCr1bVq6Cpj21LQugH2COq_Ay9rfJwDA/viewform?usp=sf_link'>hiring</a>! Check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)! */}
+                {/* <li className='events__loading'>We're hiring soon. In the meantime, check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)! */}
+                <li className='events__loading'>We are <a rel='noopener noreferrer' target='_blank' href='https://linktr.ee/csec.utsc'>hiring</a>! Check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)!
                 </li>
 
                 

@@ -45,9 +45,9 @@ const TeamPage = () => {
       <p className="team__text">
         Contact them individually, or leave a message through the contact form.
       </p>
-      {/* <p className="team__text">
-        We are <a rel='noopener noreferrer' target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLSdY4hjj8nPAyp5T9SfCr1bVq6Cpj21LQugH2COq_Ay9rfJwDA/viewform?usp=sf_link'>hiring</a> for the 2024-2025 year!
-      </p> */}
+      <p className="team__text">
+        We are <a rel='noopener noreferrer' target='_blank' href='https://linktr.ee/csec.utsc'>hiring</a> for the 2024-2025 year!
+      </p>
 
       {sections.nodes.map(({ title, description, executives }, i) => (
         <section className="team__section" key={i}>
