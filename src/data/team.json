@@ -59,6 +59,17 @@
                 }
             },
             {
+                "name":"Jeanice Eliana Setyono",
+                "title":"Director, Marketing",
+                "image": "../images/team/Jeanice.jpg",
+                "media": {
+                    "email": "jeaniceeliana.setyono@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/jeaniceeliana/",
+                    "github": ""
+                }
+            },
+            {
                 "name":"Damian Melia",
                 "title":"Vice President, Technology",
                 "image": "../images/team/blank.jpg",
@@ -111,6 +122,28 @@
                     "website": "https://www.sigmund-wang.com/",
                     "linkedin": "https://www.linkedin.com/in/sigmund-wang/",
                     "github": "https://github.com/verusins"
+                }
+            },
+            {
+                "name":"Fan Yang",
+                "title":"Director, Internal Affairs",
+                "image": "../images/team/Fan.jpg",
+                "media": {
+                    "email": "fanquerques@gmail.com",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/fan-yang-82b49a219/",
+                    "github": "https://github.com/fanquerques"
+                }
+            },
+            {
+                "name":"Anuj Sarvate",
+                "title":"Vice President, External Affairs",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "anuj.sarvate@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/anujsarvate/",
+                    "github": "https://github.com/AnujSarvate"
                 }
             }
         ]
