@@ -60,13 +60,24 @@
             },
             {
                 "name":"Jeanice Eliana Setyono",
-                "title":"Director, Marketing",
+                "title":"Co-Director, Marketing",
                 "image": "../images/team/Jeanice.jpg",
                 "media": {
                     "email": "jeaniceeliana.setyono@mail.utoronto.ca",
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/jeaniceeliana/",
                     "github": ""
+                }
+            },
+            {
+                "name":"Samuel Tjhia",
+                "title":"Co-Director, Marketing",
+                "image": "../images/team/Samuel.jpg",
+                "media": {
+                    "email": "sam.tjhia@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/samuel-tjhia-155746269",
+                    "github": "https://github.com/samtjhia"
                 }
             },
             {
@@ -144,6 +155,17 @@
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/anujsarvate/",
                     "github": "https://github.com/AnujSarvate"
+                }
+            },
+            {
+                "name":"Isabelle Na Xu",
+                "title":"Vice President, Talent",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "isabelle.xu@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
                 }
             }
         ]
