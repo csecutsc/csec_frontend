@@ -48,7 +48,7 @@ export const Landing = () => {
                     We are now currently hiring executives for 2024-2025, join us in shaping the future of computer science at UTSC.
                 </p>
                 <a href="https://linktr.ee/csec.utsc" target="_blank" rel="noopener noreferrer">
-                    <button className='landing__link'>Now Hiring</button>
+                    <button className='landing__link'>Now Hiring!</button>
                 </a>
                 {/* <p className='landing__text'>
                     Students of all displines are welcomed free of charge and no sign up required.
