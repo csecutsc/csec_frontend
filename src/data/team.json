@@ -127,7 +127,7 @@
             {
                 "name":"Isabelle Na Xu",
                 "title":"Vice President, Talent",
-                "image": "../images/team/blank.jpg",
+                "image": "../images/team/Isabelle.jpg",
                 "media": {
                     "email": "isabelle.xu@mail.utoronto.ca",
                     "website": "",
@@ -210,6 +210,17 @@
                     "website": "",
                     "linkedin": "www.linkedin.com/in/aadya-uniyal",
                     "github": ""
+                }
+            },
+            {
+                "name":"Andy Yin",
+                "title":"Director, Research & Development",
+                "image": "../images/team/Andy.jpg",
+                "media": {
+                    "email": "andyyin06@gmail.com",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/yinandy06/",
+                    "github": "https://github.com/trumpetdoot"
                 }
             },
             {
