@@ -59,28 +59,6 @@
                 }
             },
             {
-                "name":"Jeanice Eliana Setyono",
-                "title":"Co-Director, Marketing",
-                "image": "../images/team/Jeanice.jpg",
-                "media": {
-                    "email": "jeaniceeliana.setyono@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/jeaniceeliana/",
-                    "github": ""
-                }
-            },
-            {
-                "name":"Samuel Tjhia",
-                "title":"Co-Director, Marketing",
-                "image": "../images/team/Samuel.jpg",
-                "media": {
-                    "email": "sam.tjhia@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/samuel-tjhia-155746269",
-                    "github": "https://github.com/samtjhia"
-                }
-            },
-            {
                 "name":"Damian Melia",
                 "title":"Vice President, Technology",
                 "image": "../images/team/blank.jpg",
@@ -136,17 +114,6 @@
                 }
             },
             {
-                "name":"Fan Yang",
-                "title":"Director, Internal Affairs",
-                "image": "../images/team/Fan.jpg",
-                "media": {
-                    "email": "fanquerques@gmail.com",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/fan-yang-82b49a219/",
-                    "github": "https://github.com/fanquerques"
-                }
-            },
-            {
                 "name":"Anuj Sarvate",
                 "title":"Vice President, External Affairs",
                 "image": "../images/team/blank.jpg",
@@ -163,6 +130,94 @@
                 "image": "../images/team/blank.jpg",
                 "media": {
                     "email": "isabelle.xu@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Jeanice Eliana Setyono",
+                "title":"Director, Marketing",
+                "image": "../images/team/Jeanice.jpg",
+                "media": {
+                    "email": "jeaniceeliana.setyono@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/jeaniceeliana/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Samuel Tjhia",
+                "title":"Director, Marketing",
+                "image": "../images/team/Samuel.jpg",
+                "media": {
+                    "email": "sam.tjhia@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/samuel-tjhia-155746269",
+                    "github": "https://github.com/samtjhia"
+                }
+            },
+            {
+                "name":"Fan Yang",
+                "title":"Director, Internal Affairs",
+                "image": "../images/team/Fan.jpg",
+                "media": {
+                    "email": "fanquerques@gmail.com",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/fan-yang-82b49a219/",
+                    "github": "https://github.com/fanquerques"
+                }
+            },
+            {
+                "name":"Krishna Manamohan",
+                "title":"Director, Events",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "krishna.manamohan@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/krishna-manamohan/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Yuze Fu",
+                "title":"Director, Research & Development",
+                "image": "../images/team/Yuze.jpg",
+                "media": {
+                    "email": "yuzefu2004@gmail.com",
+                    "website": "https://fuyuze2004.github.io/my-personal-page/",
+                    "linkedin": "www.linkedin.com/in/yuze-fu-a0448b319",
+                    "github": ""
+                }
+            },
+            {
+                "name":"David Chen",
+                "title":"Director, Technology",
+                "image": "../images/team/David.jpg",
+                "media": {
+                    "email": "davyh.chen@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/david-chen-366503247/",
+                    "github": "https://github.com/digitalyoshixi"
+                }
+            },
+            {
+                "name":"Aadya Uniyal",
+                "title":"Director, External Affairs",
+                "image": "../images/team/Aadya.jpg",
+                "media": {
+                    "email": "aadya.uniyal@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "www.linkedin.com/in/aadya-uniyal",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Annie Rong",
+                "title":"Director, Research & Development",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "",
                     "website": "",
                     "linkedin": "",
                     "github": ""
