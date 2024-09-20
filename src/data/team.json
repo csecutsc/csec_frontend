@@ -171,7 +171,7 @@
             {
                 "name":"Krishna Manamohan",
                 "title":"Director, Events",
-                "image": "../images/team/blank.jpg",
+                "image": "../images/team/Krishna.jpg",
                 "media": {
                     "email": "krishna.manamohan@mail.utoronto.ca",
                     "website": "",
@@ -226,12 +226,23 @@
             {
                 "name":"Annie Rong",
                 "title":"Director, Research & Development",
-                "image": "../images/team/blank.jpg",
+                "image": "../images/team/Annie.jpg",
                 "media": {
                     "email": "",
                     "website": "",
                     "linkedin": "",
                     "github": ""
+                }
+            },
+            {
+                "name":"Imran Aziz",
+                "title":"Director, Events",
+                "image": "../images/team/Imran.jpg",
+                "media": {
+                    "email": "i.aziz@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/imran-aziz-321934306/",
+                    "github": "https://github.com/Imran-az"
                 }
             }
         ]
