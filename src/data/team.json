@@ -244,6 +244,17 @@
                     "linkedin": "https://www.linkedin.com/in/imran-aziz-321934306/",
                     "github": "https://github.com/Imran-az"
                 }
+            },
+            {
+                "name":"Fanglu Yang",
+                "title":"Director, Tech",
+                "image": "../images/team/Louie.jpg",
+                "media": {
+                    "email": "consciousidler61@gmail.com",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/fanglu-yang-aa9285315/",
+                    "github": ""
+                }
             }
         ]
     },
