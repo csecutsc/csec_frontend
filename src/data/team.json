@@ -310,6 +310,28 @@
                     "linkedin": "https://www.linkedin.com/in/bhavya-patel-codes/",
                     "github": ""
                 }
+            },
+            {
+                "name":"Anjali Patidar",
+                "title":"Associate, Technology",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "anjali.patidar@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/anjalicpatidar/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Krish Patel",
+                "title":"Associate, Events",
+                "image": "../images/team/Krish.jpg",
+                "media": {
+                    "email": "krishj.patel@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/krish-jay-patel/",
+                    "github": "https://github.com/the-kido"
+                }
             }
         ]
     },
