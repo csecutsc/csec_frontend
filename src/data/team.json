@@ -255,6 +255,61 @@
                     "linkedin": "https://www.linkedin.com/in/fanglu-yang-aa9285315/",
                     "github": ""
                 }
+            },
+            {
+                "name":"Deepika Chandrashekar",
+                "title":"Associate, Technology",
+                "image": "../images/team/Deepika.jpg",
+                "media": {
+                    "email": "",
+                    "website": "https://deepika-portfolio-rho.vercel.app/",
+                    "linkedin": "https://www.linkedin.com/in/deepika-chandrashekar-b23aa7266/",
+                    "github": "https://github.com/BlueBlade27?tab=repositories"
+                }
+            },
+            {
+                "name":"Aryan Patel",
+                "title":"Associate, Technology",
+                "image": "../images/team/Aryan.jpg",
+                "media": {
+                    "email": "aryanr.patel@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/aryan-patel-312897262/",
+                    "github": "https://github.com/Aryan-R-Patel"
+                }
+            },
+            {
+                "name":"Shubham",
+                "title":"Associate, Events",
+                "image": "../images/team/Shubham.jpg",
+                "media": {
+                    "email": "shubham.garg@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/shubham-garg-14b854219/",
+                    "github": "https://github.com/SHU8HAM1/"
+                }
+            },
+            {
+                "name":"Elroy Quan",
+                "title":"Associate, Technology",
+                "image": "../images/team/Elroy.jpg",
+                "media": {
+                    "email": "elroyquan@gmail.com",
+                    "website": "",
+                    "linkedin": "www.linkedin.com/in/elroy-quan-95b324254",
+                    "github": "https://github.com/foodshop1"
+                }
+            },
+            {
+                "name":"Bhavya Patel",
+                "title":"Associate, Technology",
+                "image": "../images/team/Bhavya.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/bhavya-patel-codes/",
+                    "github": ""
+                }
             }
         ]
     },
