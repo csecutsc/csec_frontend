@@ -37,26 +37,12 @@
 		"name": "More",
 		"menu": [
 			{
-				"name": "Constitution",
-				"path": "https://github.com/csecutsc/csec_files/blob/master/blah/CSEC_Constitution_19-20.pdf",
-				"external": true
-			},
-			{
-				"name": "UofT Recognition",
-				"path": "https://github.com/csecutsc/csec_files/blob/master/blah/CSEC_recognition_2019.pdf",
-				"external": true
-			},
-			{
 				"name": "CSEC-PEAR Impact Project",
 				"path": "/pear"
 			},
 			{
 				"name": "The Hub - UTSC Entrepreneurship",
 				"path": "/thehub"
-			},
-			{	
-				"name": "Positions",
-				"path": "/elections"
 			}
 		]
 	}

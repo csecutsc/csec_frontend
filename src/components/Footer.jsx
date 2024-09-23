@@ -1,10 +1,11 @@
 import React, { memo } from 'react';
 import { Container } from '.';
 import { FaGithub, FaFacebook, FaYoutube, FaUsers, FaDiscord, FaEnvelope, FaMobile, FaInstagram } from 'react-icons/fa';
+import { SiLinktree } from "react-icons/si";
 import '@styles/components/Footer.scss';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 
-const Icons = { FaGithub, FaFacebook, FaYoutube, FaUsers, FaDiscord, FaEnvelope, FaMobile, FaInstagram };
+const Icons = { FaGithub, FaFacebook, FaYoutube, FaUsers, FaDiscord, FaEnvelope, FaMobile, FaInstagram, SiLinktree };
 
 const query = graphql`
 {

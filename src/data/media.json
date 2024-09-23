@@ -1,10 +1,5 @@
 [
 	{
-		"text": "Facebook",
-		"icon": "FaFacebook",
-		"link": "https://www.facebook.com/pg/CSEC.UTSC"
-	},
-	{
 		"text": "Discord",
 		"icon": "FaDiscord",
 		"link": "https://discord.gg/4tWwRM4"
@@ -13,11 +8,6 @@
 		"text": "Instagram",
 		"icon": "FaInstagram",
 		"link": "https://instagram.com/csecutsc"
-	},
-	{
-		"text": "Facebook Group",
-		"icon": "FaUsers",
-		"link": "https://www.facebook.com/groups/csec2016.utsc/"
 	},
 	{
 		"text": "Github",
@@ -33,5 +23,10 @@
 		"text": "Email",
 		"icon": "FaEnvelope",
 		"link": "mailto:csec.utsc@gmail.com"
+	},
+	{
+		"text": "Linktree",
+		"icon": "SiLinktree",
+		"link": "https://linktr.ee/csec.utsc"
 	}
 ]
