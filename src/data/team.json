@@ -257,6 +257,17 @@
                 }
             },
             {
+                "name":"Huijia Xu",
+                "title":"Director, Events",
+                "image": "../images/team/Xena.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/huijia-xu-6089a8316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+                    "github": ""
+                }
+            },
+            {
                 "name":"Deepika Chandrashekar",
                 "title":"Associate, Technology",
                 "image": "../images/team/Deepika.jpg",
