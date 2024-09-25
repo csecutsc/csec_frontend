@@ -257,6 +257,17 @@
                 }
             },
             {
+                "name":"Shubham Garg",
+                "title":"Director, Events",
+                "image": "../images/team/Shubham.jpg",
+                "media": {
+                    "email": "shubham.garg@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/shubham-garg-14b854219/",
+                    "github": "https://github.com/SHU8HAM1/"
+                }
+            },
+            {
                 "name":"Huijia Xu",
                 "title":"Director, Events",
                 "image": "../images/team/Xena.jpg",
@@ -287,17 +298,6 @@
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/aryan-patel-312897262/",
                     "github": "https://github.com/Aryan-R-Patel"
-                }
-            },
-            {
-                "name":"Shubham",
-                "title":"Associate, Events",
-                "image": "../images/team/Shubham.jpg",
-                "media": {
-                    "email": "shubham.garg@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/shubham-garg-14b854219/",
-                    "github": "https://github.com/SHU8HAM1/"
                 }
             },
             {
