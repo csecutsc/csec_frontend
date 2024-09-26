@@ -279,6 +279,39 @@
                 }
             },
             {
+                "name":"Sohil Chhabra",
+                "title":"Director, Enrichment",
+                "image": "../images/team/Sohil.jpg",
+                "media": {
+                    "email": "sohil.chhabra@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/sohil-chhabra/",
+                    "github": "https://github.com/sohil-chhabra"
+                }
+            },
+            {
+                "name":"Maanya Gupta",
+                "title":"Director, Enrichment",
+                "image": "../images/team/Maanya.jpg",
+                "media": {
+                    "email": "maanya.gupta@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/maanya-g-900821214/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Tong(Eunice) Zheng",
+                "title":"Director, Interviews",
+                "image": "../images/team/Tong.jpg",
+                "media": {
+                    "email": "eunice.zheng@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
                 "name":"Deepika Chandrashekar",
                 "title":"Associate, Technology",
                 "image": "../images/team/Deepika.jpg",
