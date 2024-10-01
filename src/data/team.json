@@ -26,6 +26,28 @@
                 }
             },
             {
+                "name":"Cheryl Zhang",
+                "title":"Senior Vice President, Marketing",
+                "image": "../images/team/Cheryl.jpg",
+                "media": {
+                    "email": "cher.zhang@mail.utoronto.ca",
+                    "website": "https://www.cherylzhang.dev",
+                    "linkedin": "https://www.linkedin.com/in/cheryl-zhang1/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Isabelle Na Xu",
+                "title":"Senior Vice President, Talent",
+                "image": "../images/team/Isabelle.jpg",
+                "media": {
+                    "email": "isabelle.xu@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
                 "name":"Harguntas Benipal",
                 "title":"Co-Vice President, Research & Development",
                 "image": "../images/team/Harguntas.jpg",
@@ -44,17 +66,6 @@
                     "email": "kevinshao.tian@mail.utoronto.ca",
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/kevintian2023",
-                    "github": ""
-                }
-            },
-            {
-                "name":"Cheryl Zhang",
-                "title":"Vice President, Marketing",
-                "image": "../images/team/Cheryl.jpg",
-                "media": {
-                    "email": "cher.zhang@mail.utoronto.ca",
-                    "website": "https://www.cherylzhang.dev",
-                    "linkedin": "https://www.linkedin.com/in/cheryl-zhang1/",
                     "github": ""
                 }
             },
@@ -122,17 +133,6 @@
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/anujsarvate/",
                     "github": "https://github.com/AnujSarvate"
-                }
-            },
-            {
-                "name":"Isabelle Na Xu",
-                "title":"Vice President, Talent",
-                "image": "../images/team/Isabelle.jpg",
-                "media": {
-                    "email": "isabelle.xu@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "",
-                    "github": ""
                 }
             },
             {
