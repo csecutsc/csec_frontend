@@ -48,6 +48,17 @@
                 }
             },
             {
+                "name":"Sigmund Wang",
+                "title":"Senior Vice President, Internal Affairs",
+                "image": "../images/team/Sigmund.jpg",
+                "media": {
+                    "email": "single.wang@mail.utoronto.ca",
+                    "website": "https://www.sigmund-wang.com/",
+                    "linkedin": "https://www.linkedin.com/in/sigmund-wang/",
+                    "github": "https://github.com/verusins"
+                }
+            },
+            {
                 "name":"Harguntas Benipal",
                 "title":"Co-Vice President, Research & Development",
                 "image": "../images/team/Harguntas.jpg",
@@ -114,17 +125,6 @@
                 }
             },
             {
-                "name":"Sigmund Wang",
-                "title":"Vice President, Internal Affairs",
-                "image": "../images/team/Sigmund.jpg",
-                "media": {
-                    "email": "single.wang@mail.utoronto.ca",
-                    "website": "https://www.sigmund-wang.com/",
-                    "linkedin": "https://www.linkedin.com/in/sigmund-wang/",
-                    "github": "https://github.com/verusins"
-                }
-            },
-            {
                 "name":"Anuj Sarvate",
                 "title":"Vice President, External Affairs",
                 "image": "../images/team/blank.jpg",
@@ -133,6 +133,72 @@
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/anujsarvate/",
                     "github": "https://github.com/AnujSarvate"
+                }
+            },
+            {
+                "name":"Samuel Tjhia",
+                "title":"Senior Director, Marketing",
+                "image": "../images/team/Samuel.jpg",
+                "media": {
+                    "email": "sam.tjhia@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/samuel-tjhia-155746269",
+                    "github": "https://github.com/samtjhia"
+                }
+            },
+            {
+                "name":"Maanya Gupta",
+                "title":"Senior Director, Enrichment",
+                "image": "../images/team/Maanya.jpg",
+                "media": {
+                    "email": "maanya.gupta@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/maanya-g-900821214/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Sohil Chhabra",
+                "title":"Senior Director, Enrichment",
+                "image": "../images/team/Sohil.jpg",
+                "media": {
+                    "email": "sohil.chhabra@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/sohil-chhabra/",
+                    "github": "https://github.com/sohil-chhabra"
+                }
+            },
+            {
+                "name":"Yuze Fu",
+                "title":"Senior Director, Research & Development",
+                "image": "../images/team/Yuze.jpg",
+                "media": {
+                    "email": "yuzefu2004@gmail.com",
+                    "website": "https://fuyuze2004.github.io/my-personal-page/",
+                    "linkedin": "www.linkedin.com/in/yuze-fu-a0448b319",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Shubham Garg",
+                "title":"Senior Director, Events",
+                "image": "../images/team/Shubham.jpg",
+                "media": {
+                    "email": "shubham.garg@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/shubham-garg-14b854219/",
+                    "github": "https://github.com/SHU8HAM1/"
+                }
+            },
+            {
+                "name":"Krishna Manamohan",
+                "title":"Senior Director, Events",
+                "image": "../images/team/Krishna.jpg",
+                "media": {
+                    "email": "krishna.manamohan@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/krishna-manamohan/",
+                    "github": ""
                 }
             },
             {
@@ -147,17 +213,6 @@
                 }
             },
             {
-                "name":"Samuel Tjhia",
-                "title":"Director, Marketing",
-                "image": "../images/team/Samuel.jpg",
-                "media": {
-                    "email": "sam.tjhia@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/samuel-tjhia-155746269",
-                    "github": "https://github.com/samtjhia"
-                }
-            },
-            {
                 "name":"Fan Yang",
                 "title":"Director, Internal Affairs",
                 "image": "../images/team/Fan.jpg",
@@ -166,28 +221,6 @@
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/fan-yang-82b49a219/",
                     "github": "https://github.com/fanquerques"
-                }
-            },
-            {
-                "name":"Krishna Manamohan",
-                "title":"Director, Events",
-                "image": "../images/team/Krishna.jpg",
-                "media": {
-                    "email": "krishna.manamohan@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/krishna-manamohan/",
-                    "github": ""
-                }
-            },
-            {
-                "name":"Yuze Fu",
-                "title":"Director, Research & Development",
-                "image": "../images/team/Yuze.jpg",
-                "media": {
-                    "email": "yuzefu2004@gmail.com",
-                    "website": "https://fuyuze2004.github.io/my-personal-page/",
-                    "linkedin": "www.linkedin.com/in/yuze-fu-a0448b319",
-                    "github": ""
                 }
             },
             {
@@ -257,17 +290,6 @@
                 }
             },
             {
-                "name":"Shubham Garg",
-                "title":"Director, Events",
-                "image": "../images/team/Shubham.jpg",
-                "media": {
-                    "email": "shubham.garg@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/shubham-garg-14b854219/",
-                    "github": "https://github.com/SHU8HAM1/"
-                }
-            },
-            {
                 "name":"Huijia Xu",
                 "title":"Director, Events",
                 "image": "../images/team/Xena.jpg",
@@ -275,28 +297,6 @@
                     "email": "",
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/huijia-xu-6089a8316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-                    "github": ""
-                }
-            },
-            {
-                "name":"Sohil Chhabra",
-                "title":"Director, Enrichment",
-                "image": "../images/team/Sohil.jpg",
-                "media": {
-                    "email": "sohil.chhabra@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/sohil-chhabra/",
-                    "github": "https://github.com/sohil-chhabra"
-                }
-            },
-            {
-                "name":"Maanya Gupta",
-                "title":"Director, Enrichment",
-                "image": "../images/team/Maanya.jpg",
-                "media": {
-                    "email": "maanya.gupta@mail.utoronto.ca",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/maanya-g-900821214/",
                     "github": ""
                 }
             },
