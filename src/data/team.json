@@ -312,6 +312,39 @@
                 }
             },
             {
+                "name":"Daniel Venistan",
+                "title":"Director, Research & Development",
+                "image": "../images/team/Daniel.jpg",
+                "media": {
+                    "email": "daniel.venistan@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/danielvenistan-482040279/",
+                    "github": "https://github.com/Veni8760"
+                }
+            },
+            {
+                "name":"Nitanon Rachapradit",
+                "title":"Director, Enrichment",
+                "image": "../images/team/Nitanon.jpg",
+                "media": {
+                    "email": "nitanon.rachapradit@mail.utoronto.ca",
+                    "website": "nitanon.com",
+                    "linkedin": "",
+                    "github": "https://github.com/Blue-Peanuts"
+                }
+            },
+            {
+                "name":"Jolin Indriani",
+                "title":"Coordinator, External Affairs",
+                "image": "../images/team/Jolin.jpg",
+                "media": {
+                    "email": "j.indriani@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/jolinind/",
+                    "github": ""
+                }
+            },
+            {
                 "name":"Deepika Chandrashekar",
                 "title":"Associate, Technology",
                 "image": "../images/team/Deepika.jpg",
@@ -375,6 +408,28 @@
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/krish-jay-patel/",
                     "github": "https://github.com/the-kido"
+                }
+            },
+            {
+                "name":"Lucia Giovani",
+                "title":"Associate, Technology",
+                "image": "../images/team/Lucia.jpg",
+                "media": {
+                    "email": "giovanilucia.111@gmail.com",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Shaun Danny",
+                "title":"Associate, Technology",
+                "image": "../images/team/Shaun.jpg",
+                "media": {
+                    "email": "shaun.danny@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/shaundanny/",
+                    "github": ""
                 }
             }
         ]
