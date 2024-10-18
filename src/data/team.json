@@ -324,13 +324,24 @@
             },
             {
                 "name":"Nitanon Rachapradit",
-                "title":"Director, Enrichment",
+                "title":"Director, Professional Enrichment",
                 "image": "../images/team/Nitanon.jpg",
                 "media": {
                     "email": "nitanon.rachapradit@mail.utoronto.ca",
                     "website": "nitanon.com",
                     "linkedin": "",
                     "github": "https://github.com/Blue-Peanuts"
+                }
+            },
+            {
+                "name":"Alena Carvalho",
+                "title":"Director, Academic Enrichment",
+                "image": "../images/team/Alena.jpg",
+                "media": {
+                    "email": "alena.carvalho@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/alena-carvalho-662b24283/",
+                    "github": ""
                 }
             },
             {
