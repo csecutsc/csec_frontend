@@ -10,11 +10,11 @@ export const About = () => {
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>
-                        A student-run group at the University of Toronto Scarborough which focuses on helping
+                        A student-run group at the University of Toronto which focuses on helping
                         students with a passion for Computer Science take the next step.
                     </p>
                     <p className='about__text about__text--secondary'>
-                        We do everything from hosting monthly job seminars
+                        We do everything from hosting job seminars
                         to helping you create your own website.<b>
                         Just show up to our events and you're a member!
                         Be sure to follow us on any of our social media for announcements!</b>

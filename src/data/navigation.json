@@ -9,41 +9,11 @@
 		"path": "/seminars"
 	},
 	{
-		"name": "Divisions",
-		"menu": [
-			{
-				"name": "Game Dev Guild",
-				"path": "/gamers"
-			},
-			{
-				"name": "ICPC",
-				"path": "/icpc"
-			}
-		]
-	},
-	{
 		"name": "Resources",
 		"path": "/resources"
 	},
 	{
 		"name": "Team",
 		"path": "/team"
-	},
-	{
-		"name": "Gallery",
-		"path": "/gallery"
-	},
-	{
-		"name": "More",
-		"menu": [
-			{
-				"name": "CSEC-PEAR Impact Project",
-				"path": "/pear"
-			},
-			{
-				"name": "The Hub - UTSC Entrepreneurship",
-				"path": "/thehub"
-			}
-		]
 	}
 ]

@@ -129,7 +129,7 @@ const SeminarPage = () => {
                     )
             } */}
 
-            <h2>Archived Seminars</h2>
+            {/* <h2>Archived Seminars</h2> */}
             {buildCards(archived.nodes)}
         </Container>
     );

@@ -62,47 +62,6 @@ const TeamPage = () => {
           </ul>
         </section>
       ))}
-
-      {/* {
-        <section className="team__section" key={1}>
-          <h2 className="team__section-title">{"Executive Team"}</h2>
-          {
-            <p className="team__section-text">
-              {"The current executive team of 2023-2024."}
-            </p>
-          }
-
-          <ul className="team__list">
-            {buildCards(team.nodes)}
-            <Card
-              key={1}
-              {...{
-                name: "Nikhil L.",
-                title: "President",
-                media: {
-                  email: "nikhil.lakhwanii@gmail.com",
-                  website: "https://lakhwani.ca/",
-                  linkedin: "https://www.linkedin.com/in/nlakhwani/",
-                  github: "https://github.com/lakhwani",
-                },
-                image: images["Nikhil"],
-              }}
-            ></Card>
-            <Card
-              key={2}
-              {...{
-                name: "Vincent Z.",
-                title: "Executive Vice President",
-                media: {
-                  linkedin: "",
-                  github: "",
-                },
-                image: images["Vincent"],
-              }}
-            ></Card>
-          </ul>
-        </section>
-      } */}
     </Container>
   );
 };

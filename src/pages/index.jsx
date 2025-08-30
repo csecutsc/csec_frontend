@@ -10,7 +10,7 @@ const IndexPage = () => (
     <main className='home'>
         <Landing />
         <About />
-        <Events />
+        {/* <Events /> */}
         <Learn />
         {/* { Object.values(Sections).map((Section, i) => <Section key={ i }/>) } */}
     </main>

@@ -11,10 +11,6 @@ const query = graphql`
             name
             path
             external
-            menu {
-                name
-                path
-            }
         }
     }
 }

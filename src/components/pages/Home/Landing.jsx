@@ -45,7 +45,7 @@ export const Landing = () => {
                     Helping students with a passion for Computer Science take the next steps in their career.
                 </p>
                 <p className='landing__text'>
-                    We are now currently hiring executives for 2024-2025, join us in shaping the future of computer science at UTSC.
+                    We are now currently hiring executives for 2025-2026, join us in shaping the future of computer science at UofT.
                 </p>
                 <a href="https://linktr.ee/csec.utsc" target="_blank" rel="noopener noreferrer">
                     <button className='landing__link'>Now Hiring!</button>
