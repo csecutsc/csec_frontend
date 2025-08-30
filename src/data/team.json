@@ -1,11 +1,116 @@
 [
     {
         "title": "Executive Team",
-        "description": "The current executive team of 2024-2025.",
+        "description": "The current executive team of 2025-2026.",
         "executives": [
             {
                 "name":"Vincent Zhang",
-                "title":"Co-President",
+                "title":"President",
+                "image": "../images/team/Vincent.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
+                    "github": "https://github.com/vincentzhang15"
+                }
+            },
+            {
+                "name":"Isabelle Na Xu",
+                "title":"Senior Vice President, Talent",
+                "image": "../images/team/Isabelle.jpg",
+                "media": {
+                    "email": "isabelle.xu@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Deepika Chandrashekar",
+                "title":"Vice President, Applied Machine Learning",
+                "image": "../images/team/Deepika.jpg",
+                "media": {
+                    "email": "",
+                    "website": "https://deepika-portfolio-rho.vercel.app/",
+                    "linkedin": "https://www.linkedin.com/in/deepika-chandrashekar-b23aa7266/",
+                    "github": "https://github.com/BlueBlade27?tab=repositories"
+                }
+            },
+            {
+                "name":"David Chen",
+                "title":"Vice President, Systems Programming",
+                "image": "../images/team/David.jpg",
+                "media": {
+                    "email": "davyh.chen@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/david-chen-366503247/",
+                    "github": "https://github.com/digitalyoshixi"
+                }
+            },
+            {
+                "name":"Fanglu Yang",
+                "title":"Vice President, Artificial Intelligence Development",
+                "image": "../images/team/Louie.jpg",
+                "media": {
+                    "email": "consciousidler61@gmail.com",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/fanglu-yang-aa9285315/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Andy Yin",
+                "title":"Vice President, Technology",
+                "image": "../images/team/Andy.jpg",
+                "media": {
+                    "email": "andyyin06@gmail.com",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/yinandy06/",
+                    "github": "https://github.com/trumpetdoot"
+                }
+            },
+            {
+                "name":"Max Chen",
+                "title":"Vice President, Research & Development",
+                "image": "../images/team/Max.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/dejing-chen-max/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Maanya Gupta",
+                "title":"Vice President, Finance",
+                "image": "../images/team/Maanya.jpg",
+                "media": {
+                    "email": "maanya.gupta@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/maanya-g-900821214/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Shubham Garg",
+                "title":"Vice President, Technology",
+                "image": "../images/team/Shubham.jpg",
+                "media": {
+                    "email": "shubham.garg@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/shubham-garg-14b854219/",
+                    "github": "https://github.com/SHU8HAM1/"
+                }
+            }
+        ]
+    },
+    {
+        "title": "Executive Team 2024 - 2025",
+        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
+        "executives": [
+            {
+                "name":"Vincent Zhang",
+                "title":"President",
                 "image": "../images/team/Vincent.jpg",
                 "media": {
                     "email": "",
@@ -16,7 +121,7 @@
             },
             {
                 "name":"Brandan Burgess",
-                "title":"Co-President",
+                "title":"President",
                 "image": "../images/team/Brandan.jpg",
                 "media": {
                     "email": "brandan.burgess@mail.utoronto.ca",
@@ -446,7 +551,7 @@
         ]
     },
     {
-        "title": "CSEC Alumni",
+        "title": "Executive Team 2023 - 2024",
         "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
         "executives": [
             {
@@ -458,6 +563,28 @@
                     "website": "https://lakhwani.ca/",
                     "linkedin": "https://www.linkedin.com/in/nlakhwani/",
                     "github": "https://github.com/lakhwani"
+                }
+            },
+            {
+                "name":"Vincent Z.",
+                "title":"Executive Vice President",
+                "image": "../images/team/Vincent.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
+                    "github": "https://github.com/vincentzhang15"
+                }
+            },
+            {
+                "name":"Max C.",
+                "title":"Vice President, Internal & External Affairs",
+                "image": "../images/team/Max.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/dejing-chen-max/",
+                    "github": ""
                 }
             },
             {
@@ -494,6 +621,23 @@
                 }
             },
             {
+                "name":"Harguntas B.",
+                "title":"Co-Vice President, Technology",
+                "image": "../images/team/Harguntas.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/harguntas-singh-benipal-3913a224b/",
+                    "github": ""
+                }
+            }
+        ]
+    },
+    {
+        "title": "Executive Team 2022 - 2023",
+        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
+        "executives": [
+            {
                 "name":"Raymond C.",
                 "title":"President",
                 "image": "../images/team/Raymond.jpg",
@@ -505,8 +649,30 @@
                 }
             },
             {
+                "name":"Nikhil L.",
+                "title":"Vice President",
+                "image": "../images/team/Nikhil.jpg",
+                "media": {
+                    "email": "nikhil.lakhwanii@gmail.com",
+                    "website": "https://lakhwani.ca/",
+                    "linkedin": "https://www.linkedin.com/in/nlakhwani/",
+                    "github": "https://github.com/lakhwani"
+                }
+            },
+            {
+                "name":"Vincent Z.",
+                "title":"Director, Software Development",
+                "image": "../images/team/Vincent.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/vincentzhang15/",
+                    "github": "https://github.com/vincentzhang15"
+                }
+            },
+            {
                 "name":"Areej A.",
-                "title":"Marketing Director",
+                "title":"Director, Marketing",
                 "image": "../images/team/blank.jpg",
                 "media": {
                     "email": "",
@@ -547,18 +713,13 @@
                     "linkedin": "",
                     "github": ""
                 }
-            },
-            {
-                "name":"Charmaine Y.",
-                "title":"Marketing Director",
-                "image": "../images/team/Charmaine.png",
-                "media": {
-                    "email": "",
-                    "website": "",
-                    "linkedin": "",
-                    "github": ""
-                }
-            },
+            }
+        ]
+    },
+    {
+        "title": "Executive Team 2020 - 2022",
+        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
+        "executives": [
             {
                 "name":"Tabeeb Y.",
                 "title":"President",
@@ -583,7 +744,7 @@
             },
             {
                 "name":"Keshavaa S.",
-                "title":"Director of Software Development",
+                "title":"Director, Software Development",
                 "image": "../images/team/blank.jpg",
                 "media": {
                     "email": "",
@@ -593,8 +754,19 @@
                 }
             },
             {
+                "name":"Charmaine Y.",
+                "title":"Director, Marketing",
+                "image": "../images/team/Charmaine.png",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
+            },
+            {
                 "name":"Alex C.",
-                "title":"Director of External Affairs",
+                "title":"Director, External Affairs",
                 "image": "../images/team/blank.jpg",
                 "media": {
                     "email": "",
@@ -605,7 +777,7 @@
             },
             {
                 "name":"Tianne Pane",
-                "title":"Director of Internal Affairs",
+                "title":"Director, Internal Affairs",
                 "image": "../images/team/blank.jpg",
                 "media": {
                     "email": "",
@@ -668,7 +840,13 @@
                     "linkedin": "",
                     "github": ""
                 }
-            },
+            }
+        ]
+    },
+    {
+        "title": "Executive Team 2019 - 2020",
+        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
+        "executives": [
             {
                 "name":"Kevin S.",
                 "title":"President",
@@ -693,7 +871,7 @@
             },
             {
                 "name":"Paolo V.",
-                "title":"Marketing Director",
+                "title":"Director, Marketing",
                 "image": "../images/team/Paolo.jpg",
                 "media": {
                     "email": "",
@@ -712,7 +890,13 @@
                     "linkedin": "",
                     "github": ""
                 }
-            },
+            }
+        ]
+    },
+    {
+        "title": "Executive Team 2016 - 2019",
+        "description": "Past members are listed here, in our Hall of Fame. Thank you for your work throughout the years.",
+        "executives": [
             {
                 "name":"Brian Chen",
                 "title":"President",
@@ -759,7 +943,7 @@
             },
             {
                 "name":"Saba K.",
-                "title":"Director of Internal & External Affairs",
+                "title":"Director, Internal & External Affairs",
                 "image": "../images/team/Saba.png",
                 "media": {
                     "email": "",

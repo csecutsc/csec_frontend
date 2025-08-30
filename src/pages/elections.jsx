@@ -33,7 +33,7 @@ const PositionsPage = () => {
                 <h4>Marketing Director</h4>
                 <h4>Director of Software Development / System Administation</h4>
             </div> */}
-            <h1>Currently Open 2024 - 2025 positions</h1>
+            <h1>Currently Open 2025 - 2026 positions</h1>
             <div className='about__row'>
                 <div className='about__content'>
                     <p className='about__text'>

@@ -103,7 +103,7 @@ export const Footer = memo(() => {
                 }
             </div>
             <div className='footer__row footer__row--aside'>
-                <p className='footer__aside footer__aside--push'>© CSEC 2025. All Rights Reserved</p>
+                <p className='footer__aside footer__aside--push'>© CSEC 2016-2026. All Rights Reserved</p>
                 <p className='footer__aside'>
                     Made by Frederic Pun <span role='img' aria-label='Shiba Inu Emoji'>🐕</span> &amp; Kevin Shen <span role='img' aria-label='House Cat Emoji'>🐧
                     </span> &amp; Vincent Zhang.
