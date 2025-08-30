@@ -1,6 +1,42 @@
 [
     {
         "archived": true,
+        "title": "Delta Epsilon Enrichment Seminar",
+        "description": "Calculus 1 delta epsilon proofs enrichment seminar for mathematical sciences!",
+        "image": "../images/seminars/DeltaEpsilon.jpg",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "CSEC: Past and Present",
+        "description": "Presidential pannel featuring past and present CSEC presidents!",
+        "image": "../images/seminars/PastAndPresent.jpg",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "World of Work Season 5",
+        "description": "Professional panel featuring UofT alumni!",
+        "image": "../images/seminars/WordOfWorkSeason5.jpg",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
         "title": "World of Work Season 4",
         "description": "World of Work! Zoom Passcode: 22MyC7$7z#",
         "image": "../images/seminars/WordOfWorkSeason4.png",
@@ -13,7 +49,7 @@
     },
     {
         "archived": true,
-        "title": "CSEC Orientation 2020",
+        "title": "CSEC Orientation",
         "description": "Orientation 2020! Zoom Passcode: *4TR+1rsKG ",
         "image": "../images/seminars/CSECOrientation2020.png",
         "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2020/CSEC_Orientation_2020.pptx.pdf",
