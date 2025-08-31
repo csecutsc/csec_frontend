@@ -25,6 +25,42 @@
     },
     {
         "archived": true,
+        "title": "React Workshop",
+        "description": "Learn React!",
+        "image": "../images/seminars/ReactWorkshop.png",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Git Workshop",
+        "description": "Learn to use Git, the correct way!",
+        "image": "../images/seminars/GitWorkshop.png",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
+        "title": "Game Development Workshop",
+        "description": "Learn game development!",
+        "image": "../images/seminars/GameDevWorkshop.png",
+        "slideUrl": "",
+        "sourceLink": "",
+        "additionalLinks": {
+          "comingSoon": "",
+          "lectureUrl": ""
+        }
+    },
+    {
+        "archived": true,
         "title": "World of Work Season 5",
         "description": "Professional panel featuring UofT alumni!",
         "image": "../images/seminars/WordOfWorkSeason5.jpg",
@@ -38,25 +74,25 @@
     {
         "archived": true,
         "title": "World of Work Season 4",
-        "description": "World of Work! Zoom Passcode: 22MyC7$7z#",
+        "description": "World of Work!",
         "image": "../images/seminars/WordOfWorkSeason4.png",
         "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2020/The_World_of_Work_2020.pptx_2.pdf",
         "sourceLink": "",
         "additionalLinks": {
           "comingSoon": "",
-          "lectureUrl": "https://utoronto.zoom.us/rec/share/jx4jWO3yL0bq64kHN5kmVpgR7lsI0kgnv1D79YkzdQvuWnX44sc02LWXZ_kn-Xf7.PywRPl16NvQ9sX0a"
+          "lectureUrl": ""
         }
     },
     {
         "archived": true,
         "title": "CSEC Orientation",
-        "description": "Orientation 2020! Zoom Passcode: *4TR+1rsKG ",
+        "description": "Orientation 2020!",
         "image": "../images/seminars/CSECOrientation2020.png",
         "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2020/CSEC_Orientation_2020.pptx.pdf",
         "sourceLink": "",
         "additionalLinks": {
           "comingSoon": "",
-          "lectureUrl": "https://utoronto.zoom.us/rec/play/Mm67wakKss4YYo4BbFfggbHT75De4FcxQnQYj8yEcCCJmxydP3W_f4hYwgADq_fnbEQAoEIntkGSH3xY.Bj3KnFxAei1hOpAd?continueMode=true&_x_zm_rtaid=dmW9N_jUT5aHZ5w7yKJKvg.1601947708652.bab0c9e45ee5b0e3705fb27877139c8f&_x_zm_rhtaid=306"
+          "lectureUrl": ""
         }
     },
     {
@@ -101,7 +137,7 @@
         "description": "First Localhost event!",
         "image": "../images/seminars/CsecMlhLocalhostBuildAndDeployYourFirstWebsite.png",
         "slideUrl": "https://github.com/csecutsc/csec_files/blob/master/2019/MLH_localhost_website.pdf",
-        "sourceLink": "https://glitch.com/~dandy-daphne",
+        "sourceLink": "",
         "additionalLinks": {
           "comingSoon": "",
           "lectureUrl": ""
