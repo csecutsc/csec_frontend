@@ -129,7 +129,7 @@ export const Events = () => {
                         )
                 } */}
                 {/* <li className='events__loading'>We're hiring soon. In the meantime, check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)! */}
-                <li className='events__loading'>We are <a rel='noopener noreferrer' target='_blank' href='https://linktr.ee/csec.codes'>hiring</a>! Check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)!
+                <li className='events__loading'>We are <a rel='noopener noreferrer' target='_blank' href='https://linktr.ee/csec.utsc'>hiring</a>! Check out our <a rel='noopener noreferrer' target='_blank' href='https://csec.club/discord'>Discord community</a> (additional social media contacts at the bottom)!
                 </li>
 
                 
