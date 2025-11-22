@@ -48,14 +48,14 @@
                 }
             },
             {
-                "name":"Fanglu Yang",
-                "title":"Vice President, Artificial Intelligence Development",
-                "image": "../images/team/Louie.jpg",
+                "name":"Anjali Patidar",
+                "title":"Vice President, Marketing",
+                "image": "../images/team/Anjali.jpg",
                 "media": {
-                    "email": "consciousidler61@gmail.com",
-                    "website": "",
-                    "linkedin": "https://www.linkedin.com/in/fanglu-yang-aa9285315/",
-                    "github": ""
+                    "email": "anjali.patidar@mail.utoronto.ca",
+                    "website": "https://anjalipatidar.netlify.app/",
+                    "linkedin": "https://www.linkedin.com/in/anjalicpatidar/",
+                    "github": "https://github.com/PatidarAnjali"
                 }
             },
             {
@@ -100,6 +100,17 @@
                     "website": "",
                     "linkedin": "https://www.linkedin.com/in/shubham-garg-14b854219/",
                     "github": "https://github.com/SHU8HAM1/"
+                }
+            },
+            {
+                "name":"Fanglu Yang",
+                "title":"Vice President, Artificial Intelligence Development",
+                "image": "../images/team/Louie.jpg",
+                "media": {
+                    "email": "consciousidler61@gmail.com",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/fanglu-yang-aa9285315/",
+                    "github": ""
                 }
             }
         ]
