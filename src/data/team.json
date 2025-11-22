@@ -112,6 +112,28 @@
                     "linkedin": "https://www.linkedin.com/in/fanglu-yang-aa9285315/",
                     "github": ""
                 }
+            },
+            {
+                "name":"Newkko George",
+                "title":"Director, Outreach",
+                "image": "../images/team/Newkko.jpg",
+                "media": {
+                    "email": "",
+                    "website": "",
+                    "linkedin": "www.linkedin.com/in/newkko",
+                    "github": "https://github.com/Newkko"
+                }
+            },
+            {
+                "name":"Chanuth Kapugama",
+                "title":"Director, Technology",
+                "image": "../images/team/Chanuth.jpg",
+                "media": {
+                    "email": "chanuth.kapugama@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "www.linkedin.com/in/chanuth-k-245205321",
+                    "github": "https://github.com/FumYum?tab=overview&from=2025-10-01&to=2025-10-21"
+                }
             }
         ]
     },
