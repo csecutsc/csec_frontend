@@ -15,5 +15,9 @@
 	{
 		"name": "Team",
 		"path": "/team"
+	},
+	{
+		"name": "Wealthvision",
+		"path": "/wealthvision"
 	}
 ]
