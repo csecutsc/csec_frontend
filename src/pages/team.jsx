@@ -45,9 +45,9 @@ const TeamPage = () => {
       <p className="team__text">
         Contact them individually, or leave a message through the contact form.
       </p>
-      <p className="team__text">
+      {/* <p className="team__text">
         We are <a rel='noopener noreferrer' target='_blank' href='https://linktr.ee/csec.utsc'>hiring</a> for the 2025-2026 year!
-      </p>
+      </p> */}
 
       {sections.nodes.map(({ title, description, executives }, i) => (
         <section className="team__section" key={i}>
