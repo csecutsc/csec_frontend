@@ -1,5 +1,5 @@
 .wv {
-    padding: 180px 0 0px;
+    padding: 180px 0 60px;
     min-height: 100vh;
 
     &__hero {
@@ -145,9 +145,9 @@
     }
 
     &__footer {
-        margin-top: 2rem;
-        padding-top: 2rem;
-        margin-bottom: 0;
+        margin-top: 4rem;
+        padding-top: 3rem;
+        margin-bottom: 3rem;
         border-top: 1px solid rgba(42, 49, 63, 0.15);
         text-align: center;
         
