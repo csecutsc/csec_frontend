@@ -61,3 +61,4 @@ export const useFetch = (url, config = {}) => {
 
     return { ...store };
 }
+

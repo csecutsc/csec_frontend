@@ -1,8 +1,109 @@
 [
     {
         "title": "Executive Team",
-        "description": "The current executive team of 2026-2027. To be announced.",
-        "executives": []
+        "description": "The current executive team of 2026-2027.",
+        "executives": [
+            {
+                "name":"Anjali Patidar",
+                "title":"President",
+                "image": "../images/team/Anjali.png",
+                "media": {
+                    "email": "anjali.patidar@mail.utoronto.ca",
+                    "website": "https://anjali-patidars-website.onrender.com/",
+                    "linkedin": "https://www.linkedin.com/in/anjalicpatidar/",
+                    "github": "https://github.com/PatidarAnjali"
+                }
+            },
+            {
+                "name":"Hibba Nouman",
+                "title":"Vice President, Finance",
+                "image": "../images/team/Hibba.png",
+                "media": {
+                    "email": "hibba.nouman@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/hibba-nouman/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Newkko George",
+                "title":"Vice President, Outreach",
+                "image": "../images/team/Newkko.png",
+                "media": {
+                    "email": "newkko.george@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "www.linkedin.com/in/newkko",
+                    "github": "https://github.com/Newkko"
+                }
+            },
+            {
+                "name":"Faiza Khan",
+                "title":"Vice President, Technology",
+                "image": "../images/team/Faiza.png",
+                "media": {
+                    "email": "faizac.khan@mail.utoronto.ca",
+                    "website": "https://faizackhan.github.io/",
+                    "linkedin": "https://www.linkedin.com/in/faiza-khanc/",
+                    "github": "https://github.com/faizackhan"
+                }
+            },
+            {
+                "name":"Lex De Ocampo",
+                "title":"Vice President, Operations",
+                "image": "../images/team/Lex.png",
+                "media": {
+                    "email": "lex.deocampo@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/lexdeocampo/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Nathujan Jegan",
+                "title":"Vice President, Operations",
+                "image": "../images/team/Nathujan.png",
+                "media": {
+                    "email": "nathujan.jegan@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/nathujan-jegan-82499935b/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Krystian Matelski",
+                "title":"Vice President, External Relations",
+                "image": "../images/team/Krystian.png",
+                "media": {
+                    "email": "krystian.matelski@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/krystian-matelski/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Tahmeed Rahman",
+                "title":"Vice President, Research & Development",
+                "image": "../images/team/Tahmeed.png",
+                "media": {
+                    "email": "tahmeed.rahman@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/tahmeed-rahman-9a3966322/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Peetisha Mangal",
+                "title":"Vice President, Marketing",
+                "image": "../images/team/blank.jpg",
+                "media": {
+                    "email": "peetisha.mangal@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/peetisha-mangal/",
+                    "github": ""
+                }
+            }
+
+        ]
     },
     {
         "title": "Executive Team 2025 - 2026",
@@ -55,7 +156,7 @@
             {
                 "name":"Anjali Patidar",
                 "title":"Vice President, Marketing",
-                "image": "../images/team/Anjali.jpg",
+                "image": "../images/team/Anjali.png",
                 "media": {
                     "email": "anjali.patidar@mail.utoronto.ca",
                     "website": "https://anjalipatidar.netlify.app/",
@@ -121,7 +222,7 @@
             {
                 "name":"Newkko George",
                 "title":"Director, Outreach",
-                "image": "../images/team/Newkko.jpg",
+                "image": "../images/team/Newkko.png",
                 "media": {
                     "email": "",
                     "website": "",
