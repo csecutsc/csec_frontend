@@ -646,12 +646,12 @@
             {
                 "name":"Anjali Patidar",
                 "title":"Associate, Technology",
-                "image": "../images/team/Anjali.jpg",
+                "image": "../images/team/Anjali.png",
                 "media": {
                     "email": "anjali.patidar@mail.utoronto.ca",
-                    "website": "",
+                    "website": "https://anjali-patidars-website.onrender.com/",
                     "linkedin": "https://www.linkedin.com/in/anjalicpatidar/",
-                    "github": ""
+                    "github": "https://github.com/PatidarAnjali"
                 }
             },
             {
