@@ -101,8 +101,18 @@
                     "linkedin": "https://www.linkedin.com/in/peetisha-mangal/",
                     "github": ""
                 }
+            },
+            {
+                "name":"Nelofar Abdul Wahid",
+                "title":"Director, Operations",
+                "image": "../images/team/Nelofar.png",
+                "media": {
+                    "email": "n.wahid@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "",
+                    "github": ""
+                }
             }
-
         ]
     },
     {
