@@ -112,6 +112,28 @@
                     "linkedin": "",
                     "github": ""
                 }
+            },
+            {
+                "name":"Mitrajsinh Mahida",
+                "title":"Director, Operations",
+                "image": "../images/team/Mitraj.png",
+                "media": {
+                    "email": "mitraj.mahida@mail.utoronto.ca",
+                    "website": "",
+                    "linkedin": "https://www.linkedin.com/in/mitraj-m/",
+                    "github": ""
+                }
+            },
+            {
+                "name":"Jennifer Huang",
+                "title":"Director, Technology",
+                "image": "../images/team/Jennifer.png",
+                "media": {
+                    "email": "jjennifer.huang@mail.utoronto.ca",
+                    "website": "https://jenniferhuangg.github.io/",
+                    "linkedin": "https://www.linkedin.com/in/jennifer-huang-b68ab4317/",
+                    "github": "https://github.com/jenniferhuangg"
+                }
             }
         ]
     },
